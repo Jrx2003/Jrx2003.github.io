@@ -68,15 +68,16 @@ const quickLinks = [
 
 const techStack = [
   "Python",
+  "TypeScript",
   "FastAPI",
-  "LangChain",
-  "FAISS",
-  "PyTorch",
   "React",
   "Next.js",
-  "TypeScript",
-  "Docker",
-  "Kubernetes",
+  "AI Agent",
+  "CAD / 3D",
+  "C/C++",
+  "PyTorch",
+  "Obsidian",
+  "Claude Code",
 ];
 
 const interests = [
@@ -112,16 +113,18 @@ const interests = [
 
 const featuredProjects = [
   {
-    title: "AICAD",
-    description: "基于大语言模型的 CAD Agent 系统开发",
-    tags: ["Python", "LangChain", "FastAPI", "CAD"],
-    gradient: "from-purple-500 to-pink-500",
+    title: "Sparkoh Agent",
+    description: "AI CAD 建模智能体：生成、执行、验证、修复和几何评价闭环",
+    tags: ["Python", "FastAPI", "build123d", "STEP"],
+    gradient: "from-cyan-500 to-blue-500",
+    href: "https://sparkoh-agent-portfolio.vercel.app",
   },
   {
-    title: "Git Safety Agent",
-    description: "智能 Git 操作安全检查工具",
-    tags: ["TypeScript", "Node.js", "Git"],
-    gradient: "from-blue-500 to-cyan-500",
+    title: "多方向工程项目",
+    description: "覆盖 AI 产品原型、演示工具、语言学习网站、三维重建和嵌入式开发",
+    tags: ["Next.js", "C++", "Vue", "STM32"],
+    gradient: "from-purple-500 to-pink-500",
+    href: "/projects/",
   },
 ];
 
@@ -168,8 +171,8 @@ export default function HomePage() {
                 texts={[
                   "上海交通大学本科生",
                   "港中文硕士预录取",
-                  "AICAD 远程实习生",
-                  "CAD Agent 开发者",
+                  "Sparkoh Agent 开发者",
+                  "Web / 3D / 嵌入式项目实践者",
                   "音乐剧爱好者",
                   "F1 赛车迷",
                 ]}
@@ -183,7 +186,7 @@ export default function HomePage() {
               variants={fadeInUp}
               className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
             >
-              专注于 AI Agent 系统开发，致力于用技术创造价值。
+              关注 AI Agent、Web 工具、三维图形与系统工程，喜欢把想法做成可运行的作品。
               <br className="hidden sm:block" />
               在代码与生活之间寻找平衡，做一个有趣的技术人。
             </motion.p>
@@ -323,7 +326,7 @@ export default function HomePage() {
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
                 >
-                  <Link href="/projects/">
+                  <Link href={project.href}>
                     <motion.div
                       whileHover={{ y: -4 }}
                       className="group relative glass rounded-2xl p-8 hover:bg-white/5 transition-all cursor-pointer overflow-hidden h-full"

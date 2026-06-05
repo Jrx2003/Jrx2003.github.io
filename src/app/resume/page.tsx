@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FileText, Download, ExternalLink, Award, GraduationCap, Briefcase } from "lucide-react";
+import { FileText, ExternalLink, Award, GraduationCap, Briefcase } from "lucide-react";
 import Link from "next/link";
 
 const fadeInUp = {
@@ -22,14 +22,20 @@ const education = [
     school: "上海交通大学",
     degree: "本科",
     period: "2022.08 - 2026.06",
-    major: "电子与计算机工程",
+    major: "电子与计算机工程；辅修：计算机科学与技术",
+    status: "校优秀毕业生",
     courses: "数据结构与算法、计算机组成原理、计算机视觉与深度学习、机器学习中的优化",
   },
   {
-    school: "凯斯西储大学",
-    degree: "交换生",
+    school: "凯斯西储大学（美国）",
+    degree: "交换学习",
     period: "2025.01 - 2025.05",
     courses: "数据科学导论、全栈开发、Linux和脚本编程",
+  },
+  {
+    school: "萨格勒布大学（克罗地亚）",
+    degree: "交换学习",
+    period: "2023.01 - 2023.02",
   },
 ];
 
@@ -39,11 +45,10 @@ const experience = [
     company: "苏州比特无限智能科技有限公司",
     period: "2026.02 - 至今",
     highlights: [
-      "ACI (Agent-Computer Interface) 系统开发：设计并实现基于离散动作的迭代式CAD环境",
-      "实现ACI四大支柱：可操作（15个可组合CAD动作）、可观测（状态快照）、可回滚（动作历史）、可组合（特征引用）",
-      "MCP (Model Context Protocol) 架构：实现MCP Server/Client，统一注册/调用CAD工具",
-      "评估系统：Ground-Truth Benchmark评分、多模态评估流程（渲染图像+LLM-as-a-Judge）",
-      "渲染与可视化：多视图渲染系统（等轴测/前/右/顶视图）、渲染回退诊断",
+      "参与公开 ToC AI CAD 产品 Sparkoh 的 Agent 后端与建模智能体开发，围绕自然语言需求到可执行 CAD 模型搭建生成、执行、验证、修复、评估的工程闭环。",
+      "将早期分散的 CAD 执行经验迁移到当前服务化主线，梳理会话、草案确认、建模任务、事件流、产物下载等 API 合同，并用测试、部署配置和运行日志守住关键行为边界。",
+      "建设质量反馈链路，把源码快照、STEP 产物、Validate 几何摘要、失败证据与 benchmark 结果组织成可复核材料。",
+      "长期用飞书文档/知识库沉淀技术方案、实验结论和复盘材料，并结合飞书 CLI、Codex、Claude Code 探索工程文档自动化。",
     ],
   },
   {
@@ -51,67 +56,65 @@ const experience = [
     company: "上海计算机软件技术开发中心",
     period: "2024.08 - 2024.09",
     highlights: [
-      "针对侧信道攻击中的加密信息泄露问题进行系统研究",
-      "探索传统方法（PCA降维+模板攻击）在密钥恢复中的应用",
-      "实现深度学习方法（CNN提取能耗迹线时序特征）",
-      "创新性地应用Transformer架构于侧信道分析领域",
+      "针对侧信道攻击中的加密信息泄露问题，探索 PCA、CNN、Transformer 等方案。",
+      "完成能耗迹线特征提取、模型对比实验和技术报告。",
     ],
   },
 ];
 
 const projects = [
   {
-    name: "Git Safety Agent",
-    description: "安全优先的本地 AI Agent，将自然语言任务转为结构化 Plan",
-    tech: ["Python", "LangChain", "FAISS", "FastAPI"],
-    link: "https://github.com/Jrx2003/git-safety-agent",
+    name: "Sparkoh Agent",
+    description: "AI CAD 建模智能体，负责自然语言到 build123d 源码、STEP 产物、几何验证和修复评估闭环。",
+    tech: ["Python", "FastAPI", "build123d", "STEP"],
+    link: "https://sparkoh-agent-portfolio.vercel.app",
+    linkText: "项目说明",
   },
   {
-    name: "P2M 实时网格重建",
-    description: "基于 Orbbec SDK + PCL + OpenGL 的RGB-D实时三维重建系统",
-    tech: ["C++", "PCL", "OpenGL", "点云处理"],
-    link: "https://github.com/Jrx2003/p2m_cpu",
-  },
-  {
-    name: "Lang Reader",
-    description: "视频跟读学习平台，支持视频时间点与笔记双向同步",
-    tech: ["Vue", "Node.js", "MongoDB"],
-    link: "https://github.com/Jrx2003/lang-reader",
+    name: "qq_claw",
+    description: "QQ群聊社交推进 Agent 原型，设计结构化卡片、场景引擎、Judge/Studio 双入口与 fallback 快照。",
+    tech: ["Next.js", "TypeScript", "Tailwind", "Zod"],
+    link: "https://qqclaw.vercel.app",
+    linkText: "在线 Demo",
   },
   {
     name: "md2slides",
-    description: "Markdown 幻灯片生成器，支持双格式转换",
-    tech: ["AWK", "Reveal.js", "LaTeX Beamer"],
-    link: "https://github.com/Jrx2003/md2slides",
+    description: "Markdown 到 Reveal.js / Beamer 的演示材料生成工具，接入 Kimi AI draft 与访问码校验。",
+    tech: ["JavaScript", "Reveal.js", "Beamer", "Vercel"],
+    link: "https://md2slides-rouge.vercel.app",
+    linkText: "在线 Demo",
+  },
+  {
+    name: "LinguaBreakpoints",
+    description: "视频断点式语言学习工具，支持时间戳笔记、片段循环、项目记录和可选 AI 学习建议。",
+    tech: ["Express", "MongoDB", "SPA"],
+    link: "https://github.com/Jrx2003/LinguaBreakpoints",
+    linkText: "GitHub",
   },
 ];
 
 const skills = {
-  "AI/Agent": ["LangChain", "Pydantic", "Prompt Engineering", "MCP", "LLM应用"],
-  "后端开发": ["FastAPI", "Streamlit", "Git", "Vim", "Docker"],
-  "三维图形": ["CadQuery", "PCL", "OpenGL", "点云处理"],
-  "编程语言": ["Python", "C/C++", "TypeScript", "Java"],
-  "机器学习": ["PyTorch", "凸优化", "深度学习"],
-  "嵌入式": ["STM32", "Verilog"],
-  "数据分析": ["Pandas", "NumPy", "SQL", "Excel"],
+  "AI/Agent": ["ChatGPT", "Codex", "Claude Code", "Gemini", "Kimi", "Prompt Engineering", "函数调用", "工具循环"],
+  "前端与UI": ["Next.js", "React", "Tailwind", "Vue", "HTML/CSS/JavaScript", "Vercel", "产品原型"],
+  "后端与工程": ["Python", "FastAPI", "Pydantic", "Node.js/Express", "Docker", "pytest", "Vitest", "Git"],
+  "三维与系统": ["build123d", "STEP", "CadQuery", "PCL", "OpenGL", "C/C++", "STM32"],
+  "知识库与协作": ["Obsidian", "Claude Code Skill", "飞书文档", "飞书CLI", "GitHub Actions", "个人网站自动更新"],
+  "模型与数据": ["PyTorch", "Pandas", "NumPy", "SQL", "Benchmark评测", "实验复盘"],
 };
 
 const languages = [
   { name: "英语", level: "TOEFL 100/120" },
-  { name: "日语", level: "N2（2025年12月通过）" },
+  { name: "日语", level: "N2" },
 ];
 
 export default function ResumePage() {
   return (
     <div className="relative min-h-screen">
-      {/* Background */}
       <div className="fixed inset-0 gradient-bg -z-10" />
       <div className="fixed inset-0 grid-pattern -z-10" />
 
-      {/* Content */}
       <div className="relative z-10 py-32 px-4">
         <div className="max-w-4xl mx-auto">
-          {/* Header */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -125,7 +128,7 @@ export default function ResumePage() {
               <span className="gradient-text">徐劼瑞</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              AI应用工程师 | 软件开发者
+              AI Agent / Web 工具 / 三维图形方向的软件开发者
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <a
@@ -152,7 +155,6 @@ export default function ResumePage() {
             </div>
           </motion.div>
 
-          {/* Education */}
           <motion.section {...fadeInUp} className="mb-16">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
@@ -174,7 +176,8 @@ export default function ResumePage() {
                     <div>
                       <h3 className="text-lg font-semibold">{edu.school}</h3>
                       <p className="text-muted-foreground">
-                        {edu.degree} · {edu.major}
+                        {edu.degree}
+                        {edu.major && <> · {edu.major}</>}
                         {edu.status && <span className="ml-2 text-emerald-400">({edu.status})</span>}
                       </p>
                     </div>
@@ -193,7 +196,6 @@ export default function ResumePage() {
             </div>
           </motion.section>
 
-          {/* Experience */}
           <motion.section {...fadeInUp} className="mb-16">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center">
@@ -233,7 +235,6 @@ export default function ResumePage() {
             </div>
           </motion.section>
 
-          {/* Projects */}
           <motion.section {...fadeInUp} className="mb-16">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
@@ -267,14 +268,13 @@ export default function ResumePage() {
                     className="text-sm text-blue-400 hover:text-blue-300 flex items-center gap-1"
                   >
                     <ExternalLink className="w-3 h-3" />
-                    GitHub
+                    {project.linkText}
                   </a>
                 </motion.div>
               ))}
             </div>
           </motion.section>
 
-          {/* Skills */}
           <motion.section {...fadeInUp} className="mb-16">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 to-orange-500 flex items-center justify-center">
@@ -300,7 +300,6 @@ export default function ResumePage() {
             </div>
           </motion.section>
 
-          {/* Languages */}
           <motion.section {...fadeInUp} className="mb-16">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-pink-500 to-rose-500 flex items-center justify-center">
@@ -320,7 +319,6 @@ export default function ResumePage() {
             </div>
           </motion.section>
 
-          {/* Note */}
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -328,7 +326,7 @@ export default function ResumePage() {
             className="glass rounded-2xl p-6 text-center"
           >
             <p className="text-muted-foreground text-sm">
-              完整简历请访问我的 GitHub 或联系本人获取
+              纸质/投递版简历会根据岗位方向单独调整，完整材料可联系本人获取。
             </p>
           </motion.div>
         </div>

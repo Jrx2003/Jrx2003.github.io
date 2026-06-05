@@ -37,7 +37,7 @@ const education = [
     school: "上海交通大学",
     degree: "本科",
     period: "2022.08 - 2026.06",
-    description: "电子与计算机工程专业，核心课程：数据结构与算法、计算机组成原理、计算机视觉与深度学习、机器学习中的优化",
+    description: "电子与计算机工程专业；辅修：计算机科学与技术；荣誉：校优秀毕业生",
     icon: GraduationCap,
     gradient: "from-blue-500 to-cyan-500",
   },
@@ -49,6 +49,14 @@ const education = [
     icon: GraduationCap,
     gradient: "from-amber-500 to-orange-500",
   },
+  {
+    school: "萨格勒布大学（克罗地亚）",
+    degree: "交换学习",
+    period: "2023.01 - 2023.02",
+    description: "短期交换学习",
+    icon: GraduationCap,
+    gradient: "from-emerald-500 to-teal-500",
+  },
 ];
 
 const experience = [
@@ -57,8 +65,8 @@ const experience = [
     company: "苏州比特无限智能科技有限公司",
     period: "2026.02 - 至今",
     description:
-      "ACI (Agent-Computer Interface) 系统开发：设计并实现基于离散动作的迭代式CAD环境，实现ACI四大支柱（可操作、可观测、可回滚、可组合）。MCP架构实现与评估系统开发，包括Ground-Truth Benchmark评分、多模态评估流程。",
-    skills: ["Python", "FastAPI", "LangChain", "CAD", "LLM", "MCP"],
+      "参与公开 ToC AI CAD 产品 Sparkoh 的 Agent 后端与建模智能体开发，围绕自然语言需求到可执行 CAD 模型搭建生成、执行、验证、修复、评估的工程闭环；同时用飞书文档、知识库、飞书 CLI 与 Codex 沉淀技术方案和复盘材料。",
+    skills: ["Python", "FastAPI", "build123d", "STEP", "Benchmark", "Feishu CLI"],
     icon: Briefcase,
     gradient: "from-emerald-500 to-teal-500",
   },
@@ -174,8 +182,8 @@ export default function AboutPage() {
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
                 2025年初，我在凯斯西储大学进行了为期一学期的交换学习，接触了数据科学、全栈开发和Linux系统编程。
-                目前我在苏州比特无限智能科技有限公司担任AI应用工程师实习生，深入参与CAD Agent系统的开发，
-                专注于ACI（Agent-Computer Interface）架构设计和MCP协议实现。
+                目前我在苏州比特无限智能科技有限公司担任AI应用工程师实习生，深入参与 Sparkoh 建模 Agent 的后端、
+                工具循环、几何验证、benchmark 评测和工程文档沉淀。
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
                 我相信技术应该服务于人，而好的工程师不仅要写出优秀的代码，更要理解用户的需求和感受。

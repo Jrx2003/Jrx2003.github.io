@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 import {
   Github,
   ExternalLink,
@@ -12,97 +11,131 @@ import {
   Database,
   ArrowRight,
   Star,
+  FileText,
+  Gamepad2,
 } from "lucide-react";
 
 const projects = [
   {
-    title: "AICAD - CAD Agent 系统",
+    title: "Sparkoh Agent",
     description:
-      "基于大语言模型的智能 CAD 建模系统。实现了 Agent-Computer Interface (ACI) 设计，支持迭代式建模、MCP 协议通信、多模态评估等核心功能。",
+      "ToC AI CAD 产品中的建模智能体工作：把自然语言到 CAD 模型的过程组织成可执行、可验证、可修复、可评估的工程闭环。",
     icon: Cpu,
-    color: "text-blue-400",
-    bgColor: "from-blue-500/20 to-cyan-500/20",
-    borderColor: "border-blue-500/20",
-    tags: ["Python", "FastAPI", "LangChain", "CAD", "LLM", "MCP"],
-    githubUrl: "https://github.com/Jrx2003",
+    color: "text-cyan-400",
+    bgColor: "from-cyan-500/20 to-blue-500/20",
+    borderColor: "border-cyan-500/20",
+    tags: ["Python", "FastAPI", "build123d", "STEP", "Benchmark"],
+    url: "https://sparkoh-agent-portfolio.vercel.app",
+    linkLabel: "项目说明",
     featured: true,
     details: [
-      "设计并实现了 ACI 四大支柱：Actionable、Observable、Reversible、Composable",
-      "开发了 Sub Agent 迭代运行时系统，支持异步动作执行与状态管理",
-      "实现了基于 MCP 协议的 Sandbox 通信机制",
-      "构建了多模态评估系统，支持 LLM-as-a-Judge 自动评分",
+      "Sparkoh 官方产品入口为 sparkoh.ai；此处链接到个人公开贡献页",
+      "负责建模 Agent 核心循环：生成或编辑 build123d Python 源码，在 Sandbox 中执行并导出 STEP",
+      "连接预检查、执行、Validate 几何摘要、失败证据和多轮修复提示，使 Agent 能围绕具体错误继续迭代",
+      "接入 STEP evaluator、benchmark dashboard 和 review package，把运行结果推进到几何质量复查",
     ],
   },
   {
-    title: "Git Safety Agent",
+    title: "qq_claw",
     description:
-      "智能代码安全检测 Agent，基于 LLM 实现代码审查与安全漏洞检测。集成 Git 工作流，在提交前自动扫描潜在风险。",
-    icon: GitBranch,
-    color: "text-green-400",
-    bgColor: "from-green-500/20 to-emerald-500/20",
-    borderColor: "border-green-500/20",
-    tags: ["Python", "Git", "LLM", "Security", "CLI"],
-    githubUrl: "https://github.com/Jrx2003",
-    featured: true,
-    details: [
-      "基于 AST 分析与 LLM 推理的混合检测策略",
-      "支持多种编程语言的安全规则检测",
-      "Git 钩子集成，实现提交前自动扫描",
-      "可配置的规则引擎，支持自定义检测规则",
-    ],
-  },
-  {
-    title: "点云处理系统",
-    description:
-      "基于深度学习的点云数据处理与分析系统。实现了点云分割、分类、重建等核心算法，应用于 3D 视觉场景理解。",
-    icon: Database,
+      "QQ群聊社交推进 Agent 原型，把约饭、开黑、匿名倡议、冲突桥梁和局后回忆抽象为结构化行动闭环。",
+    icon: Globe,
     color: "text-purple-400",
     bgColor: "from-purple-500/20 to-pink-500/20",
     borderColor: "border-purple-500/20",
-    tags: ["Python", "PyTorch", "Open3D", "CUDA", "3D Vision"],
-    githubUrl: "https://github.com/Jrx2003",
-    featured: false,
+    tags: ["Next.js", "TypeScript", "Tailwind", "Zod"],
+    url: "https://qqclaw.vercel.app",
+    linkLabel: "在线 Demo",
+    featured: true,
     details: [
-      "实现了 PointNet、PointNet++、DGCNN 等经典点云网络",
-      "CUDA 加速的点云预处理管道",
-      "支持大规模点云的分布式处理",
-      "可视化工具集成，便于结果分析",
+      "设计 scenario engine、结构化卡片组件和 Judge / Studio 双入口",
+      "为意图提取、匿名倡议、冲突转述、活动回忆和游戏局总结编写 prompt、JSON schema、Zod 校验与 fallback 快照",
+      "用 mock / snapshot / live fallback 支持产品原型展示和评测调试",
     ],
   },
   {
-    title: "语言学习网站",
+    title: "Claude Code 源码研究",
     description:
-      "个性化语言学习平台，结合间隔重复算法与 AI 辅助学习。支持多语言学习路径规划与智能内容推荐。",
-    icon: Globe,
+      "基于公开 Claude Code TypeScript 源码快照做 Agentic Developer Tool 架构研究，重点关注工具注册、权限系统、MCP/Skill 和会话状态。",
+    icon: GitBranch,
+    color: "text-emerald-400",
+    bgColor: "from-emerald-500/20 to-teal-500/20",
+    borderColor: "border-emerald-500/20",
+    tags: ["TypeScript", "Bun", "Ink", "MCP", "Skill"],
+    url: "https://github.com/instructkr/claude-code",
+    linkLabel: "参考仓库",
+    featured: false,
+    details: [
+      "梳理 CLI 入口、QueryEngine、工具注册、权限系统、MCP/Skill、记忆目录等核心模块",
+      "分析用户输入、系统上下文、工具集合、权限检查、流式消息、token/cost 跟踪和会话持久化",
+    ],
+  },
+  {
+    title: "md2slides",
+    description:
+      "AI 辅助演示材料生成工具，将 Markdown 转换为 Reveal.js HTML 幻灯片或 LaTeX Beamer 文档，并提供可控 AI draft 接口。",
+    icon: FileText,
     color: "text-amber-400",
     bgColor: "from-amber-500/20 to-orange-500/20",
     borderColor: "border-amber-500/20",
-    tags: ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL"],
-    githubUrl: "https://github.com/Jrx2003",
+    tags: ["JavaScript", "Reveal.js", "Beamer", "Vercel"],
+    url: "https://md2slides-rouge.vercel.app",
+    linkLabel: "在线 Demo",
     featured: false,
     details: [
-      "基于 SM-2 算法的间隔重复系统",
-      "AI 驱动的个性化学习路径推荐",
-      "实时学习进度追踪与数据分析",
-      "支持多种语言的学习内容管理",
+      "提供源文本编辑、输出设置、实时预览、复制、下载和新窗口打开流程",
+      "将原 CGI/AWK 脚本升级为 Vercel 静态前端 + Serverless AI 接口，接入 Kimi 并增加访问码校验",
     ],
   },
   {
-    title: "嵌入式物联网系统",
+    title: "LinguaBreakpoints",
     description:
-      "基于 STM32 的物联网设备管理系统。实现了设备远程监控、数据采集、边缘计算等功能。",
-    icon: Boxes,
-    color: "text-red-400",
-    bgColor: "from-red-500/20 to-rose-500/20",
-    borderColor: "border-red-500/20",
-    tags: ["C/C++", "STM32", "MQTT", "FreeRTOS", "IoT"],
-    githubUrl: "https://github.com/Jrx2003",
+      "视频断点式语言学习工具，围绕视频片段、时间戳笔记、循环练习和 AI 学习建议组织学习流程。",
+    icon: Database,
+    color: "text-blue-400",
+    bgColor: "from-blue-500/20 to-cyan-500/20",
+    borderColor: "border-blue-500/20",
+    tags: ["Express", "MongoDB", "SPA", "OpenAI"],
+    url: "https://github.com/Jrx2003/LinguaBreakpoints",
+    linkLabel: "GitHub",
     featured: false,
     details: [
-      "低功耗设计，支持电池供电长期运行",
-      "MQTT 协议实现云端通信",
-      "FreeRTOS 实时操作系统集成",
-      "OTA 固件升级功能",
+      "支持项目管理、视频 URL、时间戳断点、可编辑笔记、片段循环和项目级学习记录",
+      "提供可选 AI study coach；无 API key 时可使用本地 fallback，保证基础流程可运行",
+    ],
+  },
+  {
+    title: "P2M 实时网格重建",
+    description:
+      "基于 RGB-D 相机、PCL 和 OpenGL 的实时三维重建系统，关注点云采集、网格生成、渲染与导出。",
+    icon: Boxes,
+    color: "text-teal-400",
+    bgColor: "from-teal-500/20 to-emerald-500/20",
+    borderColor: "border-teal-500/20",
+    tags: ["C++", "PCL", "OpenGL", "RGB-D"],
+    url: "https://github.com/Jrx2003/p2m_cpu",
+    linkLabel: "GitHub",
+    featured: false,
+    details: [
+      "使用 Orbbec SDK 采集 RGB-D 数据，并基于 PCL Organized Fast Mesh 生成网格",
+      "实现点云、网格、线框和相机视角渲染，并支持 PLY 结果导出",
+    ],
+  },
+  {
+    title: "STM32RhythmGame",
+    description:
+      "基于 STM32F103C8T6 的嵌入式节奏游戏，整合按键输入、OLED 显示和蜂鸣器/PWM 音频反馈。",
+    icon: Gamepad2,
+    color: "text-rose-400",
+    bgColor: "from-rose-500/20 to-red-500/20",
+    borderColor: "border-rose-500/20",
+    tags: ["STM32", "C", "OLED", "PWM"],
+    url: "https://github.com/Jrx2003/STM32RhythmGame",
+    linkLabel: "GitHub",
+    featured: false,
+    details: [
+      "完成节奏判定、按键交互、显示刷新和音频提示等嵌入式交互流程",
+      "在资源受限硬件上组织游戏状态、输入响应和外设驱动协同",
     ],
   },
 ];
@@ -113,13 +146,11 @@ export default function ProjectsPage() {
 
   return (
     <div className="relative min-h-screen">
-      {/* Background */}
       <div className="fixed inset-0 gradient-bg -z-10" />
       <div className="fixed inset-0 grid-pattern -z-10" />
 
       <div className="relative z-10 py-32 px-4">
         <div className="max-w-6xl mx-auto">
-          {/* Header */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -133,11 +164,10 @@ export default function ProjectsPage() {
               <span className="gradient-text">我的项目</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              从 AI Agent 系统到嵌入式开发，展示我的技术实践
+              覆盖 AI Agent、Web 产品原型、三维图形、语言学习工具和嵌入式开发。
             </p>
           </motion.div>
 
-          {/* Featured Projects */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -169,12 +199,13 @@ export default function ProjectsPage() {
                         </div>
                       </div>
                       <a
-                        href={project.githubUrl}
+                        href={project.url}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={`打开 ${project.title}`}
                         className="flex items-center justify-center w-10 h-10 rounded-full hover:bg-white/10 transition-colors text-muted-foreground hover:text-foreground"
                       >
-                        <Github className="w-5 h-5" />
+                        <ExternalLink className="w-5 h-5" />
                       </a>
                     </div>
 
@@ -182,9 +213,9 @@ export default function ProjectsPage() {
 
                     <ul className="space-y-3 mb-6">
                       {project.details.map((detail, i) => (
-                        <li key={i} className="text-sm text-muted-foreground flex items-start gap-3">
-                          <span className={`w-1.5 h-1.5 rounded-full mt-1.5 ${project.color.replace('text-', 'bg-')}`} />
-                          {detail}
+                        <li key={i} className="text-sm text-muted-foreground flex items-start gap-3 min-w-0">
+                          <span className={`w-1.5 h-1.5 rounded-full mt-1.5 flex-none ${project.color.replace("text-", "bg-")}`} />
+                          <span className="min-w-0 flex-1 leading-relaxed break-words">{detail}</span>
                         </li>
                       ))}
                     </ul>
@@ -205,7 +236,6 @@ export default function ProjectsPage() {
             </div>
           </motion.div>
 
-          {/* Other Projects */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -230,12 +260,13 @@ export default function ProjectsPage() {
                         <project.icon className={`w-5 h-5 ${project.color}`} />
                       </div>
                       <a
-                        href={project.githubUrl}
+                        href={project.url}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={`打开 ${project.title}`}
                         className="flex items-center justify-center w-8 h-8 rounded-full hover:bg-white/10 transition-colors text-muted-foreground hover:text-foreground"
                       >
-                        <Github className="w-4 h-4" />
+                        <ExternalLink className="w-4 h-4" />
                       </a>
                     </div>
 
@@ -244,9 +275,9 @@ export default function ProjectsPage() {
 
                     <ul className="space-y-2 mb-4">
                       {project.details.slice(0, 2).map((detail, i) => (
-                        <li key={i} className="text-xs text-muted-foreground flex items-start gap-2">
-                          <span className={`w-1 h-1 rounded-full mt-1 ${project.color.replace('text-', 'bg-')}`} />
-                          {detail}
+                        <li key={i} className="text-xs text-muted-foreground flex items-start gap-2 min-w-0">
+                          <span className={`w-1 h-1 rounded-full mt-1 flex-none ${project.color.replace("text-", "bg-")}`} />
+                          <span className="min-w-0 flex-1 leading-relaxed break-words">{detail}</span>
                         </li>
                       ))}
                     </ul>
@@ -267,7 +298,6 @@ export default function ProjectsPage() {
             </div>
           </motion.div>
 
-          {/* GitHub CTA */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -278,7 +308,7 @@ export default function ProjectsPage() {
               <Github className="w-12 h-12 mx-auto mb-4 text-muted-foreground" />
               <h3 className="text-xl font-semibold mb-2">更多项目</h3>
               <p className="text-muted-foreground mb-6">
-                在 GitHub 上查看我的更多开源项目和代码贡献
+                在 GitHub 上查看我的更多开源项目和代码贡献。
               </p>
               <a
                 href="https://github.com/Jrx2003"
