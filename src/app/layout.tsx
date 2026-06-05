@@ -8,8 +8,8 @@ export const metadata: Metadata = {
     default: "Jerry Xu - 徐劼瑞",
     template: "%s | Jerry Xu",
   },
-  description: "个人网站 - 上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发。热爱技术，享受生活。",
-  keywords: ["Jerry Xu", "徐劼瑞", "上海交通大学", "AICAD", "CAD Agent", "AI", "个人网站", "Next.js", "TypeScript"],
+  description: "个人网站 - 上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程。热爱技术，享受生活。",
+  keywords: ["Jerry Xu", "徐劼瑞", "上海交通大学", "Sparkoh", "AI Agent", "Web", "三维图形", "个人网站", "Next.js", "TypeScript"],
   authors: [{ name: "Jerry Xu" }],
   metadataBase: new URL("https://jrx2003.github.io"),
   openGraph: {
@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     locale: "zh_CN",
     siteName: "Jerry Xu",
     title: "Jerry Xu - 徐劼瑞",
-    description: "上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发",
+    description: "上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程",
   },
   twitter: {
     card: "summary_large_image",
     title: "Jerry Xu - 徐劼瑞",
-    description: "上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发",
+    description: "上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程",
   },
 };
 

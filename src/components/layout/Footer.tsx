@@ -24,7 +24,7 @@ export function Footer() {
               <span className="text-2xl font-bold gradient-text">Jerry Xu</span>
             </Link>
             <p className="text-muted-foreground max-w-sm">
-              热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。
+              热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。
             </p>
             <div className="flex items-center gap-4">
               <a
