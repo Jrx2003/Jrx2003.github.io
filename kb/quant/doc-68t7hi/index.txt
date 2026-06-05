@@ -1,0 +1,654 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-b043129a42c3b49c.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],""]
+4:["category","quant","d"]
+5:["slug","doc-68t7hi","d"]
+0:["ffk0ESDk0CTyiiGJbvRpT",[[["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-68t7hi","d"],{"children":["__PAGE__?{\"category\":\"quant\",\"slug\":\"doc-68t7hi\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-68t7hi","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8fd3907a9da855dd.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js"],"default"]
+c:T1e06,# 股票与股票市场
+
+> 股权投资的基石——理解股票的运作机制
+
+---
+
+## 什么是股票？
+
+**股票**代表对公司的所有权份额。
+
+### 股东的权利
+
+| 权利 | 说明 |
+|------|------|
+| **分红权** | 获得公司利润分配 |
+| **投票权** | 参与公司重大决策 |
+| **剩余财产权** | 公司清算时获得剩余资产 |
+| **转让权** | 买卖股票 |
+
+### 股票类型
+
+**普通股 vs 优先股**
+
+| 特征 | 普通股 | 优先股 |
+|------|--------|--------|
+| 分红 | 不固定，与公司业绩挂钩 | 固定股息率 |
+| 投票权 | 有 | 通常无 |
+| 风险 | 较高 | 较低 |
+| 求偿顺序 | 最后 | 优先于普通股 |
+
+---
+
+## 股票市场结构
+
+### 一级市场 vs 二级市场
+
+```
+┌─────────────┐      IPO/增发      ┌─────────────┐      交易      ┌─────────────┐
+│   发行人    │ ─────────────────→ │  一级市场   │ ─────────────→ │  二级市场   │
+│  (公司)    │   首次公开发行    │  (发行市场)  │   投资者间买卖  │  (交易市场)  │
+└─────────────┘                    └─────────────┘                └─────────────┘
+```
+
+**一级市场**：公司向公众发售新股
+- IPO（首次公开发行）
+- 增发
+- 配股
+
+**二级市场**：投资者之间的交易
+- 交易所市场
+- 场外市场（OTC）
+
+### 交易所
+
+**中国大陆**：
+| 交易所 | 定位 | 主要板块 |
+|--------|------|----------|
+| **上海证券交易所** | 主板、科创板 | 大盘蓝筹、科技创新 |
+| **深圳证券交易所** | 主板、创业板 | 成长型企业 |
+| **北京证券交易所** | 新三板精选层 | 专精特新中小企业 |
+
+**全球主要交易所**：
+- 纽约证券交易所（NYSE）
+- 纳斯达克（NASDAQ）
+- 香港交易所（HKEX）
+- 伦敦证券交易所（LSE）
+
+---
+
+## 股票交易机制
+
+### 订单类型
+
+| 订单类型 | 说明 | 使用场景 |
+|----------|------|----------|
+| **市价单** | 以当前市场价格立即成交 | 追求成交速度 |
+| **限价单** | 以指定价格或更好价格成交 | 控制成交价格 |
+| **止损单** | 价格达到止损价时转为市价单 | 风险控制 |
+| **止损限价** | 价格达到止损价时转为限价单 | 控制止损价格 |
+
+### 价格形成机制
+
+**集合竞价**（开盘、收盘）：
+- 一段时间内接受订单
+- 以最大成交量原则确定开盘价/收盘价
+
+**连续竞价**（交易时段）：
+- 价格优先、时间优先
+- 实时撮合
+
+### A股交易规则
+
+| 项目 | 规则 |
+|------|------|
+| **交易时间** | 9:30-11:30, 13:00-15:00 |
+| **最小单位** | 100股（1手） |
+| **涨跌幅限制** | ±10%（ST股±5%，科创板/创业板±20%） |
+| **T+1制度** | 当日买入，次日才能卖出 |
+| **结算周期** | T+1（交易日后1天结算） |
+
+---
+
+## 股票指数
+
+### 什么是指数？
+
+**股票指数**是衡量一组股票整体表现的指标。
+
+### 主要A股指数
+
+| 指数 | 成分股 | 特点 |
+|------|--------|------|
+| **上证指数** | 上交所所有股票 | 大盘代表性 |
+| **深证成指** | 深交所代表性股票 | 成长风格 |
+| **沪深300** | 沪深两市300只大盘股 | 蓝筹代表 |
+| **中证500** | 沪深300之后的500只中盘股 | 中小盘 |
+| **创业板指** | 创业板代表性股票 | 高成长、高风险 |
+| **科创50** | 科创板50只龙头 | 科技创新 |
+
+### 全球主要指数
+
+| 指数 | 市场 | 说明 |
+|------|------|------|
+| **S&P 500** | 美股 | 美国大盘股代表 |
+| **NASDAQ** | 美股 | 科技股为主 |
+| **道琼斯** | 美股 | 30只工业巨头 |
+| **恒生指数** | 港股 | 香港市场代表 |
+| **日经225** | 日本 | 日本大盘股 |
+| **富时100** | 英国 | 英国大盘股 |
+
+### 指数计算方法
+
+**价格加权**：
+```
+指数 = Σ股价 / 除数
+```
+- 例子：道琼斯工业指数
+
+**市值加权**：
+```
+指数 = Σ(股价 × 股本) / 基期市值 × 基期指数
+```
+- 例子：沪深300、S&P 500
+
+**等权**：每只股票权重相同
+
+---
+
+## 股票估值基础
+
+### 市盈率（P/E）
+
+```
+P/E = 股价 / 每股收益（EPS）
+```
+
+**解读**：
+- P/E = 20：投资者愿意为公司每1元盈利支付20元
+- 高P/E：成长预期高或估值偏高
+- 低P/E：可能被低估或前景不佳
+
+**P/E类型**：
+| 类型 | 计算方式 | 特点 |
+|------|----------|------|
+| 静态P/E | 股价/上一年EPS | 滞后 |
+| 动态P/E | 股价/预测EPS | 前瞻但不确定 |
+| TTM P/E | 股价/过去四个季度EPS | 最常用 |
+
+### 市净率（P/B）
+
+```
+P/B = 股价 / 每股净资产
+```
+
+**适用场景**：
+- 银行股、周期股
+- 资产重的行业
+
+### 市销率（P/S）
+
+```
+P/S = 市值 / 营业收入
+```
+
+**适用场景**：
+- 亏损企业
+- 成长期公司
+
+### 股息率
+
+```
+股息率 = 年度股息 / 股价
+```
+
+**意义**：
+- 价值投资指标
+- 现金流回报
+
+### Python估值计算
+
+```python
+import pandas as pd
+
+def calculate_valuation_metrics(price, eps, book_value, sales, dividend):
+    """
+    计算估值指标
+    """
+    metrics = {
+        'PE_TTM': price / eps,
+        'PB': price / book_value,
+        'PS': price / sales,
+        'Dividend_Yield': dividend / price
+    }
+    return metrics
+
+# 示例
+stock_data = {
+    'price': 50,
+    'eps': 2.5,
+    'book_value': 15,
+    'sales': 20,
+    'dividend': 1.0
+}
+
+metrics = calculate_valuation_metrics(**stock_data)
+for k, v in metrics.items():
+    print(f"{k}: {v:.2f}")
+```
+
+---
+
+## 股票收益率
+
+### 收益率计算
+
+**简单收益率**：
+```
+R_t = (P_t - P_{t-1}) / P_{t-1}
+```
+
+**对数收益率**：
+```
+r_t = ln(P_t / P_{t-1})
+```
+
+**多期收益率**：
+```
+总收益率 = (1+R_1)(1+R_2)...(1+R_n) - 1
+```
+
+### 收益率分布特征
+
+| 特征 | 描述 |
+|------|------|
+| **肥尾** | 极端收益比正态分布更频繁 |
+| **偏度** | 通常左偏（下跌更剧烈） |
+| **波动聚集** | 大波动后跟着大波动 |
+| **杠杆效应** | 下跌时波动率上升 |
+
+---
+
+## 量化应用
+
+### 1. 选股因子
+
+| 因子类型 | 具体指标 | 逻辑 |
+|----------|----------|------|
+| **价值** | 低PE、低PB | 均值回归 |
+| **成长** | 高盈利增长 | 趋势延续 |
+| **质量** | 高ROE、低负债 | 稳健经营 |
+| **动量** | 过去高收益 | 趋势跟随 |
+
+### 2. 行业轮动
+
+```python
+def sector_rotation_signal(sector_returns, lookback=20):
+    """
+    行业轮动信号
+    买入近期表现好的行业
+    """
+    momentum = sector_returns.iloc[-lookback:].mean()
+    ranking = momentum.rank(ascending=False)
+    signal = (ranking <= 3).astype(int)  # 前3名
+    return signal
+```
+
+### 3. 多因子模型
+
+```python
+def calculate_factor_scores(stock_data):
+    """
+    计算多因子得分
+    """
+    # 价值因子：PE倒数
+    value_score = 1 / stock_data['PE']
+
+    # 质量因子：ROE
+    quality_score = stock_data['ROE']
+
+    # 动量因子：过去20日收益
+    momentum_score = stock_data['return_20d']
+
+    # 标准化并综合
+    total_score = (standardize(value_score) +
+                   standardize(quality_score) +
+                   standardize(momentum_score)) / 3
+
+    return total_score
+
+def standardize(series):
+    """Z-score标准化"""
+    return (series - series.mean()) / series.std()
+```
+
+---
+
+## 下一步
+
+- [因子投资概述](/kb/quant/quant-oz8s5m) - 系统学习因子策略
+- [动量策略](/kb/quant/quant-tgc9xb) - 股票价格动量
+- [衍生品基础](/kb/quant/quant-1sebd6) - 股票衍生品
+d:T1e06,# 股票与股票市场
+
+> 股权投资的基石——理解股票的运作机制
+
+---
+
+## 什么是股票？
+
+**股票**代表对公司的所有权份额。
+
+### 股东的权利
+
+| 权利 | 说明 |
+|------|------|
+| **分红权** | 获得公司利润分配 |
+| **投票权** | 参与公司重大决策 |
+| **剩余财产权** | 公司清算时获得剩余资产 |
+| **转让权** | 买卖股票 |
+
+### 股票类型
+
+**普通股 vs 优先股**
+
+| 特征 | 普通股 | 优先股 |
+|------|--------|--------|
+| 分红 | 不固定，与公司业绩挂钩 | 固定股息率 |
+| 投票权 | 有 | 通常无 |
+| 风险 | 较高 | 较低 |
+| 求偿顺序 | 最后 | 优先于普通股 |
+
+---
+
+## 股票市场结构
+
+### 一级市场 vs 二级市场
+
+```
+┌─────────────┐      IPO/增发      ┌─────────────┐      交易      ┌─────────────┐
+│   发行人    │ ─────────────────→ │  一级市场   │ ─────────────→ │  二级市场   │
+│  (公司)    │   首次公开发行    │  (发行市场)  │   投资者间买卖  │  (交易市场)  │
+└─────────────┘                    └─────────────┘                └─────────────┘
+```
+
+**一级市场**：公司向公众发售新股
+- IPO（首次公开发行）
+- 增发
+- 配股
+
+**二级市场**：投资者之间的交易
+- 交易所市场
+- 场外市场（OTC）
+
+### 交易所
+
+**中国大陆**：
+| 交易所 | 定位 | 主要板块 |
+|--------|------|----------|
+| **上海证券交易所** | 主板、科创板 | 大盘蓝筹、科技创新 |
+| **深圳证券交易所** | 主板、创业板 | 成长型企业 |
+| **北京证券交易所** | 新三板精选层 | 专精特新中小企业 |
+
+**全球主要交易所**：
+- 纽约证券交易所（NYSE）
+- 纳斯达克（NASDAQ）
+- 香港交易所（HKEX）
+- 伦敦证券交易所（LSE）
+
+---
+
+## 股票交易机制
+
+### 订单类型
+
+| 订单类型 | 说明 | 使用场景 |
+|----------|------|----------|
+| **市价单** | 以当前市场价格立即成交 | 追求成交速度 |
+| **限价单** | 以指定价格或更好价格成交 | 控制成交价格 |
+| **止损单** | 价格达到止损价时转为市价单 | 风险控制 |
+| **止损限价** | 价格达到止损价时转为限价单 | 控制止损价格 |
+
+### 价格形成机制
+
+**集合竞价**（开盘、收盘）：
+- 一段时间内接受订单
+- 以最大成交量原则确定开盘价/收盘价
+
+**连续竞价**（交易时段）：
+- 价格优先、时间优先
+- 实时撮合
+
+### A股交易规则
+
+| 项目 | 规则 |
+|------|------|
+| **交易时间** | 9:30-11:30, 13:00-15:00 |
+| **最小单位** | 100股（1手） |
+| **涨跌幅限制** | ±10%（ST股±5%，科创板/创业板±20%） |
+| **T+1制度** | 当日买入，次日才能卖出 |
+| **结算周期** | T+1（交易日后1天结算） |
+
+---
+
+## 股票指数
+
+### 什么是指数？
+
+**股票指数**是衡量一组股票整体表现的指标。
+
+### 主要A股指数
+
+| 指数 | 成分股 | 特点 |
+|------|--------|------|
+| **上证指数** | 上交所所有股票 | 大盘代表性 |
+| **深证成指** | 深交所代表性股票 | 成长风格 |
+| **沪深300** | 沪深两市300只大盘股 | 蓝筹代表 |
+| **中证500** | 沪深300之后的500只中盘股 | 中小盘 |
+| **创业板指** | 创业板代表性股票 | 高成长、高风险 |
+| **科创50** | 科创板50只龙头 | 科技创新 |
+
+### 全球主要指数
+
+| 指数 | 市场 | 说明 |
+|------|------|------|
+| **S&P 500** | 美股 | 美国大盘股代表 |
+| **NASDAQ** | 美股 | 科技股为主 |
+| **道琼斯** | 美股 | 30只工业巨头 |
+| **恒生指数** | 港股 | 香港市场代表 |
+| **日经225** | 日本 | 日本大盘股 |
+| **富时100** | 英国 | 英国大盘股 |
+
+### 指数计算方法
+
+**价格加权**：
+```
+指数 = Σ股价 / 除数
+```
+- 例子：道琼斯工业指数
+
+**市值加权**：
+```
+指数 = Σ(股价 × 股本) / 基期市值 × 基期指数
+```
+- 例子：沪深300、S&P 500
+
+**等权**：每只股票权重相同
+
+---
+
+## 股票估值基础
+
+### 市盈率（P/E）
+
+```
+P/E = 股价 / 每股收益（EPS）
+```
+
+**解读**：
+- P/E = 20：投资者愿意为公司每1元盈利支付20元
+- 高P/E：成长预期高或估值偏高
+- 低P/E：可能被低估或前景不佳
+
+**P/E类型**：
+| 类型 | 计算方式 | 特点 |
+|------|----------|------|
+| 静态P/E | 股价/上一年EPS | 滞后 |
+| 动态P/E | 股价/预测EPS | 前瞻但不确定 |
+| TTM P/E | 股价/过去四个季度EPS | 最常用 |
+
+### 市净率（P/B）
+
+```
+P/B = 股价 / 每股净资产
+```
+
+**适用场景**：
+- 银行股、周期股
+- 资产重的行业
+
+### 市销率（P/S）
+
+```
+P/S = 市值 / 营业收入
+```
+
+**适用场景**：
+- 亏损企业
+- 成长期公司
+
+### 股息率
+
+```
+股息率 = 年度股息 / 股价
+```
+
+**意义**：
+- 价值投资指标
+- 现金流回报
+
+### Python估值计算
+
+```python
+import pandas as pd
+
+def calculate_valuation_metrics(price, eps, book_value, sales, dividend):
+    """
+    计算估值指标
+    """
+    metrics = {
+        'PE_TTM': price / eps,
+        'PB': price / book_value,
+        'PS': price / sales,
+        'Dividend_Yield': dividend / price
+    }
+    return metrics
+
+# 示例
+stock_data = {
+    'price': 50,
+    'eps': 2.5,
+    'book_value': 15,
+    'sales': 20,
+    'dividend': 1.0
+}
+
+metrics = calculate_valuation_metrics(**stock_data)
+for k, v in metrics.items():
+    print(f"{k}: {v:.2f}")
+```
+
+---
+
+## 股票收益率
+
+### 收益率计算
+
+**简单收益率**：
+```
+R_t = (P_t - P_{t-1}) / P_{t-1}
+```
+
+**对数收益率**：
+```
+r_t = ln(P_t / P_{t-1})
+```
+
+**多期收益率**：
+```
+总收益率 = (1+R_1)(1+R_2)...(1+R_n) - 1
+```
+
+### 收益率分布特征
+
+| 特征 | 描述 |
+|------|------|
+| **肥尾** | 极端收益比正态分布更频繁 |
+| **偏度** | 通常左偏（下跌更剧烈） |
+| **波动聚集** | 大波动后跟着大波动 |
+| **杠杆效应** | 下跌时波动率上升 |
+
+---
+
+## 量化应用
+
+### 1. 选股因子
+
+| 因子类型 | 具体指标 | 逻辑 |
+|----------|----------|------|
+| **价值** | 低PE、低PB | 均值回归 |
+| **成长** | 高盈利增长 | 趋势延续 |
+| **质量** | 高ROE、低负债 | 稳健经营 |
+| **动量** | 过去高收益 | 趋势跟随 |
+
+### 2. 行业轮动
+
+```python
+def sector_rotation_signal(sector_returns, lookback=20):
+    """
+    行业轮动信号
+    买入近期表现好的行业
+    """
+    momentum = sector_returns.iloc[-lookback:].mean()
+    ranking = momentum.rank(ascending=False)
+    signal = (ranking <= 3).astype(int)  # 前3名
+    return signal
+```
+
+### 3. 多因子模型
+
+```python
+def calculate_factor_scores(stock_data):
+    """
+    计算多因子得分
+    """
+    # 价值因子：PE倒数
+    value_score = 1 / stock_data['PE']
+
+    # 质量因子：ROE
+    quality_score = stock_data['ROE']
+
+    # 动量因子：过去20日收益
+    momentum_score = stock_data['return_20d']
+
+    # 标准化并综合
+    total_score = (standardize(value_score) +
+                   standardize(quality_score) +
+                   standardize(momentum_score)) / 3
+
+    return total_score
+
+def standardize(series):
+    """Z-score标准化"""
+    return (series - series.mean()) / series.std()
+```
+
+---
+
+## 下一步
+
+- [因子投资概述](/kb/quant/quant-oz8s5m) - 系统学习因子策略
+- [动量策略](/kb/quant/quant-tgc9xb) - 股票价格动量
+- [衍生品基础](/kb/quant/quant-1sebd6) - 股票衍生品
+2:["$","$Lb",null,{"document":{"slug":"doc-68t7hi","title":"股票与股票市场","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$c","filePath":"金融市场/股票与股票市场.md","default":{"slug":"doc-68t7hi","title":"股票与股票市场","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$d","filePath":"金融市场/股票与股票市场.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"股票与股票市场 - Quant | Jerry Xu"}],["$","meta","3",{"name":"description","content":"股票与股票市场"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}]]
+1:null

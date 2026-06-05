@@ -1,0 +1,362 @@
+<!DOCTYPE html><html lang="zh-CN" class="dark scroll-smooth"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/8fd3907a9da855dd.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-b8a5b6732ed6ab9e.js"/><script src="/_next/static/chunks/fd9d1056-feaa03e4ba5b7f26.js" async=""></script><script src="/_next/static/chunks/7023-23d925299661e942.js" async=""></script><script src="/_next/static/chunks/main-app-3495942691d28830.js" async=""></script><script src="/_next/static/chunks/2015-af9c16aac7ff4ad0.js" async=""></script><script src="/_next/static/chunks/7138-b897b2ad3516dd35.js" async=""></script><script src="/_next/static/chunks/app/layout-cd1f76c760ed59d2.js" async=""></script><script src="/_next/static/chunks/app/not-found-b043129a42c3b49c.js" async=""></script><script src="/_next/static/chunks/8373-886bc01b77cafd14.js" async=""></script><script src="/_next/static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js" async=""></script><title>动量策略 - Quant | Jerry Xu</title><meta name="description" content="动量策略"/><meta name="author" content="Jerry Xu"/><meta name="keywords" content="Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript"/><meta property="og:title" content="Jerry Xu - 徐劼瑞"/><meta property="og:description" content="上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"/><meta property="og:site_name" content="Jerry Xu"/><meta property="og:locale" content="zh_CN"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Jerry Xu - 徐劼瑞"/><meta name="twitter:description" content="上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"/><script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script></head><body class="font-sans antialiased min-h-screen flex flex-col bg-background text-foreground"><header class="fixed top-0 left-0 right-0 z-50"><div class="mx-4 mt-4"><nav class="relative max-w-5xl mx-auto px-6 py-3 rounded-full glass border border-white/10 shadow-2xl shadow-purple-500/5" style="opacity:0;transform:translateY(-100px)"><div class="flex items-center justify-between"><a class="flex items-center gap-2 group" href="/"><div class="relative"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 text-white"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path d="M3 5h4"></path><path d="M17 19h4"></path></svg></div><div class="absolute inset-0 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div></div><span class="font-bold text-lg tracking-tight hidden sm:block text-foreground">Jerry</span></a><div class="hidden md:flex items-center gap-1"><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/">首页</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/about/">关于</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/resume/">简历</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/projects/">项目</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/kb/">知识库</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/blog/">博客</a></div><div class="flex items-center gap-2"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="hidden md:flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a><button class="md:hidden flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-5 h-5"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></div></nav></div></header><main class="flex-1"><div class="relative min-h-screen"><div class="fixed inset-0 gradient-bg -z-10"></div><div class="fixed inset-0 grid-pattern -z-10"></div><div class="relative z-10 py-32 px-4"><div class="max-w-4xl mx-auto"><div class="mb-8" style="opacity:0;transform:translateX(-20px)"><a class="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors" href="/kb/quant/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回 <!-- -->Quant</a></div><div class="mb-12" style="opacity:0;transform:translateY(20px)"><div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-muted-foreground"><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full glass"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-4 h-4"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>Quant</span><span class="inline-flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-4 h-4"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>15<!-- --> 分钟阅读</span></div><h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"><span class="gradient-text">动量策略</span></h1></div><div class="glass rounded-2xl p-6 md:p-10" style="opacity:0;transform:translateY(20px)"><article class="prose prose-invert prose-lg max-w-none"><h1 class="text-3xl font-bold mt-8 mb-4 pb-2 border-b border-white/10">动量策略</h1>
+<blockquote class="border-l-4 border-purple-500 pl-4 italic text-muted-foreground my-4">
+<p class="text-muted-foreground leading-relaxed mb-4">追涨杀跌的艺术——捕捉趋势的延续</p>
+</blockquote>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">什么是动量？</h2>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>动量</strong>：过去表现好的资产，未来继续表现好；过去表现差的资产，未来继续表现差。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">直观理解</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">想象滚动的雪球：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><strong>开始滚动</strong>：初始推力（信息开始扩散）</li>
+<li class="leading-relaxed"><strong>加速滚动</strong>：越来越大（趋势自我强化）</li>
+<li class="leading-relaxed"><strong>最终停止</strong>：融化解体（趋势反转）</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4">股票市场同理，价格趋势有惯性。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">与随机游走假说的矛盾</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>随机游走假说</strong>：过去价格无法预测未来。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>动量效应</strong>：过去价格能预测未来，至少短期可以。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>解释</strong>：市场并非完全有效，信息扩散需要时间。</p>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">动量的来源</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 信息扩散缓慢</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>过程</strong>：</p>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">新信息出现（如：盈利超预期）</li>
+<li class="leading-relaxed">知情交易者先行动</li>
+<li class="leading-relaxed">信息逐步被更多人知晓</li>
+<li class="leading-relaxed">价格缓慢调整到位</li>
+</ol>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>实证</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">盈余公告后价格漂移（PEAD）</li>
+<li class="leading-relaxed">分析师推荐后的持续反应</li>
+</ul>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 投资者行为偏差</h3>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">偏差</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">效应</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>锚定效应</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">低估新信息，调整不足</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>保守主义</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">坚持原有观点</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>羊群效应</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">跟随他人交易</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>追涨杀跌</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">强化趋势</td></tr></tbody></table></div>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 机构摩擦</h3>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">短期业绩压力</li>
+<li class="leading-relaxed">只能买&quot;赢家&quot;</li>
+<li class="leading-relaxed">跟风行为</li>
+</ul>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">动量度量方法</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 价格动量</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>简单动量</strong>：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">动量 = P_t / P_{t-n} - 1
+</code></pre>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>常用周期</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">3个月（63个交易日）</li>
+<li class="leading-relaxed">6个月（126个交易日）</li>
+<li class="leading-relaxed">12个月（252个交易日）</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Jegadeesh-Titman (1993) 经典方法</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">基于过去12个月收益</li>
+<li class="leading-relaxed"><strong>排除最近1个月</strong>（避免短期反转）</li>
+<li class="leading-relaxed">按动量分组，做多高分组，做空低分组</li>
+</ul>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import pandas as pd
+import numpy as np
+
+def calculate_momentum(prices, lookback=252, skip=21):
+    &quot;&quot;&quot;
+    计算价格动量（Jegadeesh-Titman方法）
+
+    prices: 价格序列
+    lookback: 回看周期（默认252日=1年）
+    skip: 排除最近N日（默认21日=1月）
+    &quot;&quot;&quot;
+    past_return = prices.pct_change(lookback - skip).shift(skip)
+    return past_return
+
+# 示例
+prices = pd.Series([100, 102, 101, 105, 108, 110, 115, 112, 118, 120])
+momentum = calculate_momentum(prices, lookback=9, skip=2)
+print(momentum)
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 风险调整动量</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>夏普动量</strong>：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">夏普动量 = 平均收益 / 波动率
+</code></pre>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>优势</strong>：考虑风险，避免选到高波动股票。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 行业/板块动量</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>相对动量</strong>：个股相对行业的超额动量。</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def calculate_relative_momentum(stock_returns, market_returns, lookback=126):
+    &quot;&quot;&quot;
+    计算相对动量（个股-市场）
+    &quot;&quot;&quot;
+    stock_cumret = (1 + stock_returns).rolling(lookback).prod() - 1
+    market_cumret = (1 + market_returns).rolling(lookback).prod() - 1
+
+    relative_momentum = stock_cumret - market_cumret
+    return relative_momentum
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">4.  earnings动量</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">基于基本面信息的动量：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">盈利超预期（SUE）</li>
+<li class="leading-relaxed">分析师预期调整</li>
+<li class="leading-relaxed">收入增长加速</li>
+</ul>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">经典动量策略</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 股票动量策略</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>步骤</strong>：</p>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">计算所有股票过去12月收益（排除最近1月）</li>
+<li class="leading-relaxed">按动量排序，分10组</li>
+<li class="leading-relaxed">做多第10组（赢家），做空第1组（输家）</li>
+<li class="leading-relaxed">每月调仓</li>
+</ol>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>历史表现</strong>（Jegadeesh-Titman, 1993-2020）：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">年化收益：约8-10%</li>
+<li class="leading-relaxed">夏普比率：约0.5-0.7</li>
+<li class="leading-relaxed">最大回撤：可达50%+</li>
+</ul>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 时间序列动量（CTA策略）</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>原理</strong>：资产价格的时序自相关。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>信号生成</strong>：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">如果 过去12月收益 &gt; 0 → 做多
+如果 过去12月收益 &lt; 0 → 做空
+</code></pre>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>跨资产配置</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">股票指数</li>
+<li class="leading-relaxed">债券</li>
+<li class="leading-relaxed">商品</li>
+<li class="leading-relaxed">外汇</li>
+</ul>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def time_series_momentum(prices, lookback=252):
+    &quot;&quot;&quot;
+    时间序列动量信号
+    &quot;&quot;&quot;
+    momentum = prices.pct_change(lookback)
+    signal = np.where(momentum &gt; 0, 1, -1)
+    return signal
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 双均线策略</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>原理</strong>：短期均线上穿长期均线 → 买入信号</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>实现</strong>：</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def dual_moving_average(prices, short_window=50, long_window=200):
+    &quot;&quot;&quot;
+    双均线策略
+    &quot;&quot;&quot;
+    short_ma = prices.rolling(short_window).mean()
+    long_ma = prices.rolling(long_window).mean()
+
+    # 金叉：短均线上穿长均线
+    golden_cross = (short_ma &gt; long_ma) &amp; (short_ma.shift(1) &lt;= long_ma.shift(1))
+
+    # 死叉：短均线下穿长均线
+    death_cross = (short_ma &lt; long_ma) &amp; (short_ma.shift(1) &gt;= long_ma.shift(1))
+
+    # 持仓状态
+    position = (short_ma &gt; long_ma).astype(int)
+
+    return position, golden_cross, death_cross
+
+# 可视化
+import matplotlib.pyplot as plt
+
+prices = pd.Series(np.random.randn(500).cumsum() + 100)
+position, golden, death = dual_moving_average(prices)
+
+short_ma = prices.rolling(50).mean()
+long_ma = prices.rolling(200).mean()
+
+plt.figure(figsize=(12, 6))
+plt.plot(prices, label=&#x27;Price&#x27;, alpha=0.7)
+plt.plot(short_ma, label=&#x27;MA50&#x27;, alpha=0.7)
+plt.plot(long_ma, label=&#x27;MA200&#x27;, alpha=0.7)
+plt.scatter(prices.index[golden], prices[golden], color=&#x27;g&#x27;, marker=&#x27;^&#x27;, s=100, label=&#x27;Golden Cross&#x27;)
+plt.scatter(prices.index[death], prices[death], color=&#x27;r&#x27;, marker=&#x27;v&#x27;, s=100, label=&#x27;Death Cross&#x27;)
+plt.legend()
+plt.title(&#x27;Dual Moving Average Strategy&#x27;)
+plt.show()
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">动量策略的风险</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 动量崩溃（Momentum Crashes）</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>特征</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">动量策略突然大幅回撤</li>
+<li class="leading-relaxed">通常发生在市场反转时</li>
+<li class="leading-relaxed">短期反转导致多头和空头同时亏损</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>历史事件</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">2009年3月：金融危机后反弹</li>
+<li class="leading-relaxed">2020年4月：疫情后V型反转</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>原因</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">极端行情下，过去的输家变成赢家</li>
+<li class="leading-relaxed">过去的赢家变成输家</li>
+</ul>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 高换手率</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>问题</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">交易成本侵蚀收益</li>
+<li class="leading-relaxed">滑点影响</li>
+<li class="leading-relaxed">容量限制</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>解决</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">降低调仓频率</li>
+<li class="leading-relaxed">平滑信号</li>
+<li class="leading-relaxed">考虑交易成本后优化</li>
+</ul>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 与价值因子的负相关</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>现象</strong>：动量好则价值差，价值好则动量差。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>原因</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">价值股通常是过去输家</li>
+<li class="leading-relaxed">动量股通常是高估的成长股</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>应对</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">组合配置时考虑负相关性</li>
+<li class="leading-relaxed">动态调整因子权重</li>
+</ul>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">改进动量策略</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 残差动量</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>问题</strong>：传统动量包含市场Beta暴露。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>改进</strong>：去除市场暴露后的&quot;纯&quot;动量。</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def residual_momentum(returns, market_returns, lookback=252):
+    &quot;&quot;&quot;
+    计算残差动量
+    &quot;&quot;&quot;
+    from sklearn.linear_model import LinearRegression
+
+    residual_returns = []
+
+    for i in range(lookback, len(returns)):
+        X = market_returns[i-lookback:i].values.reshape(-1, 1)
+        y = returns[i-lookback:i].values
+
+        model = LinearRegression().fit(X, y)
+        residual = y[-1] - model.predict(X)[-1]
+        residual_returns.append(residual)
+
+    return pd.Series(residual_returns, index=returns.index[lookback:])
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 波动率调整动量</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>思路</strong>：高波动股票动量信号不可靠。</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def volatility_adjusted_momentum(prices, lookback=252):
+    &quot;&quot;&quot;
+    波动率调整动量
+    &quot;&quot;&quot;
+    momentum = prices.pct_change(lookback)
+    volatility = prices.pct_change().rolling(lookback).std() * np.sqrt(252)
+
+    adj_momentum = momentum / volatility
+    return adj_momentum
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 路径依赖动量</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>思路</strong>：考虑价格路径，不只是起点和终点。</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><strong>平滑路径</strong>更好：缓慢上涨</li>
+<li class="leading-relaxed"><strong>跳跃路径</strong>更差：突然暴涨</li>
+</ul>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def path_dependent_momentum(prices, lookback=252):
+    &quot;&quot;&quot;
+    路径依赖动量（最大回撤调整）
+    &quot;&quot;&quot;
+    returns = prices.pct_change().dropna()
+
+    # 总收益
+    total_return = (1 + returns[-lookback:]).prod() - 1
+
+    # 计算期间最大回撤
+    cumulative = (1 + returns[-lookback:]).cumprod()
+    running_max = cumulative.expanding().max()
+    max_dd = (cumulative - running_max).min()
+
+    # 调整动量
+    adjusted = total_return * (1 + max_dd)  # 最大回撤为负，所以是惩罚
+
+    return adjusted
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">实战：A股动量策略</h2>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import pandas as pd
+import numpy as np
+
+class MomentumStrategy:
+    &quot;&quot;&quot;
+    A股动量策略
+    &quot;&quot;&quot;
+
+    def __init__(self, lookback=126, skip=21, n_stocks=50):
+        self.lookback = lookback
+        self.skip = skip
+        self.n_stocks = n_stocks
+
+    def generate_signals(self, price_data):
+        &quot;&quot;&quot;
+        生成交易信号
+
+        price_data: DataFrame, index=date, columns=stocks
+        &quot;&quot;&quot;
+        # 计算动量
+        momentum = price_data.pct_change(self.lookback - self.skip).shift(self.skip)
+
+        # 排名
+        rankings = momentum.rank(axis=1, ascending=False)
+
+        # 信号：前n_stocks做多
+        signals = (rankings &lt;= self.n_stocks).astype(int)
+
+        return signals, momentum
+
+    def backtest(self, price_data, signals):
+        &quot;&quot;&quot;
+        回测
+        &quot;&quot;&quot;
+        # 未来一期收益
+        future_returns = price_data.pct_change().shift(-1)
+
+        # 组合收益
+        portfolio_returns = (signals * future_returns).sum(axis=1) / signals.sum(axis=1)
+
+        return portfolio_returns
+
+    def calculate_metrics(self, returns):
+        &quot;&quot;&quot;
+        计算绩效指标
+        &quot;&quot;&quot;
+        total_return = (1 + returns).prod() - 1
+        annual_return = (1 + total_return) ** (252 / len(returns)) - 1
+        volatility = returns.std() * np.sqrt(252)
+        sharpe = annual_return / volatility
+
+        cumulative = (1 + returns).cumprod()
+        running_max = cumulative.expanding().max()
+        max_dd = (cumulative - running_max).min()
+
+        return {
+            &#x27;total_return&#x27;: total_return,
+            &#x27;annual_return&#x27;: annual_return,
+            &#x27;volatility&#x27;: volatility,
+            &#x27;sharpe_ratio&#x27;: sharpe,
+            &#x27;max_drawdown&#x27;: max_dd
+        }
+
+# 使用示例
+# strategy = MomentumStrategy(lookback=126, skip=21, n_stocks=50)
+# signals, momentum = strategy.generate_signals(price_data)
+# returns = strategy.backtest(price_data, signals)
+# metrics = strategy.calculate_metrics(returns)
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">下一步</h2>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><a href="/kb/quant/quant-l6sjq7" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">均值回归策略</a> - 与动量相反的另一种力量</li>
+<li class="leading-relaxed"><a href="/kb/quant/quant-bucbbs" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">时间序列分析基础</a> - 动量的统计基础</li>
+<li class="leading-relaxed"><a href="/kb/quant/quant-v9qdth" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">双均线策略实战</a> - 动量策略的完整实现</li>
+</ul></article></div><div class="mt-12 flex items-center justify-between" style="opacity:0;transform:translateY(20px)"><a class="inline-flex items-center gap-2 px-6 py-3 rounded-full glass hover:bg-white/10 transition-colors" href="/kb/quant/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回列表</a></div></div></div></div></main><footer class="relative border-t border-white/5"><div class="absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"></div><div class="container relative py-16"><div class="grid grid-cols-1 md:grid-cols-4 gap-12"><div class="md:col-span-2 space-y-4"><a class="inline-block" href="/"><span class="text-2xl font-bold gradient-text">Jerry Xu</span></a><p class="text-muted-foreground max-w-sm">热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。</p><div class="flex items-center gap-4"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg><span>GitHub</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></div></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">导航</h4><ul class="space-y-3"><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/about/">关于</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/projects/">项目</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/kb/">知识库</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/blog/">博客</a></li></ul></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">联系方式</h4><ul class="space-y-3 text-sm"><li><a href="https://www.sjtu.edu.cn" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">上海交通大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li><a href="https://www.cuhk.edu.hk" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">即将前往香港中文大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li class="text-xs pt-2 text-muted-foreground">通过 GitHub 联系</li></ul></div></div><div class="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4"><p class="text-sm text-muted-foreground">© <!-- -->2026<!-- --> Jerry Xu. Built with<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg> and Next.js</p><p class="text-xs text-muted-foreground/60">Designed &amp; Developed by Jerry</p></div></div></footer><script src="/_next/static/chunks/webpack-b8a5b6732ed6ab9e.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/8fd3907a9da855dd.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"2:I[95751,[],\"\"]\n5:I[39275,[],\"\"]\n8:I[61343,[],\"\"]\n9:I[62782,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-cd1f76c760ed59d2.js\"],\"Header\"]\na:I[82446,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"9160\",\"static/chunks/app/not-found-b043129a42c3b49c.js\"],\"default\"]\nb:I[231,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-cd1f76c760ed59d2.js\"],\"\"]\nd:I[76130,[],\"\"]\n6:[\"category\",\"quant\",\"d\"]\n7:[\"slug\",\"doc-b19nau\",\"d\"]\ne:[]\n"])</script><script>self.__next_f.push([1,"0:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/8fd3907a9da855dd.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L2\",null,{\"buildId\":\"ffk0ESDk0CTyiiGJbvRpT\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/kb/quant/doc-b19nau/\",\"initialTree\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"quant\",\"d\"],{\"children\":[[\"slug\",\"doc-b19nau\",\"d\"],{\"children\":[\"__PAGE__?{\\\"category\\\":\\\"quant\\\",\\\"slug\\\":\\\"doc-b19nau\\\"}\",{}]}]}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"quant\",\"d\"],{\"children\":[[\"slug\",\"doc-b19nau\",\"d\"],{\"children\":[\"__PAGE__\",{},[[\"$L3\",\"$L4\"],null],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\",\"$7\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[[\"$\",\"html\",null,{\"lang\":\"zh-CN\",\"className\":\"dark scroll-smooth\",\"children\":[\"$\",\"body\",null,{\"className\":\"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground\",\"children\":[[\"$\",\"$L9\",null,{}],[\"$\",\"main\",null,{\"className\":\"flex-1\",\"children\":[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[\"$\",\"$La\",null,{}],\"notFoundStyles\":[],\"styles\":null}]}],[\"$\",\"footer\",null,{\"className\":\"relative border-t border-white/5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none\"}],[\"$\",\"div\",null,{\"className\":\"container relative py-16\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 md:grid-cols-4 gap-12\",\"children\":[[\"$\",\"div\",null,{\"className\":\"md:col-span-2 space-y-4\",\"children\":[[\"$\",\"$Lb\",null,{\"href\":\"/\",\"className\":\"inline-block\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-2xl font-bold gradient-text\",\"children\":\"Jerry Xu\"}]}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground max-w-sm\",\"children\":\"热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。\"}],[\"$\",\"div\",null,{\"className\":\"flex items-center gap-4\",\"children\":[\"$\",\"a\",null,{\"href\":\"https://github.com/Jrx2003\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group\",\"children\":[[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-github w-4 h-4\",\"children\":[[\"$\",\"path\",\"tonef\",{\"d\":\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"}],[\"$\",\"path\",\"9comsn\",{\"d\":\"M9 18c-4.51 2-5-2-7-2\"}],\"$undefined\"]}],[\"$\",\"span\",null,{\"children\":\"GitHub\"}],[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"导航\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3\",\"children\":[[\"$\",\"li\",\"/about/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/about/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"关于\"}]}],[\"$\",\"li\",\"/projects/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/projects/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"项目\"}]}],[\"$\",\"li\",\"/kb/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/kb/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"知识库\"}]}],[\"$\",\"li\",\"/blog/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/blog/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"博客\"}]}]]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"联系方式\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3 text-sm\",\"children\":[[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.sjtu.edu.cn\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"上海交通大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.cuhk.edu.hk\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"即将前往香港中文大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"className\":\"text-xs pt-2 text-muted-foreground\",\"children\":\"通过 GitHub 联系\"}]]}]]}]]}],[\"$\",\"div\",null,{\"className\":\"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-sm text-muted-foreground\",\"children\":[\"© \",2026,\" Jerry Xu. Built with\",\" \",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500\",\"children\":[[\"$\",\"path\",\"c3ymky\",{\"d\":\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"}],\"$undefined\"]}],\" and Next.js\"]}],[\"$\",\"p\",null,{\"className\":\"text-xs text-muted-foreground/60\",\"children\":\"Designed \u0026 Developed by Jerry\"}]]}]]}]]}]]}]}],null],null],\"couldBeIntercepted\":false,\"initialHead\":[false,\"$Lc\"],\"globalErrorComponent\":\"$d\",\"missingSlots\":\"$We\"}]]\n"])</script><script>self.__next_f.push([1,"f:I[66006,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"8373\",\"static/chunks/8373-886bc01b77cafd14.js\",\"7438\",\"static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js\"],\"default\"]\n10:T2773,"])</script><script>self.__next_f.push([1,"# 动量策略\n\n\u003e 追涨杀跌的艺术——捕捉趋势的延续\n\n---\n\n## 什么是动量？\n\n**动量**：过去表现好的资产，未来继续表现好；过去表现差的资产，未来继续表现差。\n\n### 直观理解\n\n想象滚动的雪球：\n- **开始滚动**：初始推力（信息开始扩散）\n- **加速滚动**：越来越大（趋势自我强化）\n- **最终停止**：融化解体（趋势反转）\n\n股票市场同理，价格趋势有惯性。\n\n### 与随机游走假说的矛盾\n\n**随机游走假说**：过去价格无法预测未来。\n\n**动量效应**：过去价格能预测未来，至少短期可以。\n\n**解释**：市场并非完全有效，信息扩散需要时间。\n\n---\n\n## 动量的来源\n\n### 1. 信息扩散缓慢\n\n**过程**：\n1. 新信息出现（如：盈利超预期）\n2. 知情交易者先行动\n3. 信息逐步被更多人知晓\n4. 价格缓慢调整到位\n\n**实证**：\n- 盈余公告后价格漂移（PEAD）\n- 分析师推荐后的持续反应\n\n### 2. 投资者行为偏差\n\n| 偏差 | 效应 |\n|------|------|\n| **锚定效应** | 低估新信息，调整不足 |\n| **保守主义** | 坚持原有观点 |\n| **羊群效应** | 跟随他人交易 |\n| **追涨杀跌** | 强化趋势 |\n\n### 3. 机构摩擦\n\n- 短期业绩压力\n- 只能买\"赢家\"\n- 跟风行为\n\n---\n\n## 动量度量方法\n\n### 1. 价格动量\n\n**简单动量**：\n```\n动量 = P_t / P_{t-n} - 1\n```\n\n**常用周期**：\n- 3个月（63个交易日）\n- 6个月（126个交易日）\n- 12个月（252个交易日）\n\n**Jegadeesh-Titman (1993) 经典方法**：\n- 基于过去12个月收益\n- **排除最近1个月**（避免短期反转）\n- 按动量分组，做多高分组，做空低分组\n\n```python\nimport pandas as pd\nimport numpy as np\n\ndef calculate_momentum(prices, lookback=252, skip=21):\n    \"\"\"\n    计算价格动量（Jegadeesh-Titman方法）\n\n    prices: 价格序列\n    lookback: 回看周期（默认252日=1年）\n    skip: 排除最近N日（默认21日=1月）\n    \"\"\"\n    past_return = prices.pct_change(lookback - skip).shift(skip)\n    return past_return\n\n# 示例\nprices = pd.Series([100, 102, 101, 105, 108, 110, 115, 112, 118, 120])\nmomentum = calculate_momentum(prices, lookback=9, skip=2)\nprint(momentum)\n```\n\n### 2. 风险调整动量\n\n**夏普动量**：\n```\n夏普动量 = 平均收益 / 波动率\n```\n\n**优势**：考虑风险，避免选到高波动股票。\n\n### 3. 行业/板块动量\n\n**相对动量**：个股相对行业的超额动量。\n\n```python\ndef calculate_relative_momentum(stock_returns, market_returns, lookback=126):\n    \"\"\"\n    计算相对动量（个股-市场）\n    \"\"\"\n    stock_cumret = (1 + stock_returns).rolling(lookback).prod() - 1\n    market_cumret = (1 + market_returns).rolling(lookback).prod() - 1\n\n    relative_momentum = stock_cumret - market_cumret\n    return relative_momentum\n```\n\n### 4.  earnings动量\n\n基于基本面信息的动量：\n- 盈利超预期（SUE）\n- 分析师预期调整\n- 收入增长加速\n\n---\n\n## 经典动量策略\n\n### 1. 股票动量策略\n\n**步骤**：\n1. 计算所有股票过去12月收益（排除最近1月）\n2. 按动量排序，分10组\n3. 做多第10组（赢家），做空第1组（输家）\n4. 每月调仓\n\n**历史表现**（Jegadeesh-Titman, 1993-2020）：\n- 年化收益：约8-10%\n- 夏普比率：约0.5-0.7\n- 最大回撤：可达50%+\n\n### 2. 时间序列动量（CTA策略）\n\n**原理**：资产价格的时序自相关。\n\n**信号生成**：\n```\n如果 过去12月收益 \u003e 0 → 做多\n如果 过去12月收益 \u003c 0 → 做空\n```\n\n**跨资产配置**：\n- 股票指数\n- 债券\n- 商品\n- 外汇\n\n```python\ndef time_series_momentum(prices, lookback=252):\n    \"\"\"\n    时间序列动量信号\n    \"\"\"\n    momentum = prices.pct_change(lookback)\n    signal = np.where(momentum \u003e 0, 1, -1)\n    return signal\n```\n\n### 3. 双均线策略\n\n**原理**：短期均线上穿长期均线 → 买入信号\n\n**实现**：\n```python\ndef dual_moving_average(prices, short_window=50, long_window=200):\n    \"\"\"\n    双均线策略\n    \"\"\"\n    short_ma = prices.rolling(short_window).mean()\n    long_ma = prices.rolling(long_window).mean()\n\n    # 金叉：短均线上穿长均线\n    golden_cross = (short_ma \u003e long_ma) \u0026 (short_ma.shift(1) \u003c= long_ma.shift(1))\n\n    # 死叉：短均线下穿长均线\n    death_cross = (short_ma \u003c long_ma) \u0026 (short_ma.shift(1) \u003e= long_ma.shift(1))\n\n    # 持仓状态\n    position = (short_ma \u003e long_ma).astype(int)\n\n    return position, golden_cross, death_cross\n\n# 可视化\nimport matplotlib.pyplot as plt\n\nprices = pd.Series(np.random.randn(500).cumsum() + 100)\nposition, golden, death = dual_moving_average(prices)\n\nshort_ma = prices.rolling(50).mean()\nlong_ma = prices.rolling(200).mean()\n\nplt.figure(figsize=(12, 6))\nplt.plot(prices, label='Price', alpha=0.7)\nplt.plot(short_ma, label='MA50', alpha=0.7)\nplt.plot(long_ma, label='MA200', alpha=0.7)\nplt.scatter(prices.index[golden], prices[golden], color='g', marker='^', s=100, label='Golden Cross')\nplt.scatter(prices.index[death], prices[death], color='r', marker='v', s=100, label='Death Cross')\nplt.legend()\nplt.title('Dual Moving Average Strategy')\nplt.show()\n```\n\n---\n\n## 动量策略的风险\n\n### 1. 动量崩溃（Momentum Crashes）\n\n**特征**：\n- 动量策略突然大幅回撤\n- 通常发生在市场反转时\n- 短期反转导致多头和空头同时亏损\n\n**历史事件**：\n- 2009年3月：金融危机后反弹\n- 2020年4月：疫情后V型反转\n\n**原因**：\n- 极端行情下，过去的输家变成赢家\n- 过去的赢家变成输家\n\n### 2. 高换手率\n\n**问题**：\n- 交易成本侵蚀收益\n- 滑点影响\n- 容量限制\n\n**解决**：\n- 降低调仓频率\n- 平滑信号\n- 考虑交易成本后优化\n\n### 3. 与价值因子的负相关\n\n**现象**：动量好则价值差，价值好则动量差。\n\n**原因**：\n- 价值股通常是过去输家\n- 动量股通常是高估的成长股\n\n**应对**：\n- 组合配置时考虑负相关性\n- 动态调整因子权重\n\n---\n\n## 改进动量策略\n\n### 1. 残差动量\n\n**问题**：传统动量包含市场Beta暴露。\n\n**改进**：去除市场暴露后的\"纯\"动量。\n\n```python\ndef residual_momentum(returns, market_returns, lookback=252):\n    \"\"\"\n    计算残差动量\n    \"\"\"\n    from sklearn.linear_model import LinearRegression\n\n    residual_returns = []\n\n    for i in range(lookback, len(returns)):\n        X = market_returns[i-lookback:i].values.reshape(-1, 1)\n        y = returns[i-lookback:i].values\n\n        model = LinearRegression().fit(X, y)\n        residual = y[-1] - model.predict(X)[-1]\n        residual_returns.append(residual)\n\n    return pd.Series(residual_returns, index=returns.index[lookback:])\n```\n\n### 2. 波动率调整动量\n\n**思路**：高波动股票动量信号不可靠。\n\n```python\ndef volatility_adjusted_momentum(prices, lookback=252):\n    \"\"\"\n    波动率调整动量\n    \"\"\"\n    momentum = prices.pct_change(lookback)\n    volatility = prices.pct_change().rolling(lookback).std() * np.sqrt(252)\n\n    adj_momentum = momentum / volatility\n    return adj_momentum\n```\n\n### 3. 路径依赖动量\n\n**思路**：考虑价格路径，不只是起点和终点。\n\n- **平滑路径**更好：缓慢上涨\n- **跳跃路径**更差：突然暴涨\n\n```python\ndef path_dependent_momentum(prices, lookback=252):\n    \"\"\"\n    路径依赖动量（最大回撤调整）\n    \"\"\"\n    returns = prices.pct_change().dropna()\n\n    # 总收益\n    total_return = (1 + returns[-lookback:]).prod() - 1\n\n    # 计算期间最大回撤\n    cumulative = (1 + returns[-lookback:]).cumprod()\n    running_max = cumulative.expanding().max()\n    max_dd = (cumulative - running_max).min()\n\n    # 调整动量\n    adjusted = total_return * (1 + max_dd)  # 最大回撤为负，所以是惩罚\n\n    return adjusted\n```\n\n---\n\n## 实战：A股动量策略\n\n```python\nimport pandas as pd\nimport numpy as np\n\nclass MomentumStrategy:\n    \"\"\"\n    A股动量策略\n    \"\"\"\n\n    def __init__(self, lookback=126, skip=21, n_stocks=50):\n        self.lookback = lookback\n        self.skip = skip\n        self.n_stocks = n_stocks\n\n    def generate_signals(self, price_data):\n        \"\"\"\n        生成交易信号\n\n        price_data: DataFrame, index=date, columns=stocks\n        \"\"\"\n        # 计算动量\n        momentum = price_data.pct_change(self.lookback - self.skip).shift(self.skip)\n\n        # 排名\n        rankings = momentum.rank(axis=1, ascending=False)\n\n        # 信号：前n_stocks做多\n        signals = (rankings \u003c= self.n_stocks).astype(int)\n\n        return signals, momentum\n\n    def backtest(self, price_data, signals):\n        \"\"\"\n        回测\n        \"\"\"\n        # 未来一期收益\n        future_returns = price_data.pct_change().shift(-1)\n\n        # 组合收益\n        portfolio_returns = (signals * future_returns).sum(axis=1) / signals.sum(axis=1)\n\n        return portfolio_returns\n\n    def calculate_metrics(self, returns):\n        \"\"\"\n        计算绩效指标\n        \"\"\"\n        total_return = (1 + returns).prod() - 1\n        annual_return = (1 + total_return) ** (252 / len(returns)) - 1\n        volatility = returns.std() * np.sqrt(252)\n        sharpe = annual_return / volatility\n\n        cumulative = (1 + returns).cumprod()\n        running_max = cumulative.expanding().max()\n        max_dd = (cumulative - running_max).min()\n\n        return {\n            'total_return': total_return,\n            'annual_return': annual_return,\n            'volatility': volatility,\n            'sharpe_ratio': sharpe,\n            'max_drawdown': max_dd\n        }\n\n# 使用示例\n# strategy = MomentumStrategy(lookback=126, skip=21, n_stocks=50)\n# signals, momentum = strategy.generate_signals(price_data)\n# returns = strategy.backtest(price_data, signals)\n# metrics = strategy.calculate_metrics(returns)\n```\n\n---\n\n## 下一步\n\n- [均值回归策略](/kb/quant/quant-l6sjq7) - 与动量相反的另一种力量\n- [时间序列分析基础](/kb/quant/quant-bucbbs) - 动量的统计基础\n- [双均线策略实战](/kb/quant/quant-v9qdth) - 动量策略的完整实现\n"])</script><script>self.__next_f.push([1,"11:T2773,"])</script><script>self.__next_f.push([1,"# 动量策略\n\n\u003e 追涨杀跌的艺术——捕捉趋势的延续\n\n---\n\n## 什么是动量？\n\n**动量**：过去表现好的资产，未来继续表现好；过去表现差的资产，未来继续表现差。\n\n### 直观理解\n\n想象滚动的雪球：\n- **开始滚动**：初始推力（信息开始扩散）\n- **加速滚动**：越来越大（趋势自我强化）\n- **最终停止**：融化解体（趋势反转）\n\n股票市场同理，价格趋势有惯性。\n\n### 与随机游走假说的矛盾\n\n**随机游走假说**：过去价格无法预测未来。\n\n**动量效应**：过去价格能预测未来，至少短期可以。\n\n**解释**：市场并非完全有效，信息扩散需要时间。\n\n---\n\n## 动量的来源\n\n### 1. 信息扩散缓慢\n\n**过程**：\n1. 新信息出现（如：盈利超预期）\n2. 知情交易者先行动\n3. 信息逐步被更多人知晓\n4. 价格缓慢调整到位\n\n**实证**：\n- 盈余公告后价格漂移（PEAD）\n- 分析师推荐后的持续反应\n\n### 2. 投资者行为偏差\n\n| 偏差 | 效应 |\n|------|------|\n| **锚定效应** | 低估新信息，调整不足 |\n| **保守主义** | 坚持原有观点 |\n| **羊群效应** | 跟随他人交易 |\n| **追涨杀跌** | 强化趋势 |\n\n### 3. 机构摩擦\n\n- 短期业绩压力\n- 只能买\"赢家\"\n- 跟风行为\n\n---\n\n## 动量度量方法\n\n### 1. 价格动量\n\n**简单动量**：\n```\n动量 = P_t / P_{t-n} - 1\n```\n\n**常用周期**：\n- 3个月（63个交易日）\n- 6个月（126个交易日）\n- 12个月（252个交易日）\n\n**Jegadeesh-Titman (1993) 经典方法**：\n- 基于过去12个月收益\n- **排除最近1个月**（避免短期反转）\n- 按动量分组，做多高分组，做空低分组\n\n```python\nimport pandas as pd\nimport numpy as np\n\ndef calculate_momentum(prices, lookback=252, skip=21):\n    \"\"\"\n    计算价格动量（Jegadeesh-Titman方法）\n\n    prices: 价格序列\n    lookback: 回看周期（默认252日=1年）\n    skip: 排除最近N日（默认21日=1月）\n    \"\"\"\n    past_return = prices.pct_change(lookback - skip).shift(skip)\n    return past_return\n\n# 示例\nprices = pd.Series([100, 102, 101, 105, 108, 110, 115, 112, 118, 120])\nmomentum = calculate_momentum(prices, lookback=9, skip=2)\nprint(momentum)\n```\n\n### 2. 风险调整动量\n\n**夏普动量**：\n```\n夏普动量 = 平均收益 / 波动率\n```\n\n**优势**：考虑风险，避免选到高波动股票。\n\n### 3. 行业/板块动量\n\n**相对动量**：个股相对行业的超额动量。\n\n```python\ndef calculate_relative_momentum(stock_returns, market_returns, lookback=126):\n    \"\"\"\n    计算相对动量（个股-市场）\n    \"\"\"\n    stock_cumret = (1 + stock_returns).rolling(lookback).prod() - 1\n    market_cumret = (1 + market_returns).rolling(lookback).prod() - 1\n\n    relative_momentum = stock_cumret - market_cumret\n    return relative_momentum\n```\n\n### 4.  earnings动量\n\n基于基本面信息的动量：\n- 盈利超预期（SUE）\n- 分析师预期调整\n- 收入增长加速\n\n---\n\n## 经典动量策略\n\n### 1. 股票动量策略\n\n**步骤**：\n1. 计算所有股票过去12月收益（排除最近1月）\n2. 按动量排序，分10组\n3. 做多第10组（赢家），做空第1组（输家）\n4. 每月调仓\n\n**历史表现**（Jegadeesh-Titman, 1993-2020）：\n- 年化收益：约8-10%\n- 夏普比率：约0.5-0.7\n- 最大回撤：可达50%+\n\n### 2. 时间序列动量（CTA策略）\n\n**原理**：资产价格的时序自相关。\n\n**信号生成**：\n```\n如果 过去12月收益 \u003e 0 → 做多\n如果 过去12月收益 \u003c 0 → 做空\n```\n\n**跨资产配置**：\n- 股票指数\n- 债券\n- 商品\n- 外汇\n\n```python\ndef time_series_momentum(prices, lookback=252):\n    \"\"\"\n    时间序列动量信号\n    \"\"\"\n    momentum = prices.pct_change(lookback)\n    signal = np.where(momentum \u003e 0, 1, -1)\n    return signal\n```\n\n### 3. 双均线策略\n\n**原理**：短期均线上穿长期均线 → 买入信号\n\n**实现**：\n```python\ndef dual_moving_average(prices, short_window=50, long_window=200):\n    \"\"\"\n    双均线策略\n    \"\"\"\n    short_ma = prices.rolling(short_window).mean()\n    long_ma = prices.rolling(long_window).mean()\n\n    # 金叉：短均线上穿长均线\n    golden_cross = (short_ma \u003e long_ma) \u0026 (short_ma.shift(1) \u003c= long_ma.shift(1))\n\n    # 死叉：短均线下穿长均线\n    death_cross = (short_ma \u003c long_ma) \u0026 (short_ma.shift(1) \u003e= long_ma.shift(1))\n\n    # 持仓状态\n    position = (short_ma \u003e long_ma).astype(int)\n\n    return position, golden_cross, death_cross\n\n# 可视化\nimport matplotlib.pyplot as plt\n\nprices = pd.Series(np.random.randn(500).cumsum() + 100)\nposition, golden, death = dual_moving_average(prices)\n\nshort_ma = prices.rolling(50).mean()\nlong_ma = prices.rolling(200).mean()\n\nplt.figure(figsize=(12, 6))\nplt.plot(prices, label='Price', alpha=0.7)\nplt.plot(short_ma, label='MA50', alpha=0.7)\nplt.plot(long_ma, label='MA200', alpha=0.7)\nplt.scatter(prices.index[golden], prices[golden], color='g', marker='^', s=100, label='Golden Cross')\nplt.scatter(prices.index[death], prices[death], color='r', marker='v', s=100, label='Death Cross')\nplt.legend()\nplt.title('Dual Moving Average Strategy')\nplt.show()\n```\n\n---\n\n## 动量策略的风险\n\n### 1. 动量崩溃（Momentum Crashes）\n\n**特征**：\n- 动量策略突然大幅回撤\n- 通常发生在市场反转时\n- 短期反转导致多头和空头同时亏损\n\n**历史事件**：\n- 2009年3月：金融危机后反弹\n- 2020年4月：疫情后V型反转\n\n**原因**：\n- 极端行情下，过去的输家变成赢家\n- 过去的赢家变成输家\n\n### 2. 高换手率\n\n**问题**：\n- 交易成本侵蚀收益\n- 滑点影响\n- 容量限制\n\n**解决**：\n- 降低调仓频率\n- 平滑信号\n- 考虑交易成本后优化\n\n### 3. 与价值因子的负相关\n\n**现象**：动量好则价值差，价值好则动量差。\n\n**原因**：\n- 价值股通常是过去输家\n- 动量股通常是高估的成长股\n\n**应对**：\n- 组合配置时考虑负相关性\n- 动态调整因子权重\n\n---\n\n## 改进动量策略\n\n### 1. 残差动量\n\n**问题**：传统动量包含市场Beta暴露。\n\n**改进**：去除市场暴露后的\"纯\"动量。\n\n```python\ndef residual_momentum(returns, market_returns, lookback=252):\n    \"\"\"\n    计算残差动量\n    \"\"\"\n    from sklearn.linear_model import LinearRegression\n\n    residual_returns = []\n\n    for i in range(lookback, len(returns)):\n        X = market_returns[i-lookback:i].values.reshape(-1, 1)\n        y = returns[i-lookback:i].values\n\n        model = LinearRegression().fit(X, y)\n        residual = y[-1] - model.predict(X)[-1]\n        residual_returns.append(residual)\n\n    return pd.Series(residual_returns, index=returns.index[lookback:])\n```\n\n### 2. 波动率调整动量\n\n**思路**：高波动股票动量信号不可靠。\n\n```python\ndef volatility_adjusted_momentum(prices, lookback=252):\n    \"\"\"\n    波动率调整动量\n    \"\"\"\n    momentum = prices.pct_change(lookback)\n    volatility = prices.pct_change().rolling(lookback).std() * np.sqrt(252)\n\n    adj_momentum = momentum / volatility\n    return adj_momentum\n```\n\n### 3. 路径依赖动量\n\n**思路**：考虑价格路径，不只是起点和终点。\n\n- **平滑路径**更好：缓慢上涨\n- **跳跃路径**更差：突然暴涨\n\n```python\ndef path_dependent_momentum(prices, lookback=252):\n    \"\"\"\n    路径依赖动量（最大回撤调整）\n    \"\"\"\n    returns = prices.pct_change().dropna()\n\n    # 总收益\n    total_return = (1 + returns[-lookback:]).prod() - 1\n\n    # 计算期间最大回撤\n    cumulative = (1 + returns[-lookback:]).cumprod()\n    running_max = cumulative.expanding().max()\n    max_dd = (cumulative - running_max).min()\n\n    # 调整动量\n    adjusted = total_return * (1 + max_dd)  # 最大回撤为负，所以是惩罚\n\n    return adjusted\n```\n\n---\n\n## 实战：A股动量策略\n\n```python\nimport pandas as pd\nimport numpy as np\n\nclass MomentumStrategy:\n    \"\"\"\n    A股动量策略\n    \"\"\"\n\n    def __init__(self, lookback=126, skip=21, n_stocks=50):\n        self.lookback = lookback\n        self.skip = skip\n        self.n_stocks = n_stocks\n\n    def generate_signals(self, price_data):\n        \"\"\"\n        生成交易信号\n\n        price_data: DataFrame, index=date, columns=stocks\n        \"\"\"\n        # 计算动量\n        momentum = price_data.pct_change(self.lookback - self.skip).shift(self.skip)\n\n        # 排名\n        rankings = momentum.rank(axis=1, ascending=False)\n\n        # 信号：前n_stocks做多\n        signals = (rankings \u003c= self.n_stocks).astype(int)\n\n        return signals, momentum\n\n    def backtest(self, price_data, signals):\n        \"\"\"\n        回测\n        \"\"\"\n        # 未来一期收益\n        future_returns = price_data.pct_change().shift(-1)\n\n        # 组合收益\n        portfolio_returns = (signals * future_returns).sum(axis=1) / signals.sum(axis=1)\n\n        return portfolio_returns\n\n    def calculate_metrics(self, returns):\n        \"\"\"\n        计算绩效指标\n        \"\"\"\n        total_return = (1 + returns).prod() - 1\n        annual_return = (1 + total_return) ** (252 / len(returns)) - 1\n        volatility = returns.std() * np.sqrt(252)\n        sharpe = annual_return / volatility\n\n        cumulative = (1 + returns).cumprod()\n        running_max = cumulative.expanding().max()\n        max_dd = (cumulative - running_max).min()\n\n        return {\n            'total_return': total_return,\n            'annual_return': annual_return,\n            'volatility': volatility,\n            'sharpe_ratio': sharpe,\n            'max_drawdown': max_dd\n        }\n\n# 使用示例\n# strategy = MomentumStrategy(lookback=126, skip=21, n_stocks=50)\n# signals, momentum = strategy.generate_signals(price_data)\n# returns = strategy.backtest(price_data, signals)\n# metrics = strategy.calculate_metrics(returns)\n```\n\n---\n\n## 下一步\n\n- [均值回归策略](/kb/quant/quant-l6sjq7) - 与动量相反的另一种力量\n- [时间序列分析基础](/kb/quant/quant-bucbbs) - 动量的统计基础\n- [双均线策略实战](/kb/quant/quant-v9qdth) - 动量策略的完整实现\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"$Lf\",null,{\"document\":{\"slug\":\"doc-b19nau\",\"title\":\"动量策略\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"Quant\",\"categoryId\":\"quant\",\"content\":\"$10\",\"filePath\":\"量化策略/动量策略.md\",\"default\":{\"slug\":\"doc-b19nau\",\"title\":\"动量策略\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"Quant\",\"categoryId\":\"quant\",\"content\":\"$11\",\"filePath\":\"量化策略/动量策略.md\"}}}]\nc:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"动量策略 - Quant | Jerry Xu\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"动量策略\"}],[\"$\",\"meta\",\"4\",{\"name\":\"author\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"5\",{\"name\":\"keywords\",\"content\":\"Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:description\",\"content\":\"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:site_name\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:locale\",\"content\":\"zh_CN\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:description\",\"content\":\"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程\"}]]\n3:null\n"])</script></body></html>

@@ -1,0 +1,864 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-b043129a42c3b49c.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],""]
+4:["category","quant","d"]
+5:["slug","doc-wdqzsd","d"]
+0:["ffk0ESDk0CTyiiGJbvRpT",[[["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-wdqzsd","d"],{"children":["__PAGE__?{\"category\":\"quant\",\"slug\":\"doc-wdqzsd\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-wdqzsd","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8fd3907a9da855dd.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js"],"default"]
+c:T25bd,# 因子投资概述
+
+> 从Fama-French到现代因子投资的演进
+
+---
+
+## 什么是因子？
+
+**因子**是解释股票收益差异的系统性风险源。
+
+### 类比理解
+
+想象股票投资是一场考试：
+- **总分** = 股票收益
+- **各科目成绩** = 各因子暴露
+- **科目难度** = 因子溢价
+
+有些"科目"（因子） historically 能持续带来超额收益。
+
+### 因子的特征
+
+| 特征 | 说明 |
+|------|------|
+| **系统性** | 影响大量股票，非个别公司特有 |
+| **持续性** | 长期存在，不是偶然现象 |
+| **可解释性** | 有经济学或行为学解释 |
+| **可投资性** | 能构建组合获得该因子暴露 |
+
+---
+
+## 经典因子
+
+### 1. 市场因子（Market）
+
+**定义**：整体市场相对于无风险资产的超额收益。
+
+```
+市场因子 = 市场收益 - 无风险利率
+```
+
+**解释**：
+- CAPM的核心
+- 承担市场系统性风险的回报
+- 所有股票的正向暴露
+
+### 2. 规模因子（Size）
+
+**定义**：小市值股票 vs 大市值股票的收益差。
+
+```
+SMB (Small Minus Big) = 小盘股收益 - 大盘股收益
+```
+
+**发现**：Banz (1981)
+- 小市值股票 historically 跑赢大市值
+- 可能是流动性补偿或风险补偿
+
+**实现方式**：
+- 做多小盘股，做空大盘股
+- 市值加权 vs 等权
+
+### 3. 价值因子（Value）
+
+**定义**：低估值股票 vs 高估值股票的收益差。
+
+```
+HML (High Minus Low) = 高BP股票收益 - 低BP股票收益
+```
+
+**度量指标**：
+- 账面市值比（B/P）
+- 市盈率（E/P）
+- 股息率
+
+**解释**：
+- **风险解释**：价值股风险更高
+- **行为解释**：投资者过度关注成长股
+
+**巴菲特的实践**：
+- 深度价值投资
+- 长期持有低估值优质企业
+
+### 4. 动量因子（Momentum）
+
+**定义**：过去表现好的股票继续跑赢。
+
+```
+UMD (Up Minus Down) = 赢家组合 - 输家组合
+```
+
+**实现方式**：
+- 基于过去12个月收益（排除最近1月）
+- 做多高动量，做空低动量
+
+**解释**：
+- **行为偏差**：反应不足、羊群效应
+- **信息不对称**：信息逐步扩散
+
+**风险提示**：
+- 动量崩溃（Momentum Crashes）
+- 反转风险
+
+### 5. 质量因子（Quality）
+
+**定义**：高质量公司 vs 低质量公司的收益差。
+
+**质量维度**：
+| 维度 | 指标 |
+|------|------|
+| **盈利能力** | ROE、ROA、毛利率 |
+| **盈利稳定性** | 盈利波动率 |
+| **成长性** | 盈利增长 |
+| **财务健康** | 低负债、高现金流 |
+| **投资效率** | 低资本支出/高回报 |
+
+**解释**：
+- 高质量公司风险更低
+- 市场可能低估了质量的长期价值
+
+### 6. 低波动因子（Low Volatility）
+
+**定义**：低波动股票跑赢高波动股票。
+
+**低波动异象**：
+- 传统理论：高风险高收益
+- 实证发现：低波动股票风险调整后收益更好
+
+**解释**：
+- 投资者偏好 lottery-like 高波动股票
+- 杠杆约束导致高波动股票被高估
+
+---
+
+## Fama-French模型演进
+
+### 三因子模型（1993）
+
+```
+E[R] - Rf = β_market × (Rm - Rf) + β_SMB × SMB + β_HML × HML
+```
+
+**CAPM的扩展**：
+- 加入规模因子
+- 加入价值因子
+
+### 五因子模型（2015）
+
+```
+E[R] - Rf = β_market × (Rm - Rf) + β_SMB × SMB + β_HML × HML
+           + β_RMW × RMW + β_CMA × CMA
+```
+
+**新增因子**：
+- **RMW (Robust Minus Weak)**：盈利能力因子
+- **CMA (Conservative Minus Aggressive)**：投资风格因子
+
+### 六因子模型（2018）
+
+加入**动量因子**。
+
+---
+
+## 因子的经济学解释
+
+### 风险基础解释
+
+**主张**：因子收益是对承担特定风险的补偿。
+
+**例子**：
+- 小盘股：流动性差、破产风险高
+- 价值股：财务困境风险、经营灵活性低
+- 高动量：崩盘风险
+
+### 行为金融解释
+
+**主张**：因子收益源于投资者行为偏差。
+
+| 偏差 | 影响 |
+|------|------|
+| **过度自信** | 推高成长股价格 |
+| **锚定效应** | 忽视基本面变化 |
+| **羊群效应** | 强化趋势 |
+| **处置效应** | 过早卖出赢家 |
+
+### 机构摩擦解释
+
+**主张**：机构限制导致因子溢价。
+
+- 杠杆约束
+- 短视行为
+- 跟踪误差限制
+- 职业担忧
+
+---
+
+## 因子实现方法
+
+### 1. 单因子组合构建
+
+**步骤**：
+1. 计算每只股票的因子得分
+2. 按得分排序分组（通常分10组）
+3. 做多高分组，做空低分组
+4. 等权或市值加权
+
+**Python示例**：
+```python
+import pandas as pd
+import numpy as np
+
+def construct_factor_portfolio(stock_data, factor_name, n_quantiles=10):
+    """
+    构建单因子组合
+
+    stock_data: DataFrame with columns ['stock', 'date', factor_name, 'market_cap']
+    """
+    portfolios = []
+
+    for date in stock_data['date'].unique():
+        date_data = stock_data[stock_data['date'] == date].copy()
+
+        # 按因子分组
+        date_data['group'] = pd.qcut(
+            date_data[factor_name],
+            n_quantiles,
+            labels=False,
+            duplicates='drop'
+        )
+
+        # 计算每组收益
+        for g in range(n_quantiles):
+            group_data = date_data[date_data['group'] == g]
+
+            # 市值加权收益
+            weights = group_data['market_cap'] / group_data['market_cap'].sum()
+            portfolio_return = (group_data['return'] * weights).sum()
+
+            portfolios.append({
+                'date': date,
+                'group': g,
+                'return': portfolio_return,
+                'avg_factor': group_data[factor_name].mean()
+            })
+
+    return pd.DataFrame(portfolios)
+
+# 计算多空收益
+def calculate_long_short_return(portfolio_df):
+    """计算多空组合收益"""
+    long = portfolio_df[portfolio_df['group'] == portfolio_df['group'].max()]
+    short = portfolio_df[portfolio_df['group'] == portfolio_df['group'].min()]
+
+    long_short = long.merge(
+        short,
+        on='date',
+        suffixes=('_long', '_short')
+    )
+    long_short['ls_return'] = long_short['return_long'] - long_short['return_short']
+
+    return long_short
+```
+
+### 2. 多因子综合得分
+
+**方法**：
+1. 对每个因子进行标准化（Z-score）
+2. 按权重加权求和
+3. 按综合得分选股
+
+```python
+def calculate_multifactor_score(stock_data, factors, weights=None):
+    """
+    计算多因子综合得分
+
+    factors: list of factor column names
+    weights: dict of factor weights (default: equal weight)
+    """
+    if weights is None:
+        weights = {f: 1/len(factors) for f in factors}
+
+    # 标准化
+    for factor in factors:
+        stock_data[f'{factor}_z'] = (
+            stock_data[factor] - stock_data[factor].mean()
+        ) / stock_data[factor].std()
+
+    # 加权求和
+    stock_data['total_score'] = sum(
+        stock_data[f'{f}_z'] * weights.get(f, 0)
+        for f in factors
+    )
+
+    return stock_data
+
+# 使用示例
+factors = ['value', 'quality', 'momentum', 'low_vol']
+weights = {'value': 0.3, 'quality': 0.3, 'momentum': 0.2, 'low_vol': 0.2}
+
+stock_data = calculate_multifactor_score(stock_data, factors, weights)
+```
+
+### 3. 因子正交化
+
+**问题**：因子间可能存在相关性。
+
+**解决方法**：
+- 回归去除公共部分
+- 仅保留特有信息
+
+```python
+def orthogonalize_factor(factor, other_factors):
+    """
+    将因子对其他因子正交化
+
+    factor: 待正交化的因子
+    other_factors: 其他因子DataFrame
+    """
+    from sklearn.linear_model import LinearRegression
+
+    model = LinearRegression()
+    model.fit(other_factors, factor)
+
+    # 残差即为正交化后的因子
+    residual = factor - model.predict(other_factors)
+
+    return residual
+```
+
+---
+
+## 因子有效性检验
+
+### 1. 分组收益单调性
+
+有效的因子应该呈现收益单调性：
+- 高分组收益 > 中分组 > 低分组
+
+### 2. 信息系数（IC）
+
+```python
+def calculate_ic(factor, forward_return):
+    """
+    计算信息系数（因子与下期收益的相关系数）
+    """
+    ic = factor.corr(forward_return)
+    return ic
+
+# 平均IC和ICIR
+ic_series = []
+for date in dates:
+    ic = calculate_ic(factor_data.loc[date], returns_data.loc[date])
+    ic_series.append(ic)
+
+mean_ic = np.mean(ic_series)
+ic_ir = mean_ic / np.std(ic_series)
+
+print(f"平均IC: {mean_ic:.4f}")
+print(f"ICIR: {ic_ir:.4f}")
+```
+
+### 3. 因子换手率
+
+**高换手率的问题**：
+- 交易成本
+- 容量限制
+
+**优化**：
+- 引入换手率惩罚
+- 平滑因子（移动平均）
+
+---
+
+## 因子风险
+
+### 因子拥挤（Factor Crowding）
+
+**定义**：过多资金追逐同一因子，导致因子失效。
+
+**迹象**：
+- 因子波动增加
+- 回撤期延长
+- 与基本面脱钩
+
+### 因子失效
+
+**可能原因**：
+- 市场结构变化
+- 套利使溢价消失
+- 宏观经济环境变化
+
+### 应对策略
+
+1. **多因子分散**：不押注单一因子
+2. **动态权重**：根据因子表现调整权重
+3. **因子择时**：识别因子强弱周期
+
+---
+
+## Smart Beta
+
+### 概念
+
+**Smart Beta**：基于因子的被动投资策略。
+
+**vs 传统指数**：
+| 特征 | 市值加权指数 | Smart Beta |
+|------|-------------|-----------|
+| **加权方式** | 市值 | 因子得分 |
+| **目标** | 市场平均 | 因子溢价 |
+| **成本** | 低 | 中等 |
+| **透明度** | 高 | 高 |
+
+### 常见Smart Beta产品
+
+- 价值ETF（如：VTV）
+- 质量ETF（如：QUAL）
+- 低波动ETF（如：USMV）
+- 多因子ETF（如：iShares Edge MSCI Multifactor）
+
+---
+
+## 下一步
+
+- [Fama-French模型](/kb/quant/quant-oz17ev) - 模型详解
+- [多因子组合构建](/kb/quant/quant-8c5ecl) - 实践方法
+- [多因子选股模型实战](/kb/quant/quant-eb8kys) - 完整实现
+d:T25bd,# 因子投资概述
+
+> 从Fama-French到现代因子投资的演进
+
+---
+
+## 什么是因子？
+
+**因子**是解释股票收益差异的系统性风险源。
+
+### 类比理解
+
+想象股票投资是一场考试：
+- **总分** = 股票收益
+- **各科目成绩** = 各因子暴露
+- **科目难度** = 因子溢价
+
+有些"科目"（因子） historically 能持续带来超额收益。
+
+### 因子的特征
+
+| 特征 | 说明 |
+|------|------|
+| **系统性** | 影响大量股票，非个别公司特有 |
+| **持续性** | 长期存在，不是偶然现象 |
+| **可解释性** | 有经济学或行为学解释 |
+| **可投资性** | 能构建组合获得该因子暴露 |
+
+---
+
+## 经典因子
+
+### 1. 市场因子（Market）
+
+**定义**：整体市场相对于无风险资产的超额收益。
+
+```
+市场因子 = 市场收益 - 无风险利率
+```
+
+**解释**：
+- CAPM的核心
+- 承担市场系统性风险的回报
+- 所有股票的正向暴露
+
+### 2. 规模因子（Size）
+
+**定义**：小市值股票 vs 大市值股票的收益差。
+
+```
+SMB (Small Minus Big) = 小盘股收益 - 大盘股收益
+```
+
+**发现**：Banz (1981)
+- 小市值股票 historically 跑赢大市值
+- 可能是流动性补偿或风险补偿
+
+**实现方式**：
+- 做多小盘股，做空大盘股
+- 市值加权 vs 等权
+
+### 3. 价值因子（Value）
+
+**定义**：低估值股票 vs 高估值股票的收益差。
+
+```
+HML (High Minus Low) = 高BP股票收益 - 低BP股票收益
+```
+
+**度量指标**：
+- 账面市值比（B/P）
+- 市盈率（E/P）
+- 股息率
+
+**解释**：
+- **风险解释**：价值股风险更高
+- **行为解释**：投资者过度关注成长股
+
+**巴菲特的实践**：
+- 深度价值投资
+- 长期持有低估值优质企业
+
+### 4. 动量因子（Momentum）
+
+**定义**：过去表现好的股票继续跑赢。
+
+```
+UMD (Up Minus Down) = 赢家组合 - 输家组合
+```
+
+**实现方式**：
+- 基于过去12个月收益（排除最近1月）
+- 做多高动量，做空低动量
+
+**解释**：
+- **行为偏差**：反应不足、羊群效应
+- **信息不对称**：信息逐步扩散
+
+**风险提示**：
+- 动量崩溃（Momentum Crashes）
+- 反转风险
+
+### 5. 质量因子（Quality）
+
+**定义**：高质量公司 vs 低质量公司的收益差。
+
+**质量维度**：
+| 维度 | 指标 |
+|------|------|
+| **盈利能力** | ROE、ROA、毛利率 |
+| **盈利稳定性** | 盈利波动率 |
+| **成长性** | 盈利增长 |
+| **财务健康** | 低负债、高现金流 |
+| **投资效率** | 低资本支出/高回报 |
+
+**解释**：
+- 高质量公司风险更低
+- 市场可能低估了质量的长期价值
+
+### 6. 低波动因子（Low Volatility）
+
+**定义**：低波动股票跑赢高波动股票。
+
+**低波动异象**：
+- 传统理论：高风险高收益
+- 实证发现：低波动股票风险调整后收益更好
+
+**解释**：
+- 投资者偏好 lottery-like 高波动股票
+- 杠杆约束导致高波动股票被高估
+
+---
+
+## Fama-French模型演进
+
+### 三因子模型（1993）
+
+```
+E[R] - Rf = β_market × (Rm - Rf) + β_SMB × SMB + β_HML × HML
+```
+
+**CAPM的扩展**：
+- 加入规模因子
+- 加入价值因子
+
+### 五因子模型（2015）
+
+```
+E[R] - Rf = β_market × (Rm - Rf) + β_SMB × SMB + β_HML × HML
+           + β_RMW × RMW + β_CMA × CMA
+```
+
+**新增因子**：
+- **RMW (Robust Minus Weak)**：盈利能力因子
+- **CMA (Conservative Minus Aggressive)**：投资风格因子
+
+### 六因子模型（2018）
+
+加入**动量因子**。
+
+---
+
+## 因子的经济学解释
+
+### 风险基础解释
+
+**主张**：因子收益是对承担特定风险的补偿。
+
+**例子**：
+- 小盘股：流动性差、破产风险高
+- 价值股：财务困境风险、经营灵活性低
+- 高动量：崩盘风险
+
+### 行为金融解释
+
+**主张**：因子收益源于投资者行为偏差。
+
+| 偏差 | 影响 |
+|------|------|
+| **过度自信** | 推高成长股价格 |
+| **锚定效应** | 忽视基本面变化 |
+| **羊群效应** | 强化趋势 |
+| **处置效应** | 过早卖出赢家 |
+
+### 机构摩擦解释
+
+**主张**：机构限制导致因子溢价。
+
+- 杠杆约束
+- 短视行为
+- 跟踪误差限制
+- 职业担忧
+
+---
+
+## 因子实现方法
+
+### 1. 单因子组合构建
+
+**步骤**：
+1. 计算每只股票的因子得分
+2. 按得分排序分组（通常分10组）
+3. 做多高分组，做空低分组
+4. 等权或市值加权
+
+**Python示例**：
+```python
+import pandas as pd
+import numpy as np
+
+def construct_factor_portfolio(stock_data, factor_name, n_quantiles=10):
+    """
+    构建单因子组合
+
+    stock_data: DataFrame with columns ['stock', 'date', factor_name, 'market_cap']
+    """
+    portfolios = []
+
+    for date in stock_data['date'].unique():
+        date_data = stock_data[stock_data['date'] == date].copy()
+
+        # 按因子分组
+        date_data['group'] = pd.qcut(
+            date_data[factor_name],
+            n_quantiles,
+            labels=False,
+            duplicates='drop'
+        )
+
+        # 计算每组收益
+        for g in range(n_quantiles):
+            group_data = date_data[date_data['group'] == g]
+
+            # 市值加权收益
+            weights = group_data['market_cap'] / group_data['market_cap'].sum()
+            portfolio_return = (group_data['return'] * weights).sum()
+
+            portfolios.append({
+                'date': date,
+                'group': g,
+                'return': portfolio_return,
+                'avg_factor': group_data[factor_name].mean()
+            })
+
+    return pd.DataFrame(portfolios)
+
+# 计算多空收益
+def calculate_long_short_return(portfolio_df):
+    """计算多空组合收益"""
+    long = portfolio_df[portfolio_df['group'] == portfolio_df['group'].max()]
+    short = portfolio_df[portfolio_df['group'] == portfolio_df['group'].min()]
+
+    long_short = long.merge(
+        short,
+        on='date',
+        suffixes=('_long', '_short')
+    )
+    long_short['ls_return'] = long_short['return_long'] - long_short['return_short']
+
+    return long_short
+```
+
+### 2. 多因子综合得分
+
+**方法**：
+1. 对每个因子进行标准化（Z-score）
+2. 按权重加权求和
+3. 按综合得分选股
+
+```python
+def calculate_multifactor_score(stock_data, factors, weights=None):
+    """
+    计算多因子综合得分
+
+    factors: list of factor column names
+    weights: dict of factor weights (default: equal weight)
+    """
+    if weights is None:
+        weights = {f: 1/len(factors) for f in factors}
+
+    # 标准化
+    for factor in factors:
+        stock_data[f'{factor}_z'] = (
+            stock_data[factor] - stock_data[factor].mean()
+        ) / stock_data[factor].std()
+
+    # 加权求和
+    stock_data['total_score'] = sum(
+        stock_data[f'{f}_z'] * weights.get(f, 0)
+        for f in factors
+    )
+
+    return stock_data
+
+# 使用示例
+factors = ['value', 'quality', 'momentum', 'low_vol']
+weights = {'value': 0.3, 'quality': 0.3, 'momentum': 0.2, 'low_vol': 0.2}
+
+stock_data = calculate_multifactor_score(stock_data, factors, weights)
+```
+
+### 3. 因子正交化
+
+**问题**：因子间可能存在相关性。
+
+**解决方法**：
+- 回归去除公共部分
+- 仅保留特有信息
+
+```python
+def orthogonalize_factor(factor, other_factors):
+    """
+    将因子对其他因子正交化
+
+    factor: 待正交化的因子
+    other_factors: 其他因子DataFrame
+    """
+    from sklearn.linear_model import LinearRegression
+
+    model = LinearRegression()
+    model.fit(other_factors, factor)
+
+    # 残差即为正交化后的因子
+    residual = factor - model.predict(other_factors)
+
+    return residual
+```
+
+---
+
+## 因子有效性检验
+
+### 1. 分组收益单调性
+
+有效的因子应该呈现收益单调性：
+- 高分组收益 > 中分组 > 低分组
+
+### 2. 信息系数（IC）
+
+```python
+def calculate_ic(factor, forward_return):
+    """
+    计算信息系数（因子与下期收益的相关系数）
+    """
+    ic = factor.corr(forward_return)
+    return ic
+
+# 平均IC和ICIR
+ic_series = []
+for date in dates:
+    ic = calculate_ic(factor_data.loc[date], returns_data.loc[date])
+    ic_series.append(ic)
+
+mean_ic = np.mean(ic_series)
+ic_ir = mean_ic / np.std(ic_series)
+
+print(f"平均IC: {mean_ic:.4f}")
+print(f"ICIR: {ic_ir:.4f}")
+```
+
+### 3. 因子换手率
+
+**高换手率的问题**：
+- 交易成本
+- 容量限制
+
+**优化**：
+- 引入换手率惩罚
+- 平滑因子（移动平均）
+
+---
+
+## 因子风险
+
+### 因子拥挤（Factor Crowding）
+
+**定义**：过多资金追逐同一因子，导致因子失效。
+
+**迹象**：
+- 因子波动增加
+- 回撤期延长
+- 与基本面脱钩
+
+### 因子失效
+
+**可能原因**：
+- 市场结构变化
+- 套利使溢价消失
+- 宏观经济环境变化
+
+### 应对策略
+
+1. **多因子分散**：不押注单一因子
+2. **动态权重**：根据因子表现调整权重
+3. **因子择时**：识别因子强弱周期
+
+---
+
+## Smart Beta
+
+### 概念
+
+**Smart Beta**：基于因子的被动投资策略。
+
+**vs 传统指数**：
+| 特征 | 市值加权指数 | Smart Beta |
+|------|-------------|-----------|
+| **加权方式** | 市值 | 因子得分 |
+| **目标** | 市场平均 | 因子溢价 |
+| **成本** | 低 | 中等 |
+| **透明度** | 高 | 高 |
+
+### 常见Smart Beta产品
+
+- 价值ETF（如：VTV）
+- 质量ETF（如：QUAL）
+- 低波动ETF（如：USMV）
+- 多因子ETF（如：iShares Edge MSCI Multifactor）
+
+---
+
+## 下一步
+
+- [Fama-French模型](/kb/quant/quant-oz17ev) - 模型详解
+- [多因子组合构建](/kb/quant/quant-8c5ecl) - 实践方法
+- [多因子选股模型实战](/kb/quant/quant-eb8kys) - 完整实现
+2:["$","$Lb",null,{"document":{"slug":"doc-wdqzsd","title":"因子投资概述","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$c","filePath":"量化策略/因子投资概述.md","default":{"slug":"doc-wdqzsd","title":"因子投资概述","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$d","filePath":"量化策略/因子投资概述.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"因子投资概述 - Quant | Jerry Xu"}],["$","meta","3",{"name":"description","content":"因子投资概述"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}]]
+1:null

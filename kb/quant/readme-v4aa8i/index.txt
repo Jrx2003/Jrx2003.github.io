@@ -1,0 +1,200 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-b043129a42c3b49c.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],""]
+4:["category","quant","d"]
+5:["slug","readme-v4aa8i","d"]
+0:["ffk0ESDk0CTyiiGJbvRpT",[[["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","readme-v4aa8i","d"],{"children":["__PAGE__?{\"category\":\"quant\",\"slug\":\"readme-v4aa8i\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","readme-v4aa8i","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8fd3907a9da855dd.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js"],"default"]
+c:Tf47,# 风险管理
+
+> 量化交易的核心——控制风险，保住本金
+
+---
+
+## 目录说明
+
+本目录介绍量化交易中的风险管理方法。许多初学者只关注策略收益，而忽视了风险管理。事实上，风险管理是量化投资成功的关键——一个夏普比率 1.5 但风控完善的策略，往往比一个夏普比率 2.0 但风控缺失的策略更适合实盘。
+
+---
+
+## 核心内容
+
+### 风险度量基础
+- [风险类型概述](/kb/quant/doc-bja6j8) - 市场风险、信用风险、操作风险、流动性风险
+- [波动率与标准差](/kb/quant/doc-z64whj) - 最基础的风险度量
+- [Value at Risk](/kb/quant/doc-n3ppa) - VaR的定义、计算方法、优缺点
+- [Expected Shortfall](/kb/quant/doc-lupkua) - CVaR/ES，VaR的改进
+- [回撤指标](/kb/quant/doc-waagsn) - 最大回撤、平均回撤、回撤恢复时间
+- [尾部风险度量](/kb/quant/doc-jle669) - 偏度、峰度、极值理论
+
+### 组合风险管理
+- [组合优化理论](/kb/quant/doc-4ifwy1) - Markowitz均值-方差优化
+- [风险平价策略](/kb/quant/doc-z5vb8f) - 等风险贡献、波动率目标
+- [Black-Litterman模型](/kb/quant/doc-sk1qdb) - 融合先验观点
+- [风险预算](/kb/quant/doc-ch262n) - 主动分配风险敞口
+
+### 因子风险模型
+- [因子风险模型概述](/kb/quant/doc-pqfiq2) - 什么是因子风险模型
+- [Barra风险模型](/kb/quant/doc-w4vcw4) - 业界标准的因子模型
+- [统计风险模型](/kb/quant/doc-uurkhm) - PCA等统计方法
+- [风险分解](/kb/quant/doc-c6swad) - 系统性风险 vs 特异性风险
+
+### 极端风险管理
+- [压力测试](/kb/quant/doc-h25pcj) - 极端情景分析
+- [情景分析](/kb/quant/doc-4o7bt) - 历史情景与假设情景
+- [尾部风险管理](/kb/quant/doc-jhafa5) - 如何应对黑天鹅事件
+- [流动性风险管理](/kb/quant/doc-dl9gaz) - 流动性枯竭的风险
+
+### 风险监控与报告
+- [风险仪表盘](/kb/quant/doc-mbjm24) - 实时监控关键指标
+- [风险报告框架](/kb/quant/doc-ive8pv) - 定期风险评估
+- [风险限额设定](/kb/quant/doc-l6mbvb) - 止损、仓位限制
+
+---
+
+## 风险管理框架
+
+### 事前风险管理（Before Trade）
+1. **策略风险评估**: 回测中的最大回撤、波动率
+2. **仓位规划**: 单笔交易最大亏损、总仓位限制
+3. **压力测试**: 在历史极端行情下的表现
+
+### 事中风控（During Trade）
+1. **实时监控**: 持仓盈亏、风险敞口、希腊字母（期权）
+2. **预警系统**: 接近止损线时自动提醒
+3. **自动止损**: 达到止损条件自动平仓
+
+### 事后分析（After Trade）
+1. **盈亏归因**: 收益来自哪里？风险来自哪里？
+2. **策略健康度**: 策略是否还在正常运作？
+3. **参数再评估**: 是否需要调整策略参数？
+
+---
+
+## 关键风险指标速查
+
+| 指标 | 计算公式 | 健康范围 | 警戒线 |
+|------|----------|----------|--------|
+| 最大回撤 | (峰值-谷底)/峰值 | < 20% | > 30% |
+| 夏普比率 | (年化收益-无风险利率)/年化波动 | > 1.0 | < 0.5 |
+| 日VaR(95%) | 历史模拟或参数法 | < 账户2% | > 账户5% |
+| 波动率 | 收益率标准差×√252 | < 15% | > 25% |
+| 贝塔 | 组合收益与市场收益的协方差/市场方差 | 0.5-1.5 | <-0.5 或 >2 |
+
+---
+
+## 风险管理的常见误区
+
+1. **只看收益不看风险**: 高收益往往伴随高风险
+2. **止损设得太紧**: 频繁止损，累积亏损
+3. **过度分散**: 分散到相关性高的资产无效
+4. **忽视尾部风险**: 正态分布假设低估极端事件
+5. **风险指标误用**: VaR单独使用不充分
+
+---
+
+## 相关分类
+
+- [量化策略](/kb/quant/doc-scxe39) - 策略本身的风险特征
+- [回测与执行](/kb/quant/doc-byew7v) - 回测中的风险度量
+- [金融市场](/kb/quant/doc-jh7zgt) - 市场风险的来源
+- [实战案例](/kb/quant/doc-44corg) - 风险管理的实际应用
+d:Tf47,# 风险管理
+
+> 量化交易的核心——控制风险，保住本金
+
+---
+
+## 目录说明
+
+本目录介绍量化交易中的风险管理方法。许多初学者只关注策略收益，而忽视了风险管理。事实上，风险管理是量化投资成功的关键——一个夏普比率 1.5 但风控完善的策略，往往比一个夏普比率 2.0 但风控缺失的策略更适合实盘。
+
+---
+
+## 核心内容
+
+### 风险度量基础
+- [风险类型概述](/kb/quant/doc-bja6j8) - 市场风险、信用风险、操作风险、流动性风险
+- [波动率与标准差](/kb/quant/doc-z64whj) - 最基础的风险度量
+- [Value at Risk](/kb/quant/doc-n3ppa) - VaR的定义、计算方法、优缺点
+- [Expected Shortfall](/kb/quant/doc-lupkua) - CVaR/ES，VaR的改进
+- [回撤指标](/kb/quant/doc-waagsn) - 最大回撤、平均回撤、回撤恢复时间
+- [尾部风险度量](/kb/quant/doc-jle669) - 偏度、峰度、极值理论
+
+### 组合风险管理
+- [组合优化理论](/kb/quant/doc-4ifwy1) - Markowitz均值-方差优化
+- [风险平价策略](/kb/quant/doc-z5vb8f) - 等风险贡献、波动率目标
+- [Black-Litterman模型](/kb/quant/doc-sk1qdb) - 融合先验观点
+- [风险预算](/kb/quant/doc-ch262n) - 主动分配风险敞口
+
+### 因子风险模型
+- [因子风险模型概述](/kb/quant/doc-pqfiq2) - 什么是因子风险模型
+- [Barra风险模型](/kb/quant/doc-w4vcw4) - 业界标准的因子模型
+- [统计风险模型](/kb/quant/doc-uurkhm) - PCA等统计方法
+- [风险分解](/kb/quant/doc-c6swad) - 系统性风险 vs 特异性风险
+
+### 极端风险管理
+- [压力测试](/kb/quant/doc-h25pcj) - 极端情景分析
+- [情景分析](/kb/quant/doc-4o7bt) - 历史情景与假设情景
+- [尾部风险管理](/kb/quant/doc-jhafa5) - 如何应对黑天鹅事件
+- [流动性风险管理](/kb/quant/doc-dl9gaz) - 流动性枯竭的风险
+
+### 风险监控与报告
+- [风险仪表盘](/kb/quant/doc-mbjm24) - 实时监控关键指标
+- [风险报告框架](/kb/quant/doc-ive8pv) - 定期风险评估
+- [风险限额设定](/kb/quant/doc-l6mbvb) - 止损、仓位限制
+
+---
+
+## 风险管理框架
+
+### 事前风险管理（Before Trade）
+1. **策略风险评估**: 回测中的最大回撤、波动率
+2. **仓位规划**: 单笔交易最大亏损、总仓位限制
+3. **压力测试**: 在历史极端行情下的表现
+
+### 事中风控（During Trade）
+1. **实时监控**: 持仓盈亏、风险敞口、希腊字母（期权）
+2. **预警系统**: 接近止损线时自动提醒
+3. **自动止损**: 达到止损条件自动平仓
+
+### 事后分析（After Trade）
+1. **盈亏归因**: 收益来自哪里？风险来自哪里？
+2. **策略健康度**: 策略是否还在正常运作？
+3. **参数再评估**: 是否需要调整策略参数？
+
+---
+
+## 关键风险指标速查
+
+| 指标 | 计算公式 | 健康范围 | 警戒线 |
+|------|----------|----------|--------|
+| 最大回撤 | (峰值-谷底)/峰值 | < 20% | > 30% |
+| 夏普比率 | (年化收益-无风险利率)/年化波动 | > 1.0 | < 0.5 |
+| 日VaR(95%) | 历史模拟或参数法 | < 账户2% | > 账户5% |
+| 波动率 | 收益率标准差×√252 | < 15% | > 25% |
+| 贝塔 | 组合收益与市场收益的协方差/市场方差 | 0.5-1.5 | <-0.5 或 >2 |
+
+---
+
+## 风险管理的常见误区
+
+1. **只看收益不看风险**: 高收益往往伴随高风险
+2. **止损设得太紧**: 频繁止损，累积亏损
+3. **过度分散**: 分散到相关性高的资产无效
+4. **忽视尾部风险**: 正态分布假设低估极端事件
+5. **风险指标误用**: VaR单独使用不充分
+
+---
+
+## 相关分类
+
+- [量化策略](/kb/quant/doc-scxe39) - 策略本身的风险特征
+- [回测与执行](/kb/quant/doc-byew7v) - 回测中的风险度量
+- [金融市场](/kb/quant/doc-jh7zgt) - 市场风险的来源
+- [实战案例](/kb/quant/doc-44corg) - 风险管理的实际应用
+2:["$","$Lb",null,{"document":{"slug":"readme-v4aa8i","title":"README","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$c","filePath":"风险管理/README.md","default":{"slug":"readme-v4aa8i","title":"README","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$d","filePath":"风险管理/README.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"README - Quant | Jerry Xu"}],["$","meta","3",{"name":"description","content":"README"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}]]
+1:null

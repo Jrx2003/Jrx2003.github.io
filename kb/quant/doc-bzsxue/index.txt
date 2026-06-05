@@ -1,0 +1,532 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-b043129a42c3b49c.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],""]
+4:["category","quant","d"]
+5:["slug","doc-bzsxue","d"]
+0:["ffk0ESDk0CTyiiGJbvRpT",[[["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-bzsxue","d"],{"children":["__PAGE__?{\"category\":\"quant\",\"slug\":\"doc-bzsxue\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-bzsxue","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8fd3907a9da855dd.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js"],"default"]
+c:T1747,# 量化金融入门指南
+
+> 写给零基础的你：什么是量化？如何开始？
+
+---
+
+## 什么是量化金融？
+
+**量化金融（Quantitative Finance）** 是运用数学、统计学和计算机编程方法来解决金融问题的学科。
+
+简单来说：
+- **传统投资**：依靠人的经验、直觉、主观判断
+- **量化投资**：依靠数学模型、数据分析、算法执行
+
+### 类比理解
+
+| 传统方式 | 量化方式 |
+|---------|---------|
+| 老中医把脉 | 现代医学化验 |
+| 厨师凭感觉调味 | 精确到克的食谱 |
+| 老司机认路 | GPS导航 |
+
+量化就是给投资决策装上"GPS"——用数据和算法替代主观判断。
+
+---
+
+## 量化金融的主要领域
+
+### 1. 量化投资（Quantitative Investing）
+通过数学模型选择投资标的、确定仓位、执行交易。
+
+**例子**：
+- 发现"小市值股票长期跑赢大市值"
+- 编写程序筛选全市场市值最小的100只股票
+- 每月自动调仓
+
+### 2. 风险管理（Risk Management）
+量化度量和管理投资组合的风险。
+
+**例子**：
+- 计算投资组合的VaR（风险价值）
+- 监控组合的波动率和最大回撤
+- 当风险超标时自动减仓
+
+### 3. 衍生品定价（Derivatives Pricing）
+用数学模型计算期权、期货等衍生品的价格。
+
+**例子**：
+- 使用Black-Scholes模型计算期权价格
+- 发现市场价格与模型价格的偏离
+- 进行套利交易
+
+### 4. 算法交易（Algorithmic Trading）
+用计算机程序自动执行交易。
+
+**例子**：
+- 将大额订单拆分为多个小单
+- 在最佳时机和价格执行
+- 降低市场冲击成本
+
+---
+
+## 量化从业者类型
+
+### Q-Quant（卖方量化）
+主要在投资银行工作，负责衍生品定价、风险管理模型。
+
+**技能要求**：
+- 深厚的数学功底（随机微分方程、数值方法）
+- C++编程能力
+- 对金融产品的深入理解
+
+### P-Quant（买方量化）
+主要在基金、对冲基金工作，负责投资策略研究。
+
+**技能要求**：
+- 统计学和机器学习
+- Python/R编程
+- 数据处理和分析能力
+
+### 量化开发者（Quant Developer）
+负责将量化模型转化为生产系统。
+
+**技能要求**：
+- 系统编程（C++/Java）
+- 低延迟系统优化
+- 数据库和网络编程
+
+---
+
+## 学习路径：零基础如何入门
+
+### 阶段一：建立基础（2-3个月）
+
+#### 1. Python编程
+**为什么选Python？**
+- 简单易学
+- 量化生态最完善
+- 社区活跃
+
+**学习内容**：
+- 基础语法（变量、循环、函数）
+- 数据处理（pandas, numpy）
+- 可视化（matplotlib）
+
+**推荐资源**：
+- 《Python编程：从入门到实践》
+- Codecademy Python课程
+
+#### 2. 数学与统计基础
+**必须掌握**：
+- 概率论基础（期望、方差、分布）
+- 假设检验
+- 线性回归
+
+**进阶学习**：
+- 时间序列分析
+- 随机过程
+
+**推荐资源**：
+- 《深入浅出统计学》
+- Khan Academy统计课程
+
+#### 3. 金融基础
+**学习内容**：
+- 金融市场概述
+- 股票、债券、衍生品基础
+- 市场微观结构
+
+**推荐资源**：
+- 《漫步华尔街》
+- 《聪明的投资者》
+
+### 阶段二：策略学习（3-4个月）
+
+#### 1. 经典策略
+- 动量策略
+- 均值回归策略
+- 多因子选股
+
+#### 2. 回测方法
+- 如何正确回测
+- 避免过拟合
+- 交易成本建模
+
+#### 3. 风险管理
+- 风险度量
+- 组合优化
+- 仓位管理
+
+### 阶段三：实战进阶（持续）
+
+#### 1. 开发自己的策略
+- 寻找想法
+- 数据验证
+- 实盘测试
+
+#### 2. 系统搭建
+- 数据 pipeline
+- 自动化回测
+- 模拟交易
+
+---
+
+## 常见误区
+
+### ❌ 误区一：需要数学博士才能做量化
+**真相**：
+- 复杂的衍生品定价确实需要高深数学
+- 但简单的量化策略只需要高中数学
+- 关键是理解逻辑，不是推导公式
+
+### ❌ 误区二：一定能赚钱
+**真相**：
+- 量化只是工具，不是印钞机
+- 大部分策略在扣除成本后会失效
+- 持续盈利需要不断学习和调整
+
+### ❌ 误区三：需要昂贵的数据
+**真相**：
+- 免费数据（Yahoo Finance等）足以入门
+- 很多经典策略用免费数据就能验证
+- 数据质量比数量更重要
+
+### ❌ 误区四：模型越复杂越好
+**真相**：
+- 简单策略往往更稳健
+- 复杂模型容易过拟合
+- Occam's Razor：如无必要，勿增实体
+
+---
+
+## 推荐学习资源
+
+### 书籍
+
+**入门**：
+- 《量化投资：策略与技术》（丁鹏）
+- 《Python金融大数据分析》（Yves Hilpisch）
+- 《主动投资组合管理》（Grinold & Kahn）
+
+**进阶**：
+- 《Inside the Black Box》（Rishi Narang）
+- 《Advances in Financial Machine Learning》（Marcos López de Prado）
+- 《Quantitative Trading》（Ernest Chan）
+
+### 在线课程
+- Coursera: "Investment Management with Python and Machine Learning"
+- Udacity: "Artificial Intelligence for Trading"
+- Quantopian Lectures（已归档但仍可参考）
+
+### 网站与论坛
+- **QuantStart**: 量化学习资源
+- **SSRN**: 学术论文
+- **arXiv**: quant-finance板块
+- **雪球/集思录**: 国内量化社区
+
+---
+
+## 实践建议
+
+### 从小开始
+1. 先用模拟盘验证策略
+2. 小资金实盘测试
+3. 逐步增加资金
+
+### 记录一切
+- 交易日志
+- 策略版本
+- 想法和假设
+
+### 保持学习
+- 关注最新研究
+- 学习新工具
+- 参与社区讨论
+
+### 管理预期
+- 量化不是一夜暴富
+- 需要持续投入
+- 失败是常态，关键是迭代
+
+---
+
+## 下一步
+
+准备好开始了吗？建议按以下顺序学习：
+
+1. [Python编程基础](/kb/quant/doc-eztpi1) - 掌握工具
+2. [概率论与统计基础](/kb/quant/doc-uscqxp) - 掌握语言
+3. [金融市场概述](/kb/quant/doc-7x63fn) - 理解战场
+4. [因子投资概述](/kb/quant/doc-ymmpwm) - 学习第一个策略
+
+---
+
+**记住**：
+- 最好的开始时间是现在
+- 每天进步一点点
+- 实践是最好的老师
+
+祝你量化之旅顺利！
+d:T1747,# 量化金融入门指南
+
+> 写给零基础的你：什么是量化？如何开始？
+
+---
+
+## 什么是量化金融？
+
+**量化金融（Quantitative Finance）** 是运用数学、统计学和计算机编程方法来解决金融问题的学科。
+
+简单来说：
+- **传统投资**：依靠人的经验、直觉、主观判断
+- **量化投资**：依靠数学模型、数据分析、算法执行
+
+### 类比理解
+
+| 传统方式 | 量化方式 |
+|---------|---------|
+| 老中医把脉 | 现代医学化验 |
+| 厨师凭感觉调味 | 精确到克的食谱 |
+| 老司机认路 | GPS导航 |
+
+量化就是给投资决策装上"GPS"——用数据和算法替代主观判断。
+
+---
+
+## 量化金融的主要领域
+
+### 1. 量化投资（Quantitative Investing）
+通过数学模型选择投资标的、确定仓位、执行交易。
+
+**例子**：
+- 发现"小市值股票长期跑赢大市值"
+- 编写程序筛选全市场市值最小的100只股票
+- 每月自动调仓
+
+### 2. 风险管理（Risk Management）
+量化度量和管理投资组合的风险。
+
+**例子**：
+- 计算投资组合的VaR（风险价值）
+- 监控组合的波动率和最大回撤
+- 当风险超标时自动减仓
+
+### 3. 衍生品定价（Derivatives Pricing）
+用数学模型计算期权、期货等衍生品的价格。
+
+**例子**：
+- 使用Black-Scholes模型计算期权价格
+- 发现市场价格与模型价格的偏离
+- 进行套利交易
+
+### 4. 算法交易（Algorithmic Trading）
+用计算机程序自动执行交易。
+
+**例子**：
+- 将大额订单拆分为多个小单
+- 在最佳时机和价格执行
+- 降低市场冲击成本
+
+---
+
+## 量化从业者类型
+
+### Q-Quant（卖方量化）
+主要在投资银行工作，负责衍生品定价、风险管理模型。
+
+**技能要求**：
+- 深厚的数学功底（随机微分方程、数值方法）
+- C++编程能力
+- 对金融产品的深入理解
+
+### P-Quant（买方量化）
+主要在基金、对冲基金工作，负责投资策略研究。
+
+**技能要求**：
+- 统计学和机器学习
+- Python/R编程
+- 数据处理和分析能力
+
+### 量化开发者（Quant Developer）
+负责将量化模型转化为生产系统。
+
+**技能要求**：
+- 系统编程（C++/Java）
+- 低延迟系统优化
+- 数据库和网络编程
+
+---
+
+## 学习路径：零基础如何入门
+
+### 阶段一：建立基础（2-3个月）
+
+#### 1. Python编程
+**为什么选Python？**
+- 简单易学
+- 量化生态最完善
+- 社区活跃
+
+**学习内容**：
+- 基础语法（变量、循环、函数）
+- 数据处理（pandas, numpy）
+- 可视化（matplotlib）
+
+**推荐资源**：
+- 《Python编程：从入门到实践》
+- Codecademy Python课程
+
+#### 2. 数学与统计基础
+**必须掌握**：
+- 概率论基础（期望、方差、分布）
+- 假设检验
+- 线性回归
+
+**进阶学习**：
+- 时间序列分析
+- 随机过程
+
+**推荐资源**：
+- 《深入浅出统计学》
+- Khan Academy统计课程
+
+#### 3. 金融基础
+**学习内容**：
+- 金融市场概述
+- 股票、债券、衍生品基础
+- 市场微观结构
+
+**推荐资源**：
+- 《漫步华尔街》
+- 《聪明的投资者》
+
+### 阶段二：策略学习（3-4个月）
+
+#### 1. 经典策略
+- 动量策略
+- 均值回归策略
+- 多因子选股
+
+#### 2. 回测方法
+- 如何正确回测
+- 避免过拟合
+- 交易成本建模
+
+#### 3. 风险管理
+- 风险度量
+- 组合优化
+- 仓位管理
+
+### 阶段三：实战进阶（持续）
+
+#### 1. 开发自己的策略
+- 寻找想法
+- 数据验证
+- 实盘测试
+
+#### 2. 系统搭建
+- 数据 pipeline
+- 自动化回测
+- 模拟交易
+
+---
+
+## 常见误区
+
+### ❌ 误区一：需要数学博士才能做量化
+**真相**：
+- 复杂的衍生品定价确实需要高深数学
+- 但简单的量化策略只需要高中数学
+- 关键是理解逻辑，不是推导公式
+
+### ❌ 误区二：一定能赚钱
+**真相**：
+- 量化只是工具，不是印钞机
+- 大部分策略在扣除成本后会失效
+- 持续盈利需要不断学习和调整
+
+### ❌ 误区三：需要昂贵的数据
+**真相**：
+- 免费数据（Yahoo Finance等）足以入门
+- 很多经典策略用免费数据就能验证
+- 数据质量比数量更重要
+
+### ❌ 误区四：模型越复杂越好
+**真相**：
+- 简单策略往往更稳健
+- 复杂模型容易过拟合
+- Occam's Razor：如无必要，勿增实体
+
+---
+
+## 推荐学习资源
+
+### 书籍
+
+**入门**：
+- 《量化投资：策略与技术》（丁鹏）
+- 《Python金融大数据分析》（Yves Hilpisch）
+- 《主动投资组合管理》（Grinold & Kahn）
+
+**进阶**：
+- 《Inside the Black Box》（Rishi Narang）
+- 《Advances in Financial Machine Learning》（Marcos López de Prado）
+- 《Quantitative Trading》（Ernest Chan）
+
+### 在线课程
+- Coursera: "Investment Management with Python and Machine Learning"
+- Udacity: "Artificial Intelligence for Trading"
+- Quantopian Lectures（已归档但仍可参考）
+
+### 网站与论坛
+- **QuantStart**: 量化学习资源
+- **SSRN**: 学术论文
+- **arXiv**: quant-finance板块
+- **雪球/集思录**: 国内量化社区
+
+---
+
+## 实践建议
+
+### 从小开始
+1. 先用模拟盘验证策略
+2. 小资金实盘测试
+3. 逐步增加资金
+
+### 记录一切
+- 交易日志
+- 策略版本
+- 想法和假设
+
+### 保持学习
+- 关注最新研究
+- 学习新工具
+- 参与社区讨论
+
+### 管理预期
+- 量化不是一夜暴富
+- 需要持续投入
+- 失败是常态，关键是迭代
+
+---
+
+## 下一步
+
+准备好开始了吗？建议按以下顺序学习：
+
+1. [Python编程基础](/kb/quant/doc-eztpi1) - 掌握工具
+2. [概率论与统计基础](/kb/quant/doc-uscqxp) - 掌握语言
+3. [金融市场概述](/kb/quant/doc-7x63fn) - 理解战场
+4. [因子投资概述](/kb/quant/doc-ymmpwm) - 学习第一个策略
+
+---
+
+**记住**：
+- 最好的开始时间是现在
+- 每天进步一点点
+- 实践是最好的老师
+
+祝你量化之旅顺利！
+2:["$","$Lb",null,{"document":{"slug":"doc-bzsxue","title":"量化金融入门指南","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$c","filePath":"量化基础/量化金融入门指南.md","default":{"slug":"doc-bzsxue","title":"量化金融入门指南","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$d","filePath":"量化基础/量化金融入门指南.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"量化金融入门指南 - Quant | Jerry Xu"}],["$","meta","3",{"name":"description","content":"量化金融入门指南"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}]]
+1:null

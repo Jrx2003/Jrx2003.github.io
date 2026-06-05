@@ -1,0 +1,306 @@
+<!DOCTYPE html><html lang="zh-CN" class="dark scroll-smooth"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/8fd3907a9da855dd.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-b8a5b6732ed6ab9e.js"/><script src="/_next/static/chunks/fd9d1056-feaa03e4ba5b7f26.js" async=""></script><script src="/_next/static/chunks/7023-23d925299661e942.js" async=""></script><script src="/_next/static/chunks/main-app-3495942691d28830.js" async=""></script><script src="/_next/static/chunks/2015-af9c16aac7ff4ad0.js" async=""></script><script src="/_next/static/chunks/7138-b897b2ad3516dd35.js" async=""></script><script src="/_next/static/chunks/app/layout-cd1f76c760ed59d2.js" async=""></script><script src="/_next/static/chunks/app/not-found-b043129a42c3b49c.js" async=""></script><script src="/_next/static/chunks/8373-886bc01b77cafd14.js" async=""></script><script src="/_next/static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js" async=""></script><title>Python编程基础 - Quant | Jerry Xu</title><meta name="description" content="Python编程基础"/><meta name="author" content="Jerry Xu"/><meta name="keywords" content="Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript"/><meta property="og:title" content="Jerry Xu - 徐劼瑞"/><meta property="og:description" content="上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"/><meta property="og:site_name" content="Jerry Xu"/><meta property="og:locale" content="zh_CN"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Jerry Xu - 徐劼瑞"/><meta name="twitter:description" content="上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"/><script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script></head><body class="font-sans antialiased min-h-screen flex flex-col bg-background text-foreground"><header class="fixed top-0 left-0 right-0 z-50"><div class="mx-4 mt-4"><nav class="relative max-w-5xl mx-auto px-6 py-3 rounded-full glass border border-white/10 shadow-2xl shadow-purple-500/5" style="opacity:0;transform:translateY(-100px)"><div class="flex items-center justify-between"><a class="flex items-center gap-2 group" href="/"><div class="relative"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 text-white"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path d="M3 5h4"></path><path d="M17 19h4"></path></svg></div><div class="absolute inset-0 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div></div><span class="font-bold text-lg tracking-tight hidden sm:block text-foreground">Jerry</span></a><div class="hidden md:flex items-center gap-1"><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/">首页</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/about/">关于</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/resume/">简历</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/projects/">项目</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/kb/">知识库</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/blog/">博客</a></div><div class="flex items-center gap-2"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="hidden md:flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a><button class="md:hidden flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-5 h-5"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></div></nav></div></header><main class="flex-1"><div class="relative min-h-screen"><div class="fixed inset-0 gradient-bg -z-10"></div><div class="fixed inset-0 grid-pattern -z-10"></div><div class="relative z-10 py-32 px-4"><div class="max-w-4xl mx-auto"><div class="mb-8" style="opacity:0;transform:translateX(-20px)"><a class="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors" href="/kb/quant/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回 <!-- -->Quant</a></div><div class="mb-12" style="opacity:0;transform:translateY(20px)"><div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-muted-foreground"><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full glass"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-4 h-4"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>Quant</span><span class="inline-flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-4 h-4"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>13<!-- --> 分钟阅读</span></div><h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"><span class="gradient-text">Python编程基础</span></h1></div><div class="glass rounded-2xl p-6 md:p-10" style="opacity:0;transform:translateY(20px)"><article class="prose prose-invert prose-lg max-w-none"><h1 class="text-3xl font-bold mt-8 mb-4 pb-2 border-b border-white/10">Python编程基础</h1>
+<blockquote class="border-l-4 border-purple-500 pl-4 italic text-muted-foreground my-4">
+<p class="text-muted-foreground leading-relaxed mb-4">量化金融的核心工具——从零开始学习Python</p>
+</blockquote>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">为什么选择Python？</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">Python的优势</h3>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">优势</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">说明</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>简单易学</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">语法接近英语，适合初学者</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>生态丰富</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">有pandas、numpy等专业库</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>社区活跃</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">遇到问题容易找到答案</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>应用广泛</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">量化、数据分析、机器学习通用</td></tr></tbody></table></div>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">Python在量化中的角色</h3>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><strong>数据获取</strong>：从各种API获取金融数据</li>
+<li class="leading-relaxed"><strong>数据处理</strong>：清洗、转换、分析数据</li>
+<li class="leading-relaxed"><strong>策略实现</strong>：编写交易逻辑</li>
+<li class="leading-relaxed"><strong>回测验证</strong>：测试策略历史表现</li>
+<li class="leading-relaxed"><strong>可视化</strong>：绘制图表、展示结果</li>
+</ul>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">环境搭建</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">安装Anaconda（推荐）</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">Anaconda是Python的发行版，包含了数据科学常用的库。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>下载</strong>：<a href="https://www.anaconda.com/download" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">https://www.anaconda.com/download</a></p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>安装后验证</strong>：</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-bash text-sm font-mono">python --version
+# 应显示 Python 3.x.x
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">使用Jupyter Notebook</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">Jupyter是交互式编程环境，非常适合数据探索。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>启动方式</strong>：</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-bash text-sm font-mono">jupyter notebook
+</code></pre></pre>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>界面说明</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">单元格（Cell）：输入代码的地方</li>
+<li class="leading-relaxed">运行：Shift + Enter 执行当前单元格</li>
+<li class="leading-relaxed">保存：Ctrl + S</li>
+</ul>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">Python基础语法</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 变量与数据类型</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono"># 数字
+price = 100.5          # 浮点数
+quantity = 100         # 整数
+
+# 字符串
+stock_name = &quot;AAPL&quot;    # 股票代码
+
+# 列表（有序集合）
+prices = [100, 101, 102, 99, 98]
+
+# 字典（键值对）
+stock = {
+    &quot;code&quot;: &quot;AAPL&quot;,
+    &quot;price&quot;: 150.5,
+    &quot;volume&quot;: 1000000
+}
+
+# 布尔值
+is_rising = True       # 或 False
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 基本运算</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono"># 算术运算
+a = 10
+b = 3
+
+print(a + b)    # 13 (加法)
+print(a - b)    # 7  (减法)
+print(a * b)    # 30 (乘法)
+print(a / b)    # 3.333... (除法)
+print(a // b)   # 3  (整除)
+print(a % b)    # 1  (取余)
+print(a ** b)   # 1000 (幂运算)
+
+# 复合运算
+total = 0
+total += 10     # total = total + 10
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 条件语句</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">price = 150
+
+# if-else
+if price &gt; 200:
+    print(&quot;高价股&quot;)
+elif price &gt; 100:
+    print(&quot;中价股&quot;)    # 会执行这里
+else:
+    print(&quot;低价股&quot;)
+
+# 逻辑运算符
+if price &gt; 100 and price &lt; 200:
+    print(&quot;价格在100-200之间&quot;)
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">4. 循环</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono"># for循环
+prices = [100, 101, 102, 99, 98]
+
+for price in prices:
+    print(f&quot;当前价格: {price}&quot;)
+
+# while循环
+count = 0
+while count &lt; 5:
+    print(f&quot;计数: {count}&quot;)
+    count += 1
+
+# range函数
+for i in range(5):      # 0, 1, 2, 3, 4
+    print(i)
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">5. 函数</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono"># 定义函数
+def calculate_return(initial, final):
+    &quot;&quot;&quot;计算收益率&quot;&quot;&quot;
+    return (final - initial) / initial
+
+# 使用函数
+ret = calculate_return(100, 110)
+print(f&quot;收益率: {ret:.2%}&quot;)    # 收益率: 10.00%
+
+# 带默认参数的函数
+def calculate_sharpe(returns, risk_free_rate=0.02):
+    &quot;&quot;&quot;计算夏普比率（简化版）&quot;&quot;&quot;
+    excess_return = sum(returns) / len(returns) - risk_free_rate
+    volatility = (sum((r - sum(returns)/len(returns))**2 for r in returns) / len(returns)) ** 0.5
+    return excess_return / volatility
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">NumPy基础</h2>
+<p class="text-muted-foreground leading-relaxed mb-4">NumPy是Python数值计算的核心库，提供了高效的多维数组操作。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">安装与导入</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import numpy as np
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">创建数组</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono"># 从列表创建
+prices = np.array([100, 101, 102, 99, 98])
+
+# 创建特定数组
+zeros = np.zeros(5)           # [0, 0, 0, 0, 0]
+ones = np.ones(5)             # [1, 1, 1, 1, 1]
+range_arr = np.arange(0, 10, 2)   # [0, 2, 4, 6, 8]
+
+# 二维数组（矩阵）
+returns = np.array([
+    [0.01, 0.02, -0.01],
+    [0.02, -0.01, 0.01],
+    [-0.01, 0.01, 0.02]
+])
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">数组运算</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">prices = np.array([100, 101, 102, 99, 98])
+
+# 基本运算
+print(prices + 10)        # 每个元素加10
+print(prices * 2)         # 每个元素乘2
+print(prices ** 2)        # 每个元素平方
+
+# 统计运算
+print(np.mean(prices))    # 平均值
+print(np.std(prices))     # 标准差
+print(np.max(prices))     # 最大值
+print(np.min(prices))     # 最小值
+print(np.sum(prices))     # 求和
+
+# 收益率计算
+prices = np.array([100, 102, 99, 105, 103])
+returns = np.diff(prices) / prices[:-1]   # [0.02, -0.0294, 0.0606, -0.0190]
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">Pandas基础</h2>
+<p class="text-muted-foreground leading-relaxed mb-4">Pandas是Python数据分析的主力库，提供了DataFrame数据结构。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">安装与导入</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import pandas as pd
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">Series（一维数据）</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono"># 创建Series
+prices = pd.Series([100, 101, 102, 99, 98],
+                   index=[&#x27;2024-01-01&#x27;, &#x27;2024-01-02&#x27;, &#x27;2024-01-03&#x27;, &#x27;2024-01-04&#x27;, &#x27;2024-01-05&#x27;])
+
+print(prices)
+# 2024-01-01    100
+# 2024-01-02    101
+# ...
+
+# 访问数据
+print(prices[&#x27;2024-01-01&#x27;])      # 100
+print(prices[0])                  # 100 (位置索引)
+print(prices.mean())              # 平均值
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">DataFrame（二维数据）</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono"># 创建DataFrame
+data = {
+    &#x27;date&#x27;: [&#x27;2024-01-01&#x27;, &#x27;2024-01-02&#x27;, &#x27;2024-01-03&#x27;, &#x27;2024-01-04&#x27;, &#x27;2024-01-05&#x27;],
+    &#x27;open&#x27;: [100, 101, 102, 99, 98],
+    &#x27;close&#x27;: [101, 102, 99, 98, 100],
+    &#x27;volume&#x27;: [10000, 12000, 9000, 11000, 10500]
+}
+
+df = pd.DataFrame(data)
+print(df)
+
+# 查看数据
+print(df.head(3))         # 前3行
+print(df.tail(2))         # 后2行
+print(df.info())          # 数据信息
+print(df.describe())      # 统计描述
+
+# 选择列
+print(df[&#x27;close&#x27;])        # 选择close列
+print(df[&#x27;open&#x27;, &#x27;close&#x27;](/kb/quant/doc-ta3gr0))  # 选择多列
+
+# 选择行
+print(df.iloc[0])         # 第1行（位置索引）
+print(df.iloc[0:3])       # 前3行
+
+# 条件筛选
+high_volume = df[df[&#x27;volume&#x27;] &gt; 10000]
+print(high_volume)
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">数据操作</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono"># 添加新列
+df[&#x27;return&#x27;] = (df[&#x27;close&#x27;] - df[&#x27;open&#x27;]) / df[&#x27;open&#x27;]
+
+# 排序
+df_sorted = df.sort_values(&#x27;volume&#x27;, ascending=False)
+
+# 分组统计
+df.groupby(df[&#x27;date&#x27;].str[:7])[&#x27;volume&#x27;].mean()   # 按月统计平均成交量
+
+# 缺失值处理
+df.dropna()               # 删除缺失值
+df.fillna(0)              # 填充缺失值
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">实战：计算股票收益率</h2>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import pandas as pd
+import numpy as np
+
+# 模拟股票数据
+data = {
+    &#x27;date&#x27;: pd.date_range(&#x27;2024-01-01&#x27;, periods=20, freq=&#x27;B&#x27;),  # 20个交易日
+    &#x27;close&#x27;: [100, 102, 101, 103, 105, 104, 106, 108, 107, 109,
+              110, 108, 109, 111, 113, 112, 114, 115, 114, 116]
+}
+
+df = pd.DataFrame(data)
+
+# 计算日收益率
+df[&#x27;daily_return&#x27;] = df[&#x27;close&#x27;].pct_change()
+
+# 计算累计收益率
+df[&#x27;cumulative_return&#x27;] = (1 + df[&#x27;daily_return&#x27;]).cumprod() - 1
+
+# 计算移动平均
+df[&#x27;ma5&#x27;] = df[&#x27;close&#x27;].rolling(window=5).mean()
+df[&#x27;ma10&#x27;] = df[&#x27;close&#x27;].rolling(window=10).mean()
+
+# 统计指标
+print(&quot;日收益率统计:&quot;)
+print(f&quot;平均日收益: {df[&#x27;daily_return&#x27;].mean():.4f}&quot;)
+print(f&quot;日收益标准差: {df[&#x27;daily_return&#x27;].std():.4f}&quot;)
+print(f&quot;夏普比率(简化): {df[&#x27;daily_return&#x27;].mean() / df[&#x27;daily_return&#x27;].std():.4f}&quot;)
+
+print(&quot;\n累计收益率:&quot;, f&quot;{df[&#x27;cumulative_return&#x27;].iloc[-1]:.2%}&quot;)
+
+print(&quot;\n最后5行数据:&quot;)
+print(df.tail())
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">练习</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">练习1：基础计算</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">计算给定价格序列的简单收益率和对数收益率。</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">prices = [100, 102, 99, 105, 103, 107, 106]
+
+# 你的代码
+# 1. 计算简单收益率
+# 2. 计算对数收益率（提示：np.log）
+# 3. 计算平均收益率和波动率
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">练习2：DataFrame操作</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">创建一个包含多只股票的数据框，计算每只股票的统计指标。</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono"># 你的代码
+# 1. 创建包含AAPL、GOOGL、MSFT的DataFrame
+# 2. 每只股票的日收益率
+# 3. 计算每只股票的平均收益、波动率、最大回撤
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">练习3：策略回测框架</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">编写一个简单的双均线策略回测。</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono"># 你的代码
+# 1. 计算5日和20日移动平均线
+# 2. 当5日均线上穿20日均线时买入
+# 3. 当5日均线下穿20日均线时卖出
+# 4. 计算策略收益
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">下一步</h2>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><a href="/kb/quant/doc-v5jwp9" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">pandas与数据处理</a> - 深入学习数据处理</li>
+<li class="leading-relaxed"><a href="/kb/quant/doc-qjswnx" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">numpy与数值计算</a> - 高效数值运算</li>
+<li class="leading-relaxed"><a href="/kb/quant/doc-qp5yzw" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">向量化计算</a> - 提升代码效率</li>
+</ul>
+<hr class="border-white/10 my-8"/>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>学习资源</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">《Python编程：从入门到实践》</li>
+<li class="leading-relaxed">《Python for Data Analysis》（pandas作者）</li>
+<li class="leading-relaxed">pandas官方文档: <a href="https://pandas.pydata.org/docs/" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">https://pandas.pydata.org/docs/</a></li>
+</ul></article></div><div class="mt-12 flex items-center justify-between" style="opacity:0;transform:translateY(20px)"><a class="inline-flex items-center gap-2 px-6 py-3 rounded-full glass hover:bg-white/10 transition-colors" href="/kb/quant/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回列表</a></div></div></div></div></main><footer class="relative border-t border-white/5"><div class="absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"></div><div class="container relative py-16"><div class="grid grid-cols-1 md:grid-cols-4 gap-12"><div class="md:col-span-2 space-y-4"><a class="inline-block" href="/"><span class="text-2xl font-bold gradient-text">Jerry Xu</span></a><p class="text-muted-foreground max-w-sm">热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。</p><div class="flex items-center gap-4"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg><span>GitHub</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></div></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">导航</h4><ul class="space-y-3"><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/about/">关于</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/projects/">项目</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/kb/">知识库</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/blog/">博客</a></li></ul></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">联系方式</h4><ul class="space-y-3 text-sm"><li><a href="https://www.sjtu.edu.cn" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">上海交通大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li><a href="https://www.cuhk.edu.hk" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">即将前往香港中文大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li class="text-xs pt-2 text-muted-foreground">通过 GitHub 联系</li></ul></div></div><div class="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4"><p class="text-sm text-muted-foreground">© <!-- -->2026<!-- --> Jerry Xu. Built with<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg> and Next.js</p><p class="text-xs text-muted-foreground/60">Designed &amp; Developed by Jerry</p></div></div></footer><script src="/_next/static/chunks/webpack-b8a5b6732ed6ab9e.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/8fd3907a9da855dd.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"2:I[95751,[],\"\"]\n5:I[39275,[],\"\"]\n8:I[61343,[],\"\"]\n9:I[62782,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-cd1f76c760ed59d2.js\"],\"Header\"]\na:I[82446,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"9160\",\"static/chunks/app/not-found-b043129a42c3b49c.js\"],\"default\"]\nb:I[231,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-cd1f76c760ed59d2.js\"],\"\"]\nd:I[76130,[],\"\"]\n6:[\"category\",\"quant\",\"d\"]\n7:[\"slug\",\"python-1olybt\",\"d\"]\ne:[]\n"])</script><script>self.__next_f.push([1,"0:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/8fd3907a9da855dd.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L2\",null,{\"buildId\":\"ffk0ESDk0CTyiiGJbvRpT\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/kb/quant/python-1olybt/\",\"initialTree\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"quant\",\"d\"],{\"children\":[[\"slug\",\"python-1olybt\",\"d\"],{\"children\":[\"__PAGE__?{\\\"category\\\":\\\"quant\\\",\\\"slug\\\":\\\"python-1olybt\\\"}\",{}]}]}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"quant\",\"d\"],{\"children\":[[\"slug\",\"python-1olybt\",\"d\"],{\"children\":[\"__PAGE__\",{},[[\"$L3\",\"$L4\"],null],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\",\"$7\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[[\"$\",\"html\",null,{\"lang\":\"zh-CN\",\"className\":\"dark scroll-smooth\",\"children\":[\"$\",\"body\",null,{\"className\":\"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground\",\"children\":[[\"$\",\"$L9\",null,{}],[\"$\",\"main\",null,{\"className\":\"flex-1\",\"children\":[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[\"$\",\"$La\",null,{}],\"notFoundStyles\":[],\"styles\":null}]}],[\"$\",\"footer\",null,{\"className\":\"relative border-t border-white/5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none\"}],[\"$\",\"div\",null,{\"className\":\"container relative py-16\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 md:grid-cols-4 gap-12\",\"children\":[[\"$\",\"div\",null,{\"className\":\"md:col-span-2 space-y-4\",\"children\":[[\"$\",\"$Lb\",null,{\"href\":\"/\",\"className\":\"inline-block\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-2xl font-bold gradient-text\",\"children\":\"Jerry Xu\"}]}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground max-w-sm\",\"children\":\"热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。\"}],[\"$\",\"div\",null,{\"className\":\"flex items-center gap-4\",\"children\":[\"$\",\"a\",null,{\"href\":\"https://github.com/Jrx2003\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group\",\"children\":[[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-github w-4 h-4\",\"children\":[[\"$\",\"path\",\"tonef\",{\"d\":\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"}],[\"$\",\"path\",\"9comsn\",{\"d\":\"M9 18c-4.51 2-5-2-7-2\"}],\"$undefined\"]}],[\"$\",\"span\",null,{\"children\":\"GitHub\"}],[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"导航\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3\",\"children\":[[\"$\",\"li\",\"/about/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/about/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"关于\"}]}],[\"$\",\"li\",\"/projects/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/projects/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"项目\"}]}],[\"$\",\"li\",\"/kb/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/kb/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"知识库\"}]}],[\"$\",\"li\",\"/blog/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/blog/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"博客\"}]}]]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"联系方式\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3 text-sm\",\"children\":[[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.sjtu.edu.cn\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"上海交通大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.cuhk.edu.hk\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"即将前往香港中文大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"className\":\"text-xs pt-2 text-muted-foreground\",\"children\":\"通过 GitHub 联系\"}]]}]]}]]}],[\"$\",\"div\",null,{\"className\":\"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-sm text-muted-foreground\",\"children\":[\"© \",2026,\" Jerry Xu. Built with\",\" \",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500\",\"children\":[[\"$\",\"path\",\"c3ymky\",{\"d\":\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"}],\"$undefined\"]}],\" and Next.js\"]}],[\"$\",\"p\",null,{\"className\":\"text-xs text-muted-foreground/60\",\"children\":\"Designed \u0026 Developed by Jerry\"}]]}]]}]]}]]}]}],null],null],\"couldBeIntercepted\":false,\"initialHead\":[false,\"$Lc\"],\"globalErrorComponent\":\"$d\",\"missingSlots\":\"$We\"}]]\n"])</script><script>self.__next_f.push([1,"f:I[66006,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"8373\",\"static/chunks/8373-886bc01b77cafd14.js\",\"7438\",\"static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js\"],\"default\"]\n10:T200f,"])</script><script>self.__next_f.push([1,"# Python编程基础\n\n\u003e 量化金融的核心工具——从零开始学习Python\n\n---\n\n## 为什么选择Python？\n\n### Python的优势\n\n| 优势 | 说明 |\n|------|------|\n| **简单易学** | 语法接近英语，适合初学者 |\n| **生态丰富** | 有pandas、numpy等专业库 |\n| **社区活跃** | 遇到问题容易找到答案 |\n| **应用广泛** | 量化、数据分析、机器学习通用 |\n\n### Python在量化中的角色\n- **数据获取**：从各种API获取金融数据\n- **数据处理**：清洗、转换、分析数据\n- **策略实现**：编写交易逻辑\n- **回测验证**：测试策略历史表现\n- **可视化**：绘制图表、展示结果\n\n---\n\n## 环境搭建\n\n### 安装Anaconda（推荐）\nAnaconda是Python的发行版，包含了数据科学常用的库。\n\n**下载**：https://www.anaconda.com/download\n\n**安装后验证**：\n```bash\npython --version\n# 应显示 Python 3.x.x\n```\n\n### 使用Jupyter Notebook\nJupyter是交互式编程环境，非常适合数据探索。\n\n**启动方式**：\n```bash\njupyter notebook\n```\n\n**界面说明**：\n- 单元格（Cell）：输入代码的地方\n- 运行：Shift + Enter 执行当前单元格\n- 保存：Ctrl + S\n\n---\n\n## Python基础语法\n\n### 1. 变量与数据类型\n\n```python\n# 数字\nprice = 100.5          # 浮点数\nquantity = 100         # 整数\n\n# 字符串\nstock_name = \"AAPL\"    # 股票代码\n\n# 列表（有序集合）\nprices = [100, 101, 102, 99, 98]\n\n# 字典（键值对）\nstock = {\n    \"code\": \"AAPL\",\n    \"price\": 150.5,\n    \"volume\": 1000000\n}\n\n# 布尔值\nis_rising = True       # 或 False\n```\n\n### 2. 基本运算\n\n```python\n# 算术运算\na = 10\nb = 3\n\nprint(a + b)    # 13 (加法)\nprint(a - b)    # 7  (减法)\nprint(a * b)    # 30 (乘法)\nprint(a / b)    # 3.333... (除法)\nprint(a // b)   # 3  (整除)\nprint(a % b)    # 1  (取余)\nprint(a ** b)   # 1000 (幂运算)\n\n# 复合运算\ntotal = 0\ntotal += 10     # total = total + 10\n```\n\n### 3. 条件语句\n\n```python\nprice = 150\n\n# if-else\nif price \u003e 200:\n    print(\"高价股\")\nelif price \u003e 100:\n    print(\"中价股\")    # 会执行这里\nelse:\n    print(\"低价股\")\n\n# 逻辑运算符\nif price \u003e 100 and price \u003c 200:\n    print(\"价格在100-200之间\")\n```\n\n### 4. 循环\n\n```python\n# for循环\nprices = [100, 101, 102, 99, 98]\n\nfor price in prices:\n    print(f\"当前价格: {price}\")\n\n# while循环\ncount = 0\nwhile count \u003c 5:\n    print(f\"计数: {count}\")\n    count += 1\n\n# range函数\nfor i in range(5):      # 0, 1, 2, 3, 4\n    print(i)\n```\n\n### 5. 函数\n\n```python\n# 定义函数\ndef calculate_return(initial, final):\n    \"\"\"计算收益率\"\"\"\n    return (final - initial) / initial\n\n# 使用函数\nret = calculate_return(100, 110)\nprint(f\"收益率: {ret:.2%}\")    # 收益率: 10.00%\n\n# 带默认参数的函数\ndef calculate_sharpe(returns, risk_free_rate=0.02):\n    \"\"\"计算夏普比率（简化版）\"\"\"\n    excess_return = sum(returns) / len(returns) - risk_free_rate\n    volatility = (sum((r - sum(returns)/len(returns))**2 for r in returns) / len(returns)) ** 0.5\n    return excess_return / volatility\n```\n\n---\n\n## NumPy基础\n\nNumPy是Python数值计算的核心库，提供了高效的多维数组操作。\n\n### 安装与导入\n```python\nimport numpy as np\n```\n\n### 创建数组\n```python\n# 从列表创建\nprices = np.array([100, 101, 102, 99, 98])\n\n# 创建特定数组\nzeros = np.zeros(5)           # [0, 0, 0, 0, 0]\nones = np.ones(5)             # [1, 1, 1, 1, 1]\nrange_arr = np.arange(0, 10, 2)   # [0, 2, 4, 6, 8]\n\n# 二维数组（矩阵）\nreturns = np.array([\n    [0.01, 0.02, -0.01],\n    [0.02, -0.01, 0.01],\n    [-0.01, 0.01, 0.02]\n])\n```\n\n### 数组运算\n```python\nprices = np.array([100, 101, 102, 99, 98])\n\n# 基本运算\nprint(prices + 10)        # 每个元素加10\nprint(prices * 2)         # 每个元素乘2\nprint(prices ** 2)        # 每个元素平方\n\n# 统计运算\nprint(np.mean(prices))    # 平均值\nprint(np.std(prices))     # 标准差\nprint(np.max(prices))     # 最大值\nprint(np.min(prices))     # 最小值\nprint(np.sum(prices))     # 求和\n\n# 收益率计算\nprices = np.array([100, 102, 99, 105, 103])\nreturns = np.diff(prices) / prices[:-1]   # [0.02, -0.0294, 0.0606, -0.0190]\n```\n\n---\n\n## Pandas基础\n\nPandas是Python数据分析的主力库，提供了DataFrame数据结构。\n\n### 安装与导入\n```python\nimport pandas as pd\n```\n\n### Series（一维数据）\n```python\n# 创建Series\nprices = pd.Series([100, 101, 102, 99, 98],\n                   index=['2024-01-01', '2024-01-02', '2024-01-03', '2024-01-04', '2024-01-05'])\n\nprint(prices)\n# 2024-01-01    100\n# 2024-01-02    101\n# ...\n\n# 访问数据\nprint(prices['2024-01-01'])      # 100\nprint(prices[0])                  # 100 (位置索引)\nprint(prices.mean())              # 平均值\n```\n\n### DataFrame（二维数据）\n```python\n# 创建DataFrame\ndata = {\n    'date': ['2024-01-01', '2024-01-02', '2024-01-03', '2024-01-04', '2024-01-05'],\n    'open': [100, 101, 102, 99, 98],\n    'close': [101, 102, 99, 98, 100],\n    'volume': [10000, 12000, 9000, 11000, 10500]\n}\n\ndf = pd.DataFrame(data)\nprint(df)\n\n# 查看数据\nprint(df.head(3))         # 前3行\nprint(df.tail(2))         # 后2行\nprint(df.info())          # 数据信息\nprint(df.describe())      # 统计描述\n\n# 选择列\nprint(df['close'])        # 选择close列\nprint(df['open', 'close'](/kb/quant/doc-ta3gr0))  # 选择多列\n\n# 选择行\nprint(df.iloc[0])         # 第1行（位置索引）\nprint(df.iloc[0:3])       # 前3行\n\n# 条件筛选\nhigh_volume = df[df['volume'] \u003e 10000]\nprint(high_volume)\n```\n\n### 数据操作\n```python\n# 添加新列\ndf['return'] = (df['close'] - df['open']) / df['open']\n\n# 排序\ndf_sorted = df.sort_values('volume', ascending=False)\n\n# 分组统计\ndf.groupby(df['date'].str[:7])['volume'].mean()   # 按月统计平均成交量\n\n# 缺失值处理\ndf.dropna()               # 删除缺失值\ndf.fillna(0)              # 填充缺失值\n```\n\n---\n\n## 实战：计算股票收益率\n\n```python\nimport pandas as pd\nimport numpy as np\n\n# 模拟股票数据\ndata = {\n    'date': pd.date_range('2024-01-01', periods=20, freq='B'),  # 20个交易日\n    'close': [100, 102, 101, 103, 105, 104, 106, 108, 107, 109,\n              110, 108, 109, 111, 113, 112, 114, 115, 114, 116]\n}\n\ndf = pd.DataFrame(data)\n\n# 计算日收益率\ndf['daily_return'] = df['close'].pct_change()\n\n# 计算累计收益率\ndf['cumulative_return'] = (1 + df['daily_return']).cumprod() - 1\n\n# 计算移动平均\ndf['ma5'] = df['close'].rolling(window=5).mean()\ndf['ma10'] = df['close'].rolling(window=10).mean()\n\n# 统计指标\nprint(\"日收益率统计:\")\nprint(f\"平均日收益: {df['daily_return'].mean():.4f}\")\nprint(f\"日收益标准差: {df['daily_return'].std():.4f}\")\nprint(f\"夏普比率(简化): {df['daily_return'].mean() / df['daily_return'].std():.4f}\")\n\nprint(\"\\n累计收益率:\", f\"{df['cumulative_return'].iloc[-1]:.2%}\")\n\nprint(\"\\n最后5行数据:\")\nprint(df.tail())\n```\n\n---\n\n## 练习\n\n### 练习1：基础计算\n计算给定价格序列的简单收益率和对数收益率。\n\n```python\nprices = [100, 102, 99, 105, 103, 107, 106]\n\n# 你的代码\n# 1. 计算简单收益率\n# 2. 计算对数收益率（提示：np.log）\n# 3. 计算平均收益率和波动率\n```\n\n### 练习2：DataFrame操作\n创建一个包含多只股票的数据框，计算每只股票的统计指标。\n\n```python\n# 你的代码\n# 1. 创建包含AAPL、GOOGL、MSFT的DataFrame\n# 2. 每只股票的日收益率\n# 3. 计算每只股票的平均收益、波动率、最大回撤\n```\n\n### 练习3：策略回测框架\n编写一个简单的双均线策略回测。\n\n```python\n# 你的代码\n# 1. 计算5日和20日移动平均线\n# 2. 当5日均线上穿20日均线时买入\n# 3. 当5日均线下穿20日均线时卖出\n# 4. 计算策略收益\n```\n\n---\n\n## 下一步\n\n- [pandas与数据处理](/kb/quant/doc-v5jwp9) - 深入学习数据处理\n- [numpy与数值计算](/kb/quant/doc-qjswnx) - 高效数值运算\n- [向量化计算](/kb/quant/doc-qp5yzw) - 提升代码效率\n\n---\n\n**学习资源**：\n- 《Python编程：从入门到实践》\n- 《Python for Data Analysis》（pandas作者）\n- pandas官方文档: https://pandas.pydata.org/docs/\n"])</script><script>self.__next_f.push([1,"11:T200f,"])</script><script>self.__next_f.push([1,"# Python编程基础\n\n\u003e 量化金融的核心工具——从零开始学习Python\n\n---\n\n## 为什么选择Python？\n\n### Python的优势\n\n| 优势 | 说明 |\n|------|------|\n| **简单易学** | 语法接近英语，适合初学者 |\n| **生态丰富** | 有pandas、numpy等专业库 |\n| **社区活跃** | 遇到问题容易找到答案 |\n| **应用广泛** | 量化、数据分析、机器学习通用 |\n\n### Python在量化中的角色\n- **数据获取**：从各种API获取金融数据\n- **数据处理**：清洗、转换、分析数据\n- **策略实现**：编写交易逻辑\n- **回测验证**：测试策略历史表现\n- **可视化**：绘制图表、展示结果\n\n---\n\n## 环境搭建\n\n### 安装Anaconda（推荐）\nAnaconda是Python的发行版，包含了数据科学常用的库。\n\n**下载**：https://www.anaconda.com/download\n\n**安装后验证**：\n```bash\npython --version\n# 应显示 Python 3.x.x\n```\n\n### 使用Jupyter Notebook\nJupyter是交互式编程环境，非常适合数据探索。\n\n**启动方式**：\n```bash\njupyter notebook\n```\n\n**界面说明**：\n- 单元格（Cell）：输入代码的地方\n- 运行：Shift + Enter 执行当前单元格\n- 保存：Ctrl + S\n\n---\n\n## Python基础语法\n\n### 1. 变量与数据类型\n\n```python\n# 数字\nprice = 100.5          # 浮点数\nquantity = 100         # 整数\n\n# 字符串\nstock_name = \"AAPL\"    # 股票代码\n\n# 列表（有序集合）\nprices = [100, 101, 102, 99, 98]\n\n# 字典（键值对）\nstock = {\n    \"code\": \"AAPL\",\n    \"price\": 150.5,\n    \"volume\": 1000000\n}\n\n# 布尔值\nis_rising = True       # 或 False\n```\n\n### 2. 基本运算\n\n```python\n# 算术运算\na = 10\nb = 3\n\nprint(a + b)    # 13 (加法)\nprint(a - b)    # 7  (减法)\nprint(a * b)    # 30 (乘法)\nprint(a / b)    # 3.333... (除法)\nprint(a // b)   # 3  (整除)\nprint(a % b)    # 1  (取余)\nprint(a ** b)   # 1000 (幂运算)\n\n# 复合运算\ntotal = 0\ntotal += 10     # total = total + 10\n```\n\n### 3. 条件语句\n\n```python\nprice = 150\n\n# if-else\nif price \u003e 200:\n    print(\"高价股\")\nelif price \u003e 100:\n    print(\"中价股\")    # 会执行这里\nelse:\n    print(\"低价股\")\n\n# 逻辑运算符\nif price \u003e 100 and price \u003c 200:\n    print(\"价格在100-200之间\")\n```\n\n### 4. 循环\n\n```python\n# for循环\nprices = [100, 101, 102, 99, 98]\n\nfor price in prices:\n    print(f\"当前价格: {price}\")\n\n# while循环\ncount = 0\nwhile count \u003c 5:\n    print(f\"计数: {count}\")\n    count += 1\n\n# range函数\nfor i in range(5):      # 0, 1, 2, 3, 4\n    print(i)\n```\n\n### 5. 函数\n\n```python\n# 定义函数\ndef calculate_return(initial, final):\n    \"\"\"计算收益率\"\"\"\n    return (final - initial) / initial\n\n# 使用函数\nret = calculate_return(100, 110)\nprint(f\"收益率: {ret:.2%}\")    # 收益率: 10.00%\n\n# 带默认参数的函数\ndef calculate_sharpe(returns, risk_free_rate=0.02):\n    \"\"\"计算夏普比率（简化版）\"\"\"\n    excess_return = sum(returns) / len(returns) - risk_free_rate\n    volatility = (sum((r - sum(returns)/len(returns))**2 for r in returns) / len(returns)) ** 0.5\n    return excess_return / volatility\n```\n\n---\n\n## NumPy基础\n\nNumPy是Python数值计算的核心库，提供了高效的多维数组操作。\n\n### 安装与导入\n```python\nimport numpy as np\n```\n\n### 创建数组\n```python\n# 从列表创建\nprices = np.array([100, 101, 102, 99, 98])\n\n# 创建特定数组\nzeros = np.zeros(5)           # [0, 0, 0, 0, 0]\nones = np.ones(5)             # [1, 1, 1, 1, 1]\nrange_arr = np.arange(0, 10, 2)   # [0, 2, 4, 6, 8]\n\n# 二维数组（矩阵）\nreturns = np.array([\n    [0.01, 0.02, -0.01],\n    [0.02, -0.01, 0.01],\n    [-0.01, 0.01, 0.02]\n])\n```\n\n### 数组运算\n```python\nprices = np.array([100, 101, 102, 99, 98])\n\n# 基本运算\nprint(prices + 10)        # 每个元素加10\nprint(prices * 2)         # 每个元素乘2\nprint(prices ** 2)        # 每个元素平方\n\n# 统计运算\nprint(np.mean(prices))    # 平均值\nprint(np.std(prices))     # 标准差\nprint(np.max(prices))     # 最大值\nprint(np.min(prices))     # 最小值\nprint(np.sum(prices))     # 求和\n\n# 收益率计算\nprices = np.array([100, 102, 99, 105, 103])\nreturns = np.diff(prices) / prices[:-1]   # [0.02, -0.0294, 0.0606, -0.0190]\n```\n\n---\n\n## Pandas基础\n\nPandas是Python数据分析的主力库，提供了DataFrame数据结构。\n\n### 安装与导入\n```python\nimport pandas as pd\n```\n\n### Series（一维数据）\n```python\n# 创建Series\nprices = pd.Series([100, 101, 102, 99, 98],\n                   index=['2024-01-01', '2024-01-02', '2024-01-03', '2024-01-04', '2024-01-05'])\n\nprint(prices)\n# 2024-01-01    100\n# 2024-01-02    101\n# ...\n\n# 访问数据\nprint(prices['2024-01-01'])      # 100\nprint(prices[0])                  # 100 (位置索引)\nprint(prices.mean())              # 平均值\n```\n\n### DataFrame（二维数据）\n```python\n# 创建DataFrame\ndata = {\n    'date': ['2024-01-01', '2024-01-02', '2024-01-03', '2024-01-04', '2024-01-05'],\n    'open': [100, 101, 102, 99, 98],\n    'close': [101, 102, 99, 98, 100],\n    'volume': [10000, 12000, 9000, 11000, 10500]\n}\n\ndf = pd.DataFrame(data)\nprint(df)\n\n# 查看数据\nprint(df.head(3))         # 前3行\nprint(df.tail(2))         # 后2行\nprint(df.info())          # 数据信息\nprint(df.describe())      # 统计描述\n\n# 选择列\nprint(df['close'])        # 选择close列\nprint(df['open', 'close'](/kb/quant/doc-ta3gr0))  # 选择多列\n\n# 选择行\nprint(df.iloc[0])         # 第1行（位置索引）\nprint(df.iloc[0:3])       # 前3行\n\n# 条件筛选\nhigh_volume = df[df['volume'] \u003e 10000]\nprint(high_volume)\n```\n\n### 数据操作\n```python\n# 添加新列\ndf['return'] = (df['close'] - df['open']) / df['open']\n\n# 排序\ndf_sorted = df.sort_values('volume', ascending=False)\n\n# 分组统计\ndf.groupby(df['date'].str[:7])['volume'].mean()   # 按月统计平均成交量\n\n# 缺失值处理\ndf.dropna()               # 删除缺失值\ndf.fillna(0)              # 填充缺失值\n```\n\n---\n\n## 实战：计算股票收益率\n\n```python\nimport pandas as pd\nimport numpy as np\n\n# 模拟股票数据\ndata = {\n    'date': pd.date_range('2024-01-01', periods=20, freq='B'),  # 20个交易日\n    'close': [100, 102, 101, 103, 105, 104, 106, 108, 107, 109,\n              110, 108, 109, 111, 113, 112, 114, 115, 114, 116]\n}\n\ndf = pd.DataFrame(data)\n\n# 计算日收益率\ndf['daily_return'] = df['close'].pct_change()\n\n# 计算累计收益率\ndf['cumulative_return'] = (1 + df['daily_return']).cumprod() - 1\n\n# 计算移动平均\ndf['ma5'] = df['close'].rolling(window=5).mean()\ndf['ma10'] = df['close'].rolling(window=10).mean()\n\n# 统计指标\nprint(\"日收益率统计:\")\nprint(f\"平均日收益: {df['daily_return'].mean():.4f}\")\nprint(f\"日收益标准差: {df['daily_return'].std():.4f}\")\nprint(f\"夏普比率(简化): {df['daily_return'].mean() / df['daily_return'].std():.4f}\")\n\nprint(\"\\n累计收益率:\", f\"{df['cumulative_return'].iloc[-1]:.2%}\")\n\nprint(\"\\n最后5行数据:\")\nprint(df.tail())\n```\n\n---\n\n## 练习\n\n### 练习1：基础计算\n计算给定价格序列的简单收益率和对数收益率。\n\n```python\nprices = [100, 102, 99, 105, 103, 107, 106]\n\n# 你的代码\n# 1. 计算简单收益率\n# 2. 计算对数收益率（提示：np.log）\n# 3. 计算平均收益率和波动率\n```\n\n### 练习2：DataFrame操作\n创建一个包含多只股票的数据框，计算每只股票的统计指标。\n\n```python\n# 你的代码\n# 1. 创建包含AAPL、GOOGL、MSFT的DataFrame\n# 2. 每只股票的日收益率\n# 3. 计算每只股票的平均收益、波动率、最大回撤\n```\n\n### 练习3：策略回测框架\n编写一个简单的双均线策略回测。\n\n```python\n# 你的代码\n# 1. 计算5日和20日移动平均线\n# 2. 当5日均线上穿20日均线时买入\n# 3. 当5日均线下穿20日均线时卖出\n# 4. 计算策略收益\n```\n\n---\n\n## 下一步\n\n- [pandas与数据处理](/kb/quant/doc-v5jwp9) - 深入学习数据处理\n- [numpy与数值计算](/kb/quant/doc-qjswnx) - 高效数值运算\n- [向量化计算](/kb/quant/doc-qp5yzw) - 提升代码效率\n\n---\n\n**学习资源**：\n- 《Python编程：从入门到实践》\n- 《Python for Data Analysis》（pandas作者）\n- pandas官方文档: https://pandas.pydata.org/docs/\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"$Lf\",null,{\"document\":{\"slug\":\"python-1olybt\",\"title\":\"Python编程基础\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"Quant\",\"categoryId\":\"quant\",\"content\":\"$10\",\"filePath\":\"量化基础/Python编程基础.md\",\"default\":{\"slug\":\"python-1olybt\",\"title\":\"Python编程基础\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"Quant\",\"categoryId\":\"quant\",\"content\":\"$11\",\"filePath\":\"量化基础/Python编程基础.md\"}}}]\nc:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"Python编程基础 - Quant | Jerry Xu\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"Python编程基础\"}],[\"$\",\"meta\",\"4\",{\"name\":\"author\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"5\",{\"name\":\"keywords\",\"content\":\"Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:description\",\"content\":\"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:site_name\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:locale\",\"content\":\"zh_CN\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:description\",\"content\":\"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程\"}]]\n3:null\n"])</script></body></html>

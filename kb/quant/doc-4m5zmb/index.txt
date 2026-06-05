@@ -1,0 +1,804 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-b043129a42c3b49c.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],""]
+4:["category","quant","d"]
+5:["slug","doc-4m5zmb","d"]
+0:["ffk0ESDk0CTyiiGJbvRpT",[[["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-4m5zmb","d"],{"children":["__PAGE__?{\"category\":\"quant\",\"slug\":\"doc-4m5zmb\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-4m5zmb","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8fd3907a9da855dd.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js"],"default"]
+c:T2c33,# 双均线策略实战
+
+> 最简单的趋势跟踪策略——金叉买入，死叉卖出
+
+---
+
+## 策略概述
+
+### 策略逻辑
+
+**核心思想**：短期趋势向上突破长期趋势时买入，向下突破时卖出。
+
+**直观理解**：
+- **短期均线（快线）**：反映近期价格动向
+- **长期均线（慢线）**：反映中长期趋势
+- **金叉**：快线突破慢线 → 趋势向上 → 买入
+- **死叉**：快线跌破慢线 → 趋势向下 → 卖出
+
+### 策略参数
+
+| 参数 | 默认值 | 说明 |
+|------|--------|------|
+| 短期窗口 | 20日 | 快线周期（月均线） |
+| 长期窗口 | 60日 | 慢线周期（季均线） |
+
+---
+
+## 完整代码实现
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from datetime import datetime
+
+# 设置中文显示
+plt.rcParams['font.sans-serif'] = ['SimHei', 'DejaVu Sans']
+plt.rcParams['axes.unicode_minus'] = False
+
+
+class DualMovingAverageStrategy:
+    """
+    双均线策略
+    """
+
+    def __init__(self, short_window=20, long_window=60):
+        """
+        初始化策略
+
+        Parameters:
+        -----------
+        short_window : int
+            短期均线窗口
+        long_window : int
+            长期均线窗口
+        """
+        self.short_window = short_window
+        self.long_window = long_window
+
+    def calculate_moving_averages(self, prices):
+        """
+        计算移动平均线
+        """
+        short_ma = prices.rolling(window=self.short_window).mean()
+        long_ma = prices.rolling(window=self.long_window).mean()
+
+        return short_ma, long_ma
+
+    def generate_signals(self, prices):
+        """
+        生成交易信号
+
+        Returns:
+        --------
+        signals : DataFrame
+            包含价格和信号的数据框
+        """
+        signals = pd.DataFrame(index=prices.index)
+        signals['price'] = prices
+
+        # 计算均线
+        signals['short_ma'], signals['long_ma'] = self.calculate_moving_averages(prices)
+
+        # 生成信号
+        # 1: 买入, -1: 卖出, 0: 持仓不变
+        signals['signal'] = 0.0
+        signals['signal'][self.short_window:] = np.where(
+            signals['short_ma'][self.short_window:] > signals['long_ma'][self.short_window:],
+            1.0, -1.0
+        )
+
+        # 信号变化点才交易
+        signals['positions'] = signals['signal'].diff()
+
+        return signals
+
+    def backtest(self, prices, initial_capital=100000.0):
+        """
+        回测策略
+
+        Parameters:
+        -----------
+        prices : Series
+            价格序列
+        initial_capital : float
+            初始资金
+
+        Returns:
+        --------
+        portfolio : DataFrame
+            回测结果
+        """
+        signals = self.generate_signals(prices)
+
+        # 创建持仓
+        positions = pd.DataFrame(index=signals.index).fillna(0.0)
+        positions['stock'] = signals['signal']
+
+        # 计算组合价值
+        portfolio = positions.multiply(signals['price'], axis=0)
+        pos_diff = positions.diff()
+
+        # 计算持仓市值
+        portfolio['holdings'] = (positions.multiply(signals['price'], axis=0)).sum(axis=1)
+
+        # 计算现金（考虑交易成本0.1%）
+        portfolio['cash'] = initial_capital - (pos_diff.multiply(signals['price'], axis=0)).sum(axis=1).cumsum()
+        portfolio['cash'] = portfolio['cash'] - (pos_diff.multiply(signals['price'], axis=0) * 0.001).sum(axis=1).cumsum()
+
+        # 总资产
+        portfolio['total'] = portfolio['cash'] + portfolio['holdings']
+
+        # 计算收益
+        portfolio['returns'] = portfolio['total'].pct_change()
+
+        return portfolio, signals
+
+    def plot_results(self, prices, portfolio, signals):
+        """
+        绘制回测结果
+        """
+        fig, axes = plt.subplots(3, 1, figsize=(14, 12))
+
+        # 1. 价格和均线
+        ax1 = axes[0]
+        ax1.plot(prices.index, prices, label='Price', alpha=0.7, color='black')
+        ax1.plot(signals.index, signals['short_ma'], label=f'MA{self.short_window}', alpha=0.8)
+        ax1.plot(signals.index, signals['long_ma'], label=f'MA{self.long_window}', alpha=0.8)
+
+        # 标记买卖点
+        buy_signals = signals[signals['positions'] == 2.0]
+        sell_signals = signals[signals['positions'] == -2.0]
+
+        ax1.scatter(buy_signals.index, buy_signals['price'],
+                   color='green', marker='^', s=100, label='Buy', zorder=5)
+        ax1.scatter(sell_signals.index, sell_signals['price'],
+                   color='red', marker='v', s=100, label='Sell', zorder=5)
+
+        ax1.set_title('Dual Moving Average Strategy - Price & Signals')
+        ax1.legend()
+        ax1.grid(True, alpha=0.3)
+
+        # 2. 组合价值
+        ax2 = axes[1]
+        ax2.plot(portfolio.index, portfolio['total'], label='Portfolio Value', linewidth=2)
+        ax2.axhline(y=portfolio['total'].iloc[0], color='gray', linestyle='--', alpha=0.5)
+        ax2.set_title('Portfolio Value')
+        ax2.legend()
+        ax2.grid(True, alpha=0.3)
+
+        # 3. 持仓状态
+        ax3 = axes[2]
+        ax3.fill_between(signals.index, 0, signals['signal'],
+                        where=signals['signal'] > 0, alpha=0.3, color='green', label='Long')
+        ax3.fill_between(signals.index, 0, signals['signal'],
+                        where=signals['signal'] < 0, alpha=0.3, color='red', label='Short')
+        ax3.set_title('Position Status')
+        ax3.legend()
+        ax3.grid(True, alpha=0.3)
+
+        plt.tight_layout()
+        plt.show()
+
+
+# ============== 实战示例 ==============
+
+# 生成模拟数据（实际使用时替换为真实股票数据）
+np.random.seed(42)
+dates = pd.date_range('2020-01-01', '2023-12-31', freq='B')
+returns = np.random.normal(0.0003, 0.015, len(dates))
+# 添加趋势
+for i in range(100, 200):
+    returns[i] += 0.002
+for i in range(400, 500):
+    returns[i] -= 0.002
+
+prices = pd.Series(100 * np.exp(np.cumsum(returns)), index=dates)
+
+# 创建策略实例
+strategy = DualMovingAverageStrategy(short_window=20, long_window=60)
+
+# 运行回测
+portfolio, signals = strategy.backtest(prices, initial_capital=100000)
+
+# 绘制结果
+strategy.plot_results(prices, portfolio, signals)
+
+# 计算绩效指标
+total_return = (portfolio['total'].iloc[-1] / portfolio['total'].iloc[0] - 1) * 100
+n_years = len(prices) / 252
+annual_return = ((1 + total_return/100) ** (1/n_years) - 1) * 100
+volatility = portfolio['returns'].std() * np.sqrt(252) * 100
+sharpe_ratio = annual_return / volatility if volatility > 0 else 0
+
+# 最大回撤
+cumulative = portfolio['total']
+running_max = cumulative.expanding().max()
+drawdown = (cumulative - running_max) / running_max
+max_drawdown = drawdown.min() * 100
+
+# 交易次数
+trades = signals['positions'].abs().sum() / 2
+
+print("=" * 50)
+print("双均线策略回测结果")
+print("=" * 50)
+print(f"参数设置: MA{strategy.short_window} / MA{strategy.long_window}")
+print("-" * 50)
+print(f"总收益率: {total_return:.2f}%")
+print(f"年化收益率: {annual_return:.2f}%")
+print(f"年化波动率: {volatility:.2f}%")
+print(f"夏普比率: {sharpe_ratio:.2f}")
+print(f"最大回撤: {max_drawdown:.2f}%")
+print(f"交易次数: {int(trades)}")
+print("=" * 50)
+```
+
+---
+
+## 结果分析
+
+### 典型表现特征
+
+| 市场状态 | 策略表现 | 原因 |
+|----------|----------|------|
+| **强趋势** | 优秀 | 均线跟随趋势 |
+| **震荡市** | 较差 | 频繁假突破 |
+| **快速反转** | 滞后 | 均线有延迟 |
+
+### 优缺点
+
+**优点**：
+- 逻辑简单清晰
+- 代码容易实现
+- 趋势行情中表现好
+- 机械执行，避免情绪干扰
+
+**缺点**：
+- 震荡市频繁止损
+- 信号有滞后性
+- 无法捕捉顶部和底部
+- 参数敏感（20/60 vs 10/30）
+
+---
+
+## 参数优化
+
+### 窗口选择
+
+```python
+def optimize_parameters(prices, short_range=range(5, 50, 5), long_range=range(50, 200, 10)):
+    """
+    参数优化（注意：避免过度优化）
+    """
+    results = []
+
+    for short in short_range:
+        for long in long_range:
+            if short >= long:
+                continue
+
+            strategy = DualMovingAverageStrategy(short_window=short, long_window=long)
+            portfolio, _ = strategy.backtest(prices)
+
+            total_return = (portfolio['total'].iloc[-1] / portfolio['total'].iloc[0] - 1)
+            volatility = portfolio['returns'].std() * np.sqrt(252)
+            sharpe = total_return / volatility if volatility > 0 else 0
+
+            results.append({
+                'short': short,
+                'long': long,
+                'return': total_return,
+                'sharpe': sharpe
+            })
+
+    return pd.DataFrame(results)
+
+# 选择夏普比率最高的参数组合
+# 注意：要在样本外验证！
+```
+
+### 自适应均线
+
+```python
+def adaptive_moving_average(prices, fast=10, slow=30, threshold=0.01):
+    """
+    根据波动率自适应调整均线
+    """
+    volatility = prices.pct_change().rolling(20).std()
+
+    # 高波动时用短均线，低波动时用长均线
+    effective_window = fast + (slow - fast) * (1 - volatility / threshold).clip(0, 1)
+
+    # 计算自适应均线
+    ama = prices.rolling(window=int(effective_window.mean())).mean()
+
+    return ama
+```
+
+---
+
+## 改进方向
+
+### 1. 添加过滤器
+
+```python
+def add_volatility_filter(signals, prices, vol_window=20, threshold=0.02):
+    """
+    只在波动率适中时交易
+    高波动时观望
+    """
+    volatility = prices.pct_change().rolling(vol_window).std()
+
+    # 高波动时信号置0
+    filtered_signals = signals.copy()
+    filtered_signals[volatility > threshold] = 0
+
+    return filtered_signals
+```
+
+### 2. 分批建仓
+
+```python
+def scale_in_strategy(signals, prices, entry_levels=[0.02, 0.05]):
+    """
+    分批建仓
+    - 首次金叉建25%
+    - 盈利2%加仓至50%
+    - 盈利5%加仓至100%
+    """
+    position = pd.Series(0.0, index=prices.index)
+    current_position = 0.0
+    entry_price = None
+
+    for i in range(1, len(prices)):
+        if signals.iloc[i] == 1 and current_position == 0:  # 首次买入
+            current_position = 0.25
+            entry_price = prices.iloc[i]
+        elif current_position > 0 and entry_price:
+            profit = (prices.iloc[i] - entry_price) / entry_price
+
+            if profit >= entry_levels[1] and current_position < 1.0:
+                current_position = 1.0
+            elif profit >= entry_levels[0] and current_position < 0.5:
+                current_position = 0.5
+            elif signals.iloc[i] == -1:  # 卖出信号
+                current_position = 0.0
+                entry_price = None
+
+        position.iloc[i] = current_position
+
+    return position
+```
+
+---
+
+## 风险提示
+
+1. **过拟合风险**：历史最优参数未来可能失效
+2. **交易成本**：频繁交易侵蚀利润
+3. **滑点影响**：实际成交价格与信号价格有差异
+4. **市场变化**：策略在特定市场环境下有效
+
+**建议**：
+- 使用 walk-forward 优化
+- 在多个品种上测试
+- 严格止损
+- 持续监控策略表现
+
+---
+
+## 下一步
+
+- [动量策略](/kb/quant/quant-tgc9xb) - 深入学习趋势跟踪
+- [回测基础](/kb/quant/quant-2rsxe4) - 提升回测质量
+- [多因子选股模型实战](/kb/quant/quant-eb8kys) - 进阶策略
+d:T2c33,# 双均线策略实战
+
+> 最简单的趋势跟踪策略——金叉买入，死叉卖出
+
+---
+
+## 策略概述
+
+### 策略逻辑
+
+**核心思想**：短期趋势向上突破长期趋势时买入，向下突破时卖出。
+
+**直观理解**：
+- **短期均线（快线）**：反映近期价格动向
+- **长期均线（慢线）**：反映中长期趋势
+- **金叉**：快线突破慢线 → 趋势向上 → 买入
+- **死叉**：快线跌破慢线 → 趋势向下 → 卖出
+
+### 策略参数
+
+| 参数 | 默认值 | 说明 |
+|------|--------|------|
+| 短期窗口 | 20日 | 快线周期（月均线） |
+| 长期窗口 | 60日 | 慢线周期（季均线） |
+
+---
+
+## 完整代码实现
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from datetime import datetime
+
+# 设置中文显示
+plt.rcParams['font.sans-serif'] = ['SimHei', 'DejaVu Sans']
+plt.rcParams['axes.unicode_minus'] = False
+
+
+class DualMovingAverageStrategy:
+    """
+    双均线策略
+    """
+
+    def __init__(self, short_window=20, long_window=60):
+        """
+        初始化策略
+
+        Parameters:
+        -----------
+        short_window : int
+            短期均线窗口
+        long_window : int
+            长期均线窗口
+        """
+        self.short_window = short_window
+        self.long_window = long_window
+
+    def calculate_moving_averages(self, prices):
+        """
+        计算移动平均线
+        """
+        short_ma = prices.rolling(window=self.short_window).mean()
+        long_ma = prices.rolling(window=self.long_window).mean()
+
+        return short_ma, long_ma
+
+    def generate_signals(self, prices):
+        """
+        生成交易信号
+
+        Returns:
+        --------
+        signals : DataFrame
+            包含价格和信号的数据框
+        """
+        signals = pd.DataFrame(index=prices.index)
+        signals['price'] = prices
+
+        # 计算均线
+        signals['short_ma'], signals['long_ma'] = self.calculate_moving_averages(prices)
+
+        # 生成信号
+        # 1: 买入, -1: 卖出, 0: 持仓不变
+        signals['signal'] = 0.0
+        signals['signal'][self.short_window:] = np.where(
+            signals['short_ma'][self.short_window:] > signals['long_ma'][self.short_window:],
+            1.0, -1.0
+        )
+
+        # 信号变化点才交易
+        signals['positions'] = signals['signal'].diff()
+
+        return signals
+
+    def backtest(self, prices, initial_capital=100000.0):
+        """
+        回测策略
+
+        Parameters:
+        -----------
+        prices : Series
+            价格序列
+        initial_capital : float
+            初始资金
+
+        Returns:
+        --------
+        portfolio : DataFrame
+            回测结果
+        """
+        signals = self.generate_signals(prices)
+
+        # 创建持仓
+        positions = pd.DataFrame(index=signals.index).fillna(0.0)
+        positions['stock'] = signals['signal']
+
+        # 计算组合价值
+        portfolio = positions.multiply(signals['price'], axis=0)
+        pos_diff = positions.diff()
+
+        # 计算持仓市值
+        portfolio['holdings'] = (positions.multiply(signals['price'], axis=0)).sum(axis=1)
+
+        # 计算现金（考虑交易成本0.1%）
+        portfolio['cash'] = initial_capital - (pos_diff.multiply(signals['price'], axis=0)).sum(axis=1).cumsum()
+        portfolio['cash'] = portfolio['cash'] - (pos_diff.multiply(signals['price'], axis=0) * 0.001).sum(axis=1).cumsum()
+
+        # 总资产
+        portfolio['total'] = portfolio['cash'] + portfolio['holdings']
+
+        # 计算收益
+        portfolio['returns'] = portfolio['total'].pct_change()
+
+        return portfolio, signals
+
+    def plot_results(self, prices, portfolio, signals):
+        """
+        绘制回测结果
+        """
+        fig, axes = plt.subplots(3, 1, figsize=(14, 12))
+
+        # 1. 价格和均线
+        ax1 = axes[0]
+        ax1.plot(prices.index, prices, label='Price', alpha=0.7, color='black')
+        ax1.plot(signals.index, signals['short_ma'], label=f'MA{self.short_window}', alpha=0.8)
+        ax1.plot(signals.index, signals['long_ma'], label=f'MA{self.long_window}', alpha=0.8)
+
+        # 标记买卖点
+        buy_signals = signals[signals['positions'] == 2.0]
+        sell_signals = signals[signals['positions'] == -2.0]
+
+        ax1.scatter(buy_signals.index, buy_signals['price'],
+                   color='green', marker='^', s=100, label='Buy', zorder=5)
+        ax1.scatter(sell_signals.index, sell_signals['price'],
+                   color='red', marker='v', s=100, label='Sell', zorder=5)
+
+        ax1.set_title('Dual Moving Average Strategy - Price & Signals')
+        ax1.legend()
+        ax1.grid(True, alpha=0.3)
+
+        # 2. 组合价值
+        ax2 = axes[1]
+        ax2.plot(portfolio.index, portfolio['total'], label='Portfolio Value', linewidth=2)
+        ax2.axhline(y=portfolio['total'].iloc[0], color='gray', linestyle='--', alpha=0.5)
+        ax2.set_title('Portfolio Value')
+        ax2.legend()
+        ax2.grid(True, alpha=0.3)
+
+        # 3. 持仓状态
+        ax3 = axes[2]
+        ax3.fill_between(signals.index, 0, signals['signal'],
+                        where=signals['signal'] > 0, alpha=0.3, color='green', label='Long')
+        ax3.fill_between(signals.index, 0, signals['signal'],
+                        where=signals['signal'] < 0, alpha=0.3, color='red', label='Short')
+        ax3.set_title('Position Status')
+        ax3.legend()
+        ax3.grid(True, alpha=0.3)
+
+        plt.tight_layout()
+        plt.show()
+
+
+# ============== 实战示例 ==============
+
+# 生成模拟数据（实际使用时替换为真实股票数据）
+np.random.seed(42)
+dates = pd.date_range('2020-01-01', '2023-12-31', freq='B')
+returns = np.random.normal(0.0003, 0.015, len(dates))
+# 添加趋势
+for i in range(100, 200):
+    returns[i] += 0.002
+for i in range(400, 500):
+    returns[i] -= 0.002
+
+prices = pd.Series(100 * np.exp(np.cumsum(returns)), index=dates)
+
+# 创建策略实例
+strategy = DualMovingAverageStrategy(short_window=20, long_window=60)
+
+# 运行回测
+portfolio, signals = strategy.backtest(prices, initial_capital=100000)
+
+# 绘制结果
+strategy.plot_results(prices, portfolio, signals)
+
+# 计算绩效指标
+total_return = (portfolio['total'].iloc[-1] / portfolio['total'].iloc[0] - 1) * 100
+n_years = len(prices) / 252
+annual_return = ((1 + total_return/100) ** (1/n_years) - 1) * 100
+volatility = portfolio['returns'].std() * np.sqrt(252) * 100
+sharpe_ratio = annual_return / volatility if volatility > 0 else 0
+
+# 最大回撤
+cumulative = portfolio['total']
+running_max = cumulative.expanding().max()
+drawdown = (cumulative - running_max) / running_max
+max_drawdown = drawdown.min() * 100
+
+# 交易次数
+trades = signals['positions'].abs().sum() / 2
+
+print("=" * 50)
+print("双均线策略回测结果")
+print("=" * 50)
+print(f"参数设置: MA{strategy.short_window} / MA{strategy.long_window}")
+print("-" * 50)
+print(f"总收益率: {total_return:.2f}%")
+print(f"年化收益率: {annual_return:.2f}%")
+print(f"年化波动率: {volatility:.2f}%")
+print(f"夏普比率: {sharpe_ratio:.2f}")
+print(f"最大回撤: {max_drawdown:.2f}%")
+print(f"交易次数: {int(trades)}")
+print("=" * 50)
+```
+
+---
+
+## 结果分析
+
+### 典型表现特征
+
+| 市场状态 | 策略表现 | 原因 |
+|----------|----------|------|
+| **强趋势** | 优秀 | 均线跟随趋势 |
+| **震荡市** | 较差 | 频繁假突破 |
+| **快速反转** | 滞后 | 均线有延迟 |
+
+### 优缺点
+
+**优点**：
+- 逻辑简单清晰
+- 代码容易实现
+- 趋势行情中表现好
+- 机械执行，避免情绪干扰
+
+**缺点**：
+- 震荡市频繁止损
+- 信号有滞后性
+- 无法捕捉顶部和底部
+- 参数敏感（20/60 vs 10/30）
+
+---
+
+## 参数优化
+
+### 窗口选择
+
+```python
+def optimize_parameters(prices, short_range=range(5, 50, 5), long_range=range(50, 200, 10)):
+    """
+    参数优化（注意：避免过度优化）
+    """
+    results = []
+
+    for short in short_range:
+        for long in long_range:
+            if short >= long:
+                continue
+
+            strategy = DualMovingAverageStrategy(short_window=short, long_window=long)
+            portfolio, _ = strategy.backtest(prices)
+
+            total_return = (portfolio['total'].iloc[-1] / portfolio['total'].iloc[0] - 1)
+            volatility = portfolio['returns'].std() * np.sqrt(252)
+            sharpe = total_return / volatility if volatility > 0 else 0
+
+            results.append({
+                'short': short,
+                'long': long,
+                'return': total_return,
+                'sharpe': sharpe
+            })
+
+    return pd.DataFrame(results)
+
+# 选择夏普比率最高的参数组合
+# 注意：要在样本外验证！
+```
+
+### 自适应均线
+
+```python
+def adaptive_moving_average(prices, fast=10, slow=30, threshold=0.01):
+    """
+    根据波动率自适应调整均线
+    """
+    volatility = prices.pct_change().rolling(20).std()
+
+    # 高波动时用短均线，低波动时用长均线
+    effective_window = fast + (slow - fast) * (1 - volatility / threshold).clip(0, 1)
+
+    # 计算自适应均线
+    ama = prices.rolling(window=int(effective_window.mean())).mean()
+
+    return ama
+```
+
+---
+
+## 改进方向
+
+### 1. 添加过滤器
+
+```python
+def add_volatility_filter(signals, prices, vol_window=20, threshold=0.02):
+    """
+    只在波动率适中时交易
+    高波动时观望
+    """
+    volatility = prices.pct_change().rolling(vol_window).std()
+
+    # 高波动时信号置0
+    filtered_signals = signals.copy()
+    filtered_signals[volatility > threshold] = 0
+
+    return filtered_signals
+```
+
+### 2. 分批建仓
+
+```python
+def scale_in_strategy(signals, prices, entry_levels=[0.02, 0.05]):
+    """
+    分批建仓
+    - 首次金叉建25%
+    - 盈利2%加仓至50%
+    - 盈利5%加仓至100%
+    """
+    position = pd.Series(0.0, index=prices.index)
+    current_position = 0.0
+    entry_price = None
+
+    for i in range(1, len(prices)):
+        if signals.iloc[i] == 1 and current_position == 0:  # 首次买入
+            current_position = 0.25
+            entry_price = prices.iloc[i]
+        elif current_position > 0 and entry_price:
+            profit = (prices.iloc[i] - entry_price) / entry_price
+
+            if profit >= entry_levels[1] and current_position < 1.0:
+                current_position = 1.0
+            elif profit >= entry_levels[0] and current_position < 0.5:
+                current_position = 0.5
+            elif signals.iloc[i] == -1:  # 卖出信号
+                current_position = 0.0
+                entry_price = None
+
+        position.iloc[i] = current_position
+
+    return position
+```
+
+---
+
+## 风险提示
+
+1. **过拟合风险**：历史最优参数未来可能失效
+2. **交易成本**：频繁交易侵蚀利润
+3. **滑点影响**：实际成交价格与信号价格有差异
+4. **市场变化**：策略在特定市场环境下有效
+
+**建议**：
+- 使用 walk-forward 优化
+- 在多个品种上测试
+- 严格止损
+- 持续监控策略表现
+
+---
+
+## 下一步
+
+- [动量策略](/kb/quant/quant-tgc9xb) - 深入学习趋势跟踪
+- [回测基础](/kb/quant/quant-2rsxe4) - 提升回测质量
+- [多因子选股模型实战](/kb/quant/quant-eb8kys) - 进阶策略
+2:["$","$Lb",null,{"document":{"slug":"doc-4m5zmb","title":"双均线策略实战","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$c","filePath":"实战案例/双均线策略实战.md","default":{"slug":"doc-4m5zmb","title":"双均线策略实战","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$d","filePath":"实战案例/双均线策略实战.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"双均线策略实战 - Quant | Jerry Xu"}],["$","meta","3",{"name":"description","content":"双均线策略实战"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}]]
+1:null

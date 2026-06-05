@@ -1,0 +1,444 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-b043129a42c3b49c.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],""]
+4:["category","quant","d"]
+5:["slug","doc-jq7v5x","d"]
+0:["ffk0ESDk0CTyiiGJbvRpT",[[["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-jq7v5x","d"],{"children":["__PAGE__?{\"category\":\"quant\",\"slug\":\"doc-jq7v5x\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-jq7v5x","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8fd3907a9da855dd.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js"],"default"]
+c:T1986,# 线性代数基础
+
+> 量化金融中的线性代数核心概念与应用
+
+## 概述
+
+线性代数是量化金融的数学基础之一，广泛应用于投资组合优化、风险模型、因子分析等领域。本文档涵盖量化金融中最常用的线性代数概念。
+
+---
+
+## 核心概念
+
+### 向量与矩阵
+
+#### 向量（Vector）
+- **定义**：n维有序数组，表示为 $\mathbf{v} = (v_1, v_2, ..., v_n)$
+- **金融应用**：资产收益率向量、投资组合权重向量
+- **基本运算**：
+  - 加法：$\mathbf{u} + \mathbf{v} = (u_1+v_1, u_2+v_2, ..., u_n+v_n)$
+  - 数乘：\mathbf{v} = (cv_1, cv_2, ..., cv_n)$
+  - 点积：$\mathbf{u} \cdot \mathbf{v} = \sum_{i=1}^n u_i v_i$
+
+#### 矩阵（Matrix）
+- **定义**：m×n的矩形数组，表示为 $\mathbf{A} = [a_{ij}]$
+- **金融应用**：
+  - 协方差矩阵
+  - 相关系数矩阵
+  - 因子载荷矩阵
+
+### 特殊矩阵
+
+#### 对称矩阵（Symmetric Matrix）
+- **性质**：$\mathbf{A} = \mathbf{A}^T$
+- **应用**：协方差矩阵、相关系数矩阵都是对称矩阵
+
+#### 正定矩阵（Positive Definite Matrix）
+- **性质**：对于所有非零向量 $\mathbf{x}$，有 $\mathbf{x}^T \mathbf{A} \mathbf{x} > 0$
+- **应用**：协方差矩阵必须是正定的
+- **检验方法**：所有特征值大于0
+
+#### 单位矩阵（Identity Matrix）
+- **表示**：$\mathbf{I}_n$
+- **性质**：对角线为1，其余为0
+- **作用**：矩阵乘法的单位元
+
+---
+
+## 矩阵运算
+
+### 基本运算
+
+#### 矩阵乘法
+- **定义**：$\mathbf{C} = \mathbf{A} \mathbf{B}$，其中 {ij} = \sum_{k=1}^n a_{ik} b_{kj}$
+- **金融应用**：组合收益计算、线性变换
+
+#### 矩阵转置
+- **定义**：$\mathbf{A}^T$，行列互换
+- **性质**：^T = \mathbf{B}^T \mathbf{A}^T$
+
+#### 矩阵求逆
+- **定义**：$\mathbf{A}^{-1}$，满足 $\mathbf{A}\mathbf{A}^{-1} = \mathbf{I}$
+- **存在条件**：矩阵必须是方阵且行列式不为0
+- **金融应用**：求解线性方程组、组合优化
+
+### 行列式与迹
+
+#### 行列式（Determinant）
+- **表示**：$\det(\mathbf{A})$ 或 $|<span class="katex-error" title="ParseError: KaTeX parse error: Expected \right", got \end at position 30: …mathbf{A}|\̲e̲n̲d̲{vmatrix}$
+- **几何意义**：矩阵变换的体积缩放因子
+- **应用**：判断矩阵是否可逆
+
+#### 迹（Trace）
+- **定义**：$	ext{tr}(\mathbf{A}) = \sum_{i=1}^n a_{ii}$
+- **性质**：$	ext{tr}(\mathbf{A}\mathbf{B}) = 	ext{tr}(\mathbf{B}\mathbf{A})$
+- **应用**：风险分解、方差分析
+
+---
+
+## 特征值与特征向量
+
+### 定义
+
+对于方阵 $\mathbf{A}$，如果存在非零向量 $\mathbf{v}$ 和标量 $\lambda$ 使得：
+25298\mathbf{A}\mathbf{v} = \lambda \mathbf{v}25298
+
+则称 $\lambda$ 为特征值，$\mathbf{v}$ 为对应的特征向量。
+
+### 计算方法
+
+1. **特征方程**：$\det(\mathbf{A} - \lambda \mathbf{I}) = 0$
+2. **求解特征值**：解n次多项式方程
+3. **求解特征向量**：对每个特征值求解 \mathbf{v} = \mathbf{0}$
+
+### 金融应用
+
+#### 主成分分析（PCA）
+- **原理**：对协方差矩阵进行特征值分解
+- **应用**：降维、风险因子提取
+- **步骤**：
+  1. 计算资产收益率的协方差矩阵
+  2. 特征值分解
+  3. 选择最大的k个特征值对应的特征向量
+  4. 构建主成分因子
+
+#### 风险分解
+- **特征投资组合**：每个特征向量对应一个投资组合
+- **特征值含义**：对应投资组合的方差
+- **应用**：识别主要风险来源
+
+---
+
+## 矩阵分解
+
+### Cholesky分解
+
+#### 定义
+对于正定对称矩阵 $\mathbf{A}$，存在下三角矩阵 $\mathbf{L}$ 使得：
+25298\mathbf{A} = \mathbf{L}\mathbf{L}^T25298
+
+#### 金融应用
+- **蒙特卡洛模拟**：生成相关随机变量
+- **求解线性方程组**：提高计算效率
+
+### 奇异值分解（SVD）
+
+#### 定义
+任意m×n矩阵 $\mathbf{A}$ 可以分解为：
+25298\mathbf{A} = \mathbf{U}\mathbf{\Sigma}\mathbf{V}^T25298
+
+其中 $\mathbf{U}$ 和 $\mathbf{V}$ 是正交矩阵，$\mathbf{\Sigma}$ 是对角矩阵。
+
+#### 金融应用
+- **降维**：提取重要特征
+- **矩阵近似**：低秩近似
+- **求解最小二乘问题**
+
+---
+
+## 量化金融应用实例
+
+### 投资组合优化
+
+#### Markowitz均值-方差模型
+- **目标**：最小化组合风险（方差）
+- **优化问题**：
+  25298\min_{\mathbf{w}} \mathbf{w}^T \mathbf{\Sigma} \mathbf{w}25298
+  25298	ext{s.t.} \mathbf{w}^T \mathbf{\mu} = \mu_p, \mathbf{w}^T \mathbf{1} = 125298
+
+- **解析解**：使用拉格朗日乘数法
+- **有效前沿**：通过矩阵运算求解
+
+#### 风险平价
+- **目标**：各资产对组合风险贡献相同
+- **风险贡献**： = w_i \frac{(\mathbf{\Sigma}\mathbf{w})_i}{\sqrt{\mathbf{w}^T\mathbf{\Sigma}\mathbf{w}}}$
+- **求解**：迭代算法或数值优化
+
+### 多因子模型
+
+#### 模型形式
+25298\mathbf{r} = \mathbf{X}\mathbf{f} + \mathbf{\epsilon}25298
+
+其中：
+- $\mathbf{r}$：资产收益率向量
+- $\mathbf{X}$：因子暴露矩阵
+- $\mathbf{f}$：因子收益率向量
+- $\mathbf{\epsilon}$：残差向量
+
+#### 参数估计
+- **最小二乘法**：$\hat{\mathbf{f}} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{r}$
+- **加权最小二乘**：考虑异方差性
+
+### 协方差矩阵估计
+
+#### 样本协方差矩阵
+25298\hat{\mathbf{\Sigma}} = \frac{1}{T-1} \mathbf{X}^T\mathbf{X}25298
+
+#### 改进估计方法
+- **Ledoit-Wolf收缩估计**：结合样本协方差和目标矩阵
+- **因子模型估计**：降低参数数量
+
+---
+
+## 数值计算与稳定性
+
+### 条件数
+- **定义**：$\kappa(\mathbf{A}) = ||\mathbf{A}|| \cdot ||\mathbf{A}^{-1}||$
+- **意义**：衡量矩阵求逆的数值稳定性
+- **应用**：协方差矩阵正则化
+
+### 正则化技术
+
+#### 岭回归（Ridge Regression）
+- **目标函数**：$\min_{\mathbf{w}} ||\mathbf{y} - \mathbf{X}\mathbf{w}||^2 + \lambda ||\mathbf{w}||^2$
+- **解析解**：$\hat{\mathbf{w}} = (\mathbf{X}^T\mathbf{X} + \lambda \mathbf{I})^{-1}\mathbf{X}^T\mathbf{y}$
+- **作用**：处理多重共线性
+
+---
+
+## 相关文档
+
+- [微积分与优化](/kb/quant/doc-9g0k07) - 优化理论基础
+- [概率论与统计基础](/kb/quant/doc-rvrk5d) - 统计推断方法
+- [时间序列分析基础](/kb/quant/doc-7tsv06) - 时间序列模型
+- [../量化策略/因子投资概述](/kb/quant/doc-od5m8n) - 因子模型应用
+- [../风险管理/组合优化理论](/kb/quant/doc-5mp3ue) - 组合优化进阶
+
+---
+
+## 代码示例
+
+### Python实现关键操作
+
+
+
+---
+
+*最后更新：2026-03-16*d:T1986,# 线性代数基础
+
+> 量化金融中的线性代数核心概念与应用
+
+## 概述
+
+线性代数是量化金融的数学基础之一，广泛应用于投资组合优化、风险模型、因子分析等领域。本文档涵盖量化金融中最常用的线性代数概念。
+
+---
+
+## 核心概念
+
+### 向量与矩阵
+
+#### 向量（Vector）
+- **定义**：n维有序数组，表示为 $\mathbf{v} = (v_1, v_2, ..., v_n)$
+- **金融应用**：资产收益率向量、投资组合权重向量
+- **基本运算**：
+  - 加法：$\mathbf{u} + \mathbf{v} = (u_1+v_1, u_2+v_2, ..., u_n+v_n)$
+  - 数乘：\mathbf{v} = (cv_1, cv_2, ..., cv_n)$
+  - 点积：$\mathbf{u} \cdot \mathbf{v} = \sum_{i=1}^n u_i v_i$
+
+#### 矩阵（Matrix）
+- **定义**：m×n的矩形数组，表示为 $\mathbf{A} = [a_{ij}]$
+- **金融应用**：
+  - 协方差矩阵
+  - 相关系数矩阵
+  - 因子载荷矩阵
+
+### 特殊矩阵
+
+#### 对称矩阵（Symmetric Matrix）
+- **性质**：$\mathbf{A} = \mathbf{A}^T$
+- **应用**：协方差矩阵、相关系数矩阵都是对称矩阵
+
+#### 正定矩阵（Positive Definite Matrix）
+- **性质**：对于所有非零向量 $\mathbf{x}$，有 $\mathbf{x}^T \mathbf{A} \mathbf{x} > 0$
+- **应用**：协方差矩阵必须是正定的
+- **检验方法**：所有特征值大于0
+
+#### 单位矩阵（Identity Matrix）
+- **表示**：$\mathbf{I}_n$
+- **性质**：对角线为1，其余为0
+- **作用**：矩阵乘法的单位元
+
+---
+
+## 矩阵运算
+
+### 基本运算
+
+#### 矩阵乘法
+- **定义**：$\mathbf{C} = \mathbf{A} \mathbf{B}$，其中 {ij} = \sum_{k=1}^n a_{ik} b_{kj}$
+- **金融应用**：组合收益计算、线性变换
+
+#### 矩阵转置
+- **定义**：$\mathbf{A}^T$，行列互换
+- **性质**：^T = \mathbf{B}^T \mathbf{A}^T$
+
+#### 矩阵求逆
+- **定义**：$\mathbf{A}^{-1}$，满足 $\mathbf{A}\mathbf{A}^{-1} = \mathbf{I}$
+- **存在条件**：矩阵必须是方阵且行列式不为0
+- **金融应用**：求解线性方程组、组合优化
+
+### 行列式与迹
+
+#### 行列式（Determinant）
+- **表示**：$\det(\mathbf{A})$ 或 $|<span class="katex-error" title="ParseError: KaTeX parse error: Expected \right", got \end at position 30: …mathbf{A}|\̲e̲n̲d̲{vmatrix}$
+- **几何意义**：矩阵变换的体积缩放因子
+- **应用**：判断矩阵是否可逆
+
+#### 迹（Trace）
+- **定义**：$	ext{tr}(\mathbf{A}) = \sum_{i=1}^n a_{ii}$
+- **性质**：$	ext{tr}(\mathbf{A}\mathbf{B}) = 	ext{tr}(\mathbf{B}\mathbf{A})$
+- **应用**：风险分解、方差分析
+
+---
+
+## 特征值与特征向量
+
+### 定义
+
+对于方阵 $\mathbf{A}$，如果存在非零向量 $\mathbf{v}$ 和标量 $\lambda$ 使得：
+25298\mathbf{A}\mathbf{v} = \lambda \mathbf{v}25298
+
+则称 $\lambda$ 为特征值，$\mathbf{v}$ 为对应的特征向量。
+
+### 计算方法
+
+1. **特征方程**：$\det(\mathbf{A} - \lambda \mathbf{I}) = 0$
+2. **求解特征值**：解n次多项式方程
+3. **求解特征向量**：对每个特征值求解 \mathbf{v} = \mathbf{0}$
+
+### 金融应用
+
+#### 主成分分析（PCA）
+- **原理**：对协方差矩阵进行特征值分解
+- **应用**：降维、风险因子提取
+- **步骤**：
+  1. 计算资产收益率的协方差矩阵
+  2. 特征值分解
+  3. 选择最大的k个特征值对应的特征向量
+  4. 构建主成分因子
+
+#### 风险分解
+- **特征投资组合**：每个特征向量对应一个投资组合
+- **特征值含义**：对应投资组合的方差
+- **应用**：识别主要风险来源
+
+---
+
+## 矩阵分解
+
+### Cholesky分解
+
+#### 定义
+对于正定对称矩阵 $\mathbf{A}$，存在下三角矩阵 $\mathbf{L}$ 使得：
+25298\mathbf{A} = \mathbf{L}\mathbf{L}^T25298
+
+#### 金融应用
+- **蒙特卡洛模拟**：生成相关随机变量
+- **求解线性方程组**：提高计算效率
+
+### 奇异值分解（SVD）
+
+#### 定义
+任意m×n矩阵 $\mathbf{A}$ 可以分解为：
+25298\mathbf{A} = \mathbf{U}\mathbf{\Sigma}\mathbf{V}^T25298
+
+其中 $\mathbf{U}$ 和 $\mathbf{V}$ 是正交矩阵，$\mathbf{\Sigma}$ 是对角矩阵。
+
+#### 金融应用
+- **降维**：提取重要特征
+- **矩阵近似**：低秩近似
+- **求解最小二乘问题**
+
+---
+
+## 量化金融应用实例
+
+### 投资组合优化
+
+#### Markowitz均值-方差模型
+- **目标**：最小化组合风险（方差）
+- **优化问题**：
+  25298\min_{\mathbf{w}} \mathbf{w}^T \mathbf{\Sigma} \mathbf{w}25298
+  25298	ext{s.t.} \mathbf{w}^T \mathbf{\mu} = \mu_p, \mathbf{w}^T \mathbf{1} = 125298
+
+- **解析解**：使用拉格朗日乘数法
+- **有效前沿**：通过矩阵运算求解
+
+#### 风险平价
+- **目标**：各资产对组合风险贡献相同
+- **风险贡献**： = w_i \frac{(\mathbf{\Sigma}\mathbf{w})_i}{\sqrt{\mathbf{w}^T\mathbf{\Sigma}\mathbf{w}}}$
+- **求解**：迭代算法或数值优化
+
+### 多因子模型
+
+#### 模型形式
+25298\mathbf{r} = \mathbf{X}\mathbf{f} + \mathbf{\epsilon}25298
+
+其中：
+- $\mathbf{r}$：资产收益率向量
+- $\mathbf{X}$：因子暴露矩阵
+- $\mathbf{f}$：因子收益率向量
+- $\mathbf{\epsilon}$：残差向量
+
+#### 参数估计
+- **最小二乘法**：$\hat{\mathbf{f}} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{r}$
+- **加权最小二乘**：考虑异方差性
+
+### 协方差矩阵估计
+
+#### 样本协方差矩阵
+25298\hat{\mathbf{\Sigma}} = \frac{1}{T-1} \mathbf{X}^T\mathbf{X}25298
+
+#### 改进估计方法
+- **Ledoit-Wolf收缩估计**：结合样本协方差和目标矩阵
+- **因子模型估计**：降低参数数量
+
+---
+
+## 数值计算与稳定性
+
+### 条件数
+- **定义**：$\kappa(\mathbf{A}) = ||\mathbf{A}|| \cdot ||\mathbf{A}^{-1}||$
+- **意义**：衡量矩阵求逆的数值稳定性
+- **应用**：协方差矩阵正则化
+
+### 正则化技术
+
+#### 岭回归（Ridge Regression）
+- **目标函数**：$\min_{\mathbf{w}} ||\mathbf{y} - \mathbf{X}\mathbf{w}||^2 + \lambda ||\mathbf{w}||^2$
+- **解析解**：$\hat{\mathbf{w}} = (\mathbf{X}^T\mathbf{X} + \lambda \mathbf{I})^{-1}\mathbf{X}^T\mathbf{y}$
+- **作用**：处理多重共线性
+
+---
+
+## 相关文档
+
+- [微积分与优化](/kb/quant/doc-9g0k07) - 优化理论基础
+- [概率论与统计基础](/kb/quant/doc-rvrk5d) - 统计推断方法
+- [时间序列分析基础](/kb/quant/doc-7tsv06) - 时间序列模型
+- [../量化策略/因子投资概述](/kb/quant/doc-od5m8n) - 因子模型应用
+- [../风险管理/组合优化理论](/kb/quant/doc-5mp3ue) - 组合优化进阶
+
+---
+
+## 代码示例
+
+### Python实现关键操作
+
+
+
+---
+
+*最后更新：2026-03-16*2:["$","$Lb",null,{"document":{"slug":"doc-jq7v5x","title":"线性代数基础","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$c","filePath":"量化基础/线性代数基础.md","default":{"slug":"doc-jq7v5x","title":"线性代数基础","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$d","filePath":"量化基础/线性代数基础.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"线性代数基础 - Quant | Jerry Xu"}],["$","meta","3",{"name":"description","content":"线性代数基础"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}]]
+1:null

@@ -1,0 +1,744 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-b043129a42c3b49c.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],""]
+4:["category","quant","d"]
+5:["slug","doc-k6nwrv","d"]
+0:["ffk0ESDk0CTyiiGJbvRpT",[[["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-k6nwrv","d"],{"children":["__PAGE__?{\"category\":\"quant\",\"slug\":\"doc-k6nwrv\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-k6nwrv","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8fd3907a9da855dd.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js"],"default"]
+c:T2644,# 衍生品基础
+
+> 金融工具的"派生品"——理解期货、期权、互换
+
+---
+
+## 什么是衍生品？
+
+**衍生品**是其价值依赖于**标的资产**的金融合约。
+
+**标的资产可以是**：
+- 股票、股票指数
+- 债券、利率
+- 商品（黄金、原油、农产品）
+- 外汇
+- 甚至其他衍生品
+
+### 为什么需要衍生品？
+
+| 功能 | 说明 | 例子 |
+|------|------|------|
+| **风险管理** | 对冲价格波动风险 | 农民锁定小麦售价 |
+| **价格发现** | 反映市场对未来价格的预期 | 期货价格显示预期 |
+| **杠杆交易** | 用较少资金控制大额资产 | 保证金交易 |
+| **套利机会** | 利用价格不一致获利 | 期现套利 |
+
+---
+
+## 四大衍生品类型
+
+### 1. 远期合约（Forward）
+
+**定义**：双方约定在未来某一日期以**确定价格**买卖标的资产的合约。
+
+**特点**：
+- **场外交易**（OTC）：定制化
+- **双边信用风险**：对方可能违约
+- 到期才结算
+
+**例子**：
+- 航空公司与石油公司签订远期合约，锁定6个月后的油价
+- 进口商与银行签订外汇远期，锁定汇率
+
+**到期收益**：
+```
+多头收益 = S_T - K
+空头收益 = K - S_T
+```
+其中 S_T 是到期标的资产价格，K 是约定价格。
+
+---
+
+### 2. 期货合约（Futures）
+
+**定义**：标准化的远期合约，在交易所交易。
+
+**vs 远期合约**：
+
+| 特征 | 远期 | 期货 |
+|------|------|------|
+| **交易场所** | 场外 | 交易所 |
+| **标准化** | 定制化 | 标准化 |
+| **信用风险** | 较高 | 清算所担保 |
+| **结算** | 到期结算 | 每日结算（盯市） |
+| **流动性** | 较低 | 较高 |
+
+#### 期货交易机制
+
+**保证金制度**：
+- **初始保证金**：开仓时缴纳（合约价值的5-15%）
+- **维持保证金**：账户必须保持的最低金额
+- **追加保证金**：低于维持保证金时需补足
+
+**每日结算（Mark-to-Market）**：
+```
+例：买入1手股指期货，合约价值100万，保证金10万
+
+Day 1: 期货涨2% → 盈利2万 → 账户余额12万
+Day 2: 期货跌3% → 亏损3万 → 账户余额9万
+      若维持保证金为8万，还需追加吗？不需要（9万>8万）
+Day 3: 期货跌10% → 亏损10万 → 账户余额-1万
+      爆仓！需追加保证金
+```
+
+#### Python期货收益计算
+
+```python
+import numpy as np
+
+def futures_pnl(entry_price, exit_price, contract_size, position='long'):
+    """
+    计算期货盈亏
+
+    entry_price: 开仓价格
+    exit_price: 平仓价格
+    contract_size: 合约乘数
+    position: 'long'或'short'
+    """
+    if position == 'long':
+        pnl = (exit_price - entry_price) * contract_size
+    else:
+        pnl = (entry_price - exit_price) * contract_size
+
+    return pnl
+
+# 示例：沪深300股指期货
+# 买入开仓3500点，平仓3600点，合约乘数300元/点
+pnl = futures_pnl(3500, 3600, 300, 'long')
+print(f"盈亏: {pnl:,.0f}元")  # 盈利30,000元
+
+# 保证金计算
+margin_ratio = 0.12  # 12%
+contract_value = 3500 * 300
+margin = contract_value * margin_ratio
+print(f"合约价值: {contract_value:,.0f}元")
+print(f"初始保证金: {margin:,.0f}元")
+print(f"杠杆率: {contract_value/margin:.1f}倍")
+```
+
+---
+
+### 3. 期权合约（Option）
+
+**定义**：赋予持有者在未来某一日期以**约定价格**买入或卖出标的资产的**权利**（非义务）。
+
+#### 期权基本要素
+
+| 要素 | 说明 |
+|------|------|
+| **标的资产** | 股票、指数、期货等 |
+| **行权价（K）** | 约定的买卖价格 |
+| **到期日（T）** | 期权有效期截止日 |
+| **权利金** | 购买期权的价格 |
+| **类型** | 看涨（Call）/看跌（Put） |
+| **行权方式** | 美式（任何时间）/欧式（仅到期日） |
+
+#### 期权 payoff
+
+**看涨期权**：
+```
+Payoff = max(S_T - K, 0)
+```
+
+**看跌期权**：
+```
+Payoff = max(K - S_T, 0)
+```
+
+**Python可视化**：
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def plot_option_payoff():
+    """绘制期权收益图"""
+    S = np.linspace(50, 150, 100)
+    K = 100  # 行权价
+    premium = 5  # 权利金
+
+    # 看涨期权多头
+    long_call = np.maximum(S - K, 0) - premium
+    # 看涨期权空头
+    short_call = premium - np.maximum(S - K, 0)
+    # 看跌期权多头
+    long_put = np.maximum(K - S, 0) - premium
+    # 看跌期权空头
+    short_put = premium - np.maximum(K - S, 0)
+
+    fig, axes = plt.subplots(2, 2, figsize=(12, 10))
+
+    axes[0,0].plot(S, long_call, 'g-', linewidth=2)
+    axes[0,0].axhline(y=0, color='k', linestyle='-', alpha=0.3)
+    axes[0,0].axvline(x=K, color='r', linestyle='--', alpha=0.5)
+    axes[0,0].set_title('Long Call')
+    axes[0,0].set_xlabel('Stock Price at Expiration')
+    axes[0,0].set_ylabel('Profit/Loss')
+    axes[0,0].grid(True, alpha=0.3)
+
+    axes[0,1].plot(S, short_call, 'r-', linewidth=2)
+    axes[0,1].axhline(y=0, color='k', linestyle='-', alpha=0.3)
+    axes[0,1].axvline(x=K, color='r', linestyle='--', alpha=0.5)
+    axes[0,1].set_title('Short Call')
+    axes[0,1].set_xlabel('Stock Price at Expiration')
+    axes[0,1].set_ylabel('Profit/Loss')
+    axes[0,1].grid(True, alpha=0.3)
+
+    axes[1,0].plot(S, long_put, 'g-', linewidth=2)
+    axes[1,0].axhline(y=0, color='k', linestyle='-', alpha=0.3)
+    axes[1,0].axvline(x=K, color='r', linestyle='--', alpha=0.5)
+    axes[1,0].set_title('Long Put')
+    axes[1,0].set_xlabel('Stock Price at Expiration')
+    axes[1,0].set_ylabel('Profit/Loss')
+    axes[1,0].grid(True, alpha=0.3)
+
+    axes[1,1].plot(S, short_put, 'r-', linewidth=2)
+    axes[1,1].axhline(y=0, color='k', linestyle='-', alpha=0.3)
+    axes[1,1].axvline(x=K, color='r', linestyle='--', alpha=0.5)
+    axes[1,1].set_title('Short Put')
+    axes[1,1].set_xlabel('Stock Price at Expiration')
+    axes[1,1].set_ylabel('Profit/Loss')
+    axes[1,1].grid(True, alpha=0.3)
+
+    plt.tight_layout()
+    plt.show()
+
+plot_option_payoff()
+```
+
+#### 期权策略示例
+
+**保护性看跌（Protective Put）**：
+- 持有股票 + 买入看跌期权
+- 功能：为股票买保险
+- 成本：支付权利金
+
+**备兑看涨（Covered Call）**：
+- 持有股票 + 卖出看涨期权
+- 功能：增强收益
+- 风险：限制了上涨空间
+
+---
+
+### 4. 互换合约（Swap）
+
+**定义**：双方约定在未来一段时间内交换现金流的合约。
+
+#### 利率互换（IRS）
+
+**最常见的互换类型**：
+- 一方支付固定利率
+- 一方支付浮动利率（如LPR、SHIBOR）
+
+**应用场景**：
+- 将浮动利率负债转为固定利率
+- 利率风险管理
+
+```
+公司A（有浮动利率贷款）        公司B（有固定利率贷款）
+        ↓                              ↓
+   支付浮动利率                  支付固定利率
+        ↓                              ↓
+   ───────────→ 利率互换 ←───────────
+        ↓                              ↓
+   收取固定利率                  收取浮动利率
+        ↓                              ↓
+   净效果：支付固定              净效果：支付浮动
+```
+
+#### 货币互换
+
+交换不同货币的现金流，用于：
+- 获得外币融资
+- 对冲汇率风险
+
+---
+
+## 衍生品定价基础
+
+### 无套利原则
+
+**核心思想**：不能通过无风险交易获得超额收益。
+
+### 远期合约定价
+
+```
+F = S_0 × e^(rT)
+```
+
+其中：
+- F：远期价格
+- S_0：现货价格
+- r：无风险利率
+- T：到期时间
+
+**持有成本**：
+```
+F = S_0 × e^((r+q)T)
+```
+q：持有成本率（存储成本、便利收益等）
+
+### Black-Scholes期权定价
+
+```python
+from scipy.stats import norm
+import numpy as np
+
+def black_scholes(S, K, T, r, sigma, option_type='call'):
+    """
+    Black-Scholes期权定价模型
+
+    S: 标的资产现价
+    K: 行权价
+    T: 到期时间（年）
+    r: 无风险利率
+    sigma: 波动率
+    """
+    d1 = (np.log(S / K) + (r + 0.5 * sigma**2) * T) / (sigma * np.sqrt(T))
+    d2 = d1 - sigma * np.sqrt(T)
+
+    if option_type == 'call':
+        price = S * norm.cdf(d1) - K * np.exp(-r * T) * norm.cdf(d2)
+    else:
+        price = K * np.exp(-r * T) * norm.cdf(-d2) - S * norm.cdf(-d1)
+
+    return price
+
+# 示例
+S, K, T, r, sigma = 100, 100, 1, 0.05, 0.2
+call_price = black_scholes(S, K, T, r, sigma, 'call')
+put_price = black_scholes(S, K, T, r, sigma, 'put')
+
+print(f"看涨期权价格: {call_price:.4f}")
+print(f"看跌期权价格: {put_price:.4f}")
+
+# 验证平价关系: C - P = S - K*e^(-rT)
+parity_lhs = call_price - put_price
+parity_rhs = S - K * np.exp(-r * T)
+print(f"\n平价关系验证:")
+print(f"左边 (C-P): {parity_lhs:.4f}")
+print(f"右边 (S-Ke^(-rT)): {parity_rhs:.4f}")
+```
+
+---
+
+## 衍生品与量化策略
+
+### 1. 期现套利
+
+当期货价格偏离理论价格时：
+- **正向套利**：期货高估 → 卖出期货、买入现货
+- **反向套利**：期货低估 → 买入期货、卖出现货
+
+### 2. 波动率交易
+
+通过期权交易波动率：
+- 买入跨式（Straddle）：押注波动率上升
+- 卖出跨式：押注波动率下降
+
+### 3. 对冲策略
+
+```python
+def delta_hedge(S, K, T, r, sigma, position='long'):
+    """
+    Delta对冲
+    计算需要持有的标的资产数量
+    """
+    d1 = (np.log(S / K) + (r + 0.5 * sigma**2) * T) / (sigma * np.sqrt(T))
+    delta = norm.cdf(d1)
+
+    if position == 'short':
+        delta = -delta
+
+    return delta
+
+# 持有1份看涨期权，需要多少股票对冲？
+shares_needed = delta_hedge(S, K, T, r, sigma, 'long')
+print(f"每份期权需要对冲: {shares_needed:.4f} 股股票")
+```
+
+---
+
+## 下一步
+
+- [期权基础](/kb/quant/quant-k802iz) - 深入学习期权
+- [波动率交易策略](/kb/quant/quant-oo0dg6) - 期权应用
+- [统计套利](/kb/quant/quant-z0168t) - 期现套利
+d:T2644,# 衍生品基础
+
+> 金融工具的"派生品"——理解期货、期权、互换
+
+---
+
+## 什么是衍生品？
+
+**衍生品**是其价值依赖于**标的资产**的金融合约。
+
+**标的资产可以是**：
+- 股票、股票指数
+- 债券、利率
+- 商品（黄金、原油、农产品）
+- 外汇
+- 甚至其他衍生品
+
+### 为什么需要衍生品？
+
+| 功能 | 说明 | 例子 |
+|------|------|------|
+| **风险管理** | 对冲价格波动风险 | 农民锁定小麦售价 |
+| **价格发现** | 反映市场对未来价格的预期 | 期货价格显示预期 |
+| **杠杆交易** | 用较少资金控制大额资产 | 保证金交易 |
+| **套利机会** | 利用价格不一致获利 | 期现套利 |
+
+---
+
+## 四大衍生品类型
+
+### 1. 远期合约（Forward）
+
+**定义**：双方约定在未来某一日期以**确定价格**买卖标的资产的合约。
+
+**特点**：
+- **场外交易**（OTC）：定制化
+- **双边信用风险**：对方可能违约
+- 到期才结算
+
+**例子**：
+- 航空公司与石油公司签订远期合约，锁定6个月后的油价
+- 进口商与银行签订外汇远期，锁定汇率
+
+**到期收益**：
+```
+多头收益 = S_T - K
+空头收益 = K - S_T
+```
+其中 S_T 是到期标的资产价格，K 是约定价格。
+
+---
+
+### 2. 期货合约（Futures）
+
+**定义**：标准化的远期合约，在交易所交易。
+
+**vs 远期合约**：
+
+| 特征 | 远期 | 期货 |
+|------|------|------|
+| **交易场所** | 场外 | 交易所 |
+| **标准化** | 定制化 | 标准化 |
+| **信用风险** | 较高 | 清算所担保 |
+| **结算** | 到期结算 | 每日结算（盯市） |
+| **流动性** | 较低 | 较高 |
+
+#### 期货交易机制
+
+**保证金制度**：
+- **初始保证金**：开仓时缴纳（合约价值的5-15%）
+- **维持保证金**：账户必须保持的最低金额
+- **追加保证金**：低于维持保证金时需补足
+
+**每日结算（Mark-to-Market）**：
+```
+例：买入1手股指期货，合约价值100万，保证金10万
+
+Day 1: 期货涨2% → 盈利2万 → 账户余额12万
+Day 2: 期货跌3% → 亏损3万 → 账户余额9万
+      若维持保证金为8万，还需追加吗？不需要（9万>8万）
+Day 3: 期货跌10% → 亏损10万 → 账户余额-1万
+      爆仓！需追加保证金
+```
+
+#### Python期货收益计算
+
+```python
+import numpy as np
+
+def futures_pnl(entry_price, exit_price, contract_size, position='long'):
+    """
+    计算期货盈亏
+
+    entry_price: 开仓价格
+    exit_price: 平仓价格
+    contract_size: 合约乘数
+    position: 'long'或'short'
+    """
+    if position == 'long':
+        pnl = (exit_price - entry_price) * contract_size
+    else:
+        pnl = (entry_price - exit_price) * contract_size
+
+    return pnl
+
+# 示例：沪深300股指期货
+# 买入开仓3500点，平仓3600点，合约乘数300元/点
+pnl = futures_pnl(3500, 3600, 300, 'long')
+print(f"盈亏: {pnl:,.0f}元")  # 盈利30,000元
+
+# 保证金计算
+margin_ratio = 0.12  # 12%
+contract_value = 3500 * 300
+margin = contract_value * margin_ratio
+print(f"合约价值: {contract_value:,.0f}元")
+print(f"初始保证金: {margin:,.0f}元")
+print(f"杠杆率: {contract_value/margin:.1f}倍")
+```
+
+---
+
+### 3. 期权合约（Option）
+
+**定义**：赋予持有者在未来某一日期以**约定价格**买入或卖出标的资产的**权利**（非义务）。
+
+#### 期权基本要素
+
+| 要素 | 说明 |
+|------|------|
+| **标的资产** | 股票、指数、期货等 |
+| **行权价（K）** | 约定的买卖价格 |
+| **到期日（T）** | 期权有效期截止日 |
+| **权利金** | 购买期权的价格 |
+| **类型** | 看涨（Call）/看跌（Put） |
+| **行权方式** | 美式（任何时间）/欧式（仅到期日） |
+
+#### 期权 payoff
+
+**看涨期权**：
+```
+Payoff = max(S_T - K, 0)
+```
+
+**看跌期权**：
+```
+Payoff = max(K - S_T, 0)
+```
+
+**Python可视化**：
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def plot_option_payoff():
+    """绘制期权收益图"""
+    S = np.linspace(50, 150, 100)
+    K = 100  # 行权价
+    premium = 5  # 权利金
+
+    # 看涨期权多头
+    long_call = np.maximum(S - K, 0) - premium
+    # 看涨期权空头
+    short_call = premium - np.maximum(S - K, 0)
+    # 看跌期权多头
+    long_put = np.maximum(K - S, 0) - premium
+    # 看跌期权空头
+    short_put = premium - np.maximum(K - S, 0)
+
+    fig, axes = plt.subplots(2, 2, figsize=(12, 10))
+
+    axes[0,0].plot(S, long_call, 'g-', linewidth=2)
+    axes[0,0].axhline(y=0, color='k', linestyle='-', alpha=0.3)
+    axes[0,0].axvline(x=K, color='r', linestyle='--', alpha=0.5)
+    axes[0,0].set_title('Long Call')
+    axes[0,0].set_xlabel('Stock Price at Expiration')
+    axes[0,0].set_ylabel('Profit/Loss')
+    axes[0,0].grid(True, alpha=0.3)
+
+    axes[0,1].plot(S, short_call, 'r-', linewidth=2)
+    axes[0,1].axhline(y=0, color='k', linestyle='-', alpha=0.3)
+    axes[0,1].axvline(x=K, color='r', linestyle='--', alpha=0.5)
+    axes[0,1].set_title('Short Call')
+    axes[0,1].set_xlabel('Stock Price at Expiration')
+    axes[0,1].set_ylabel('Profit/Loss')
+    axes[0,1].grid(True, alpha=0.3)
+
+    axes[1,0].plot(S, long_put, 'g-', linewidth=2)
+    axes[1,0].axhline(y=0, color='k', linestyle='-', alpha=0.3)
+    axes[1,0].axvline(x=K, color='r', linestyle='--', alpha=0.5)
+    axes[1,0].set_title('Long Put')
+    axes[1,0].set_xlabel('Stock Price at Expiration')
+    axes[1,0].set_ylabel('Profit/Loss')
+    axes[1,0].grid(True, alpha=0.3)
+
+    axes[1,1].plot(S, short_put, 'r-', linewidth=2)
+    axes[1,1].axhline(y=0, color='k', linestyle='-', alpha=0.3)
+    axes[1,1].axvline(x=K, color='r', linestyle='--', alpha=0.5)
+    axes[1,1].set_title('Short Put')
+    axes[1,1].set_xlabel('Stock Price at Expiration')
+    axes[1,1].set_ylabel('Profit/Loss')
+    axes[1,1].grid(True, alpha=0.3)
+
+    plt.tight_layout()
+    plt.show()
+
+plot_option_payoff()
+```
+
+#### 期权策略示例
+
+**保护性看跌（Protective Put）**：
+- 持有股票 + 买入看跌期权
+- 功能：为股票买保险
+- 成本：支付权利金
+
+**备兑看涨（Covered Call）**：
+- 持有股票 + 卖出看涨期权
+- 功能：增强收益
+- 风险：限制了上涨空间
+
+---
+
+### 4. 互换合约（Swap）
+
+**定义**：双方约定在未来一段时间内交换现金流的合约。
+
+#### 利率互换（IRS）
+
+**最常见的互换类型**：
+- 一方支付固定利率
+- 一方支付浮动利率（如LPR、SHIBOR）
+
+**应用场景**：
+- 将浮动利率负债转为固定利率
+- 利率风险管理
+
+```
+公司A（有浮动利率贷款）        公司B（有固定利率贷款）
+        ↓                              ↓
+   支付浮动利率                  支付固定利率
+        ↓                              ↓
+   ───────────→ 利率互换 ←───────────
+        ↓                              ↓
+   收取固定利率                  收取浮动利率
+        ↓                              ↓
+   净效果：支付固定              净效果：支付浮动
+```
+
+#### 货币互换
+
+交换不同货币的现金流，用于：
+- 获得外币融资
+- 对冲汇率风险
+
+---
+
+## 衍生品定价基础
+
+### 无套利原则
+
+**核心思想**：不能通过无风险交易获得超额收益。
+
+### 远期合约定价
+
+```
+F = S_0 × e^(rT)
+```
+
+其中：
+- F：远期价格
+- S_0：现货价格
+- r：无风险利率
+- T：到期时间
+
+**持有成本**：
+```
+F = S_0 × e^((r+q)T)
+```
+q：持有成本率（存储成本、便利收益等）
+
+### Black-Scholes期权定价
+
+```python
+from scipy.stats import norm
+import numpy as np
+
+def black_scholes(S, K, T, r, sigma, option_type='call'):
+    """
+    Black-Scholes期权定价模型
+
+    S: 标的资产现价
+    K: 行权价
+    T: 到期时间（年）
+    r: 无风险利率
+    sigma: 波动率
+    """
+    d1 = (np.log(S / K) + (r + 0.5 * sigma**2) * T) / (sigma * np.sqrt(T))
+    d2 = d1 - sigma * np.sqrt(T)
+
+    if option_type == 'call':
+        price = S * norm.cdf(d1) - K * np.exp(-r * T) * norm.cdf(d2)
+    else:
+        price = K * np.exp(-r * T) * norm.cdf(-d2) - S * norm.cdf(-d1)
+
+    return price
+
+# 示例
+S, K, T, r, sigma = 100, 100, 1, 0.05, 0.2
+call_price = black_scholes(S, K, T, r, sigma, 'call')
+put_price = black_scholes(S, K, T, r, sigma, 'put')
+
+print(f"看涨期权价格: {call_price:.4f}")
+print(f"看跌期权价格: {put_price:.4f}")
+
+# 验证平价关系: C - P = S - K*e^(-rT)
+parity_lhs = call_price - put_price
+parity_rhs = S - K * np.exp(-r * T)
+print(f"\n平价关系验证:")
+print(f"左边 (C-P): {parity_lhs:.4f}")
+print(f"右边 (S-Ke^(-rT)): {parity_rhs:.4f}")
+```
+
+---
+
+## 衍生品与量化策略
+
+### 1. 期现套利
+
+当期货价格偏离理论价格时：
+- **正向套利**：期货高估 → 卖出期货、买入现货
+- **反向套利**：期货低估 → 买入期货、卖出现货
+
+### 2. 波动率交易
+
+通过期权交易波动率：
+- 买入跨式（Straddle）：押注波动率上升
+- 卖出跨式：押注波动率下降
+
+### 3. 对冲策略
+
+```python
+def delta_hedge(S, K, T, r, sigma, position='long'):
+    """
+    Delta对冲
+    计算需要持有的标的资产数量
+    """
+    d1 = (np.log(S / K) + (r + 0.5 * sigma**2) * T) / (sigma * np.sqrt(T))
+    delta = norm.cdf(d1)
+
+    if position == 'short':
+        delta = -delta
+
+    return delta
+
+# 持有1份看涨期权，需要多少股票对冲？
+shares_needed = delta_hedge(S, K, T, r, sigma, 'long')
+print(f"每份期权需要对冲: {shares_needed:.4f} 股股票")
+```
+
+---
+
+## 下一步
+
+- [期权基础](/kb/quant/quant-k802iz) - 深入学习期权
+- [波动率交易策略](/kb/quant/quant-oo0dg6) - 期权应用
+- [统计套利](/kb/quant/quant-z0168t) - 期现套利
+2:["$","$Lb",null,{"document":{"slug":"doc-k6nwrv","title":"衍生品基础","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$c","filePath":"金融市场/衍生品基础.md","default":{"slug":"doc-k6nwrv","title":"衍生品基础","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$d","filePath":"金融市场/衍生品基础.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"衍生品基础 - Quant | Jerry Xu"}],["$","meta","3",{"name":"description","content":"衍生品基础"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}]]
+1:null

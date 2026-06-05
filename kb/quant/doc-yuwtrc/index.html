@@ -1,0 +1,466 @@
+<!DOCTYPE html><html lang="zh-CN" class="dark scroll-smooth"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/8fd3907a9da855dd.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-b8a5b6732ed6ab9e.js"/><script src="/_next/static/chunks/fd9d1056-feaa03e4ba5b7f26.js" async=""></script><script src="/_next/static/chunks/7023-23d925299661e942.js" async=""></script><script src="/_next/static/chunks/main-app-3495942691d28830.js" async=""></script><script src="/_next/static/chunks/2015-af9c16aac7ff4ad0.js" async=""></script><script src="/_next/static/chunks/7138-b897b2ad3516dd35.js" async=""></script><script src="/_next/static/chunks/app/layout-cd1f76c760ed59d2.js" async=""></script><script src="/_next/static/chunks/app/not-found-b043129a42c3b49c.js" async=""></script><script src="/_next/static/chunks/8373-886bc01b77cafd14.js" async=""></script><script src="/_next/static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js" async=""></script><title>均值回归策略 - Quant | Jerry Xu</title><meta name="description" content="均值回归策略"/><meta name="author" content="Jerry Xu"/><meta name="keywords" content="Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript"/><meta property="og:title" content="Jerry Xu - 徐劼瑞"/><meta property="og:description" content="上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"/><meta property="og:site_name" content="Jerry Xu"/><meta property="og:locale" content="zh_CN"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Jerry Xu - 徐劼瑞"/><meta name="twitter:description" content="上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"/><script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script></head><body class="font-sans antialiased min-h-screen flex flex-col bg-background text-foreground"><header class="fixed top-0 left-0 right-0 z-50"><div class="mx-4 mt-4"><nav class="relative max-w-5xl mx-auto px-6 py-3 rounded-full glass border border-white/10 shadow-2xl shadow-purple-500/5" style="opacity:0;transform:translateY(-100px)"><div class="flex items-center justify-between"><a class="flex items-center gap-2 group" href="/"><div class="relative"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 text-white"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path d="M3 5h4"></path><path d="M17 19h4"></path></svg></div><div class="absolute inset-0 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div></div><span class="font-bold text-lg tracking-tight hidden sm:block text-foreground">Jerry</span></a><div class="hidden md:flex items-center gap-1"><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/">首页</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/about/">关于</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/resume/">简历</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/projects/">项目</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/kb/">知识库</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/blog/">博客</a></div><div class="flex items-center gap-2"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="hidden md:flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a><button class="md:hidden flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-5 h-5"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></div></nav></div></header><main class="flex-1"><div class="relative min-h-screen"><div class="fixed inset-0 gradient-bg -z-10"></div><div class="fixed inset-0 grid-pattern -z-10"></div><div class="relative z-10 py-32 px-4"><div class="max-w-4xl mx-auto"><div class="mb-8" style="opacity:0;transform:translateX(-20px)"><a class="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors" href="/kb/quant/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回 <!-- -->Quant</a></div><div class="mb-12" style="opacity:0;transform:translateY(20px)"><div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-muted-foreground"><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full glass"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-4 h-4"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>Quant</span><span class="inline-flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-4 h-4"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>21<!-- --> 分钟阅读</span></div><h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"><span class="gradient-text">均值回归策略</span></h1></div><div class="glass rounded-2xl p-6 md:p-10" style="opacity:0;transform:translateY(20px)"><article class="prose prose-invert prose-lg max-w-none"><h1 class="text-3xl font-bold mt-8 mb-4 pb-2 border-b border-white/10">均值回归策略</h1>
+<blockquote class="border-l-4 border-purple-500 pl-4 italic text-muted-foreground my-4">
+<p class="text-muted-foreground leading-relaxed mb-4">物极必反的智慧——捕捉价格的&quot;回归&quot;力量</p>
+</blockquote>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">什么是均值回归？</h2>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>均值回归</strong>：价格倾向于围绕某个长期均值波动，偏离过大时会向均值回归。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">直观理解</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">想象橡皮筋：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><strong>拉伸</strong>（价格偏离均值）→ 产生回归的力量</li>
+<li class="leading-relaxed"><strong>放松</strong>（回到均值）→ 力量消失</li>
+<li class="leading-relaxed"><strong>过冲</strong>（可能向另一侧偏离）→ 新的回归机会</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4">股票市场同理，极端价格往往是暂时的。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">与动量的对比</h3>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">特征</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">动量策略</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">均值回归策略</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>核心信念</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">趋势会延续</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">极端会回归</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>交易方向</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">追涨杀跌</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">高抛低吸</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>持仓周期</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">通常较长（月）</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">通常较短（天-周）</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>适用市场</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">趋势明显</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">震荡市场</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>风险偏好</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">顺势而为</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">逆势而为</td></tr></tbody></table></div>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">均值回归的来源</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 投资者过度反应</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>过程</strong>：</p>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">消息冲击导致价格过度反应</li>
+<li class="leading-relaxed">情绪冷静后价格修正</li>
+<li class="leading-relaxed">回归到基本面价值</li>
+</ol>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>例子</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">恐慌性抛售后的反弹</li>
+<li class="leading-relaxed">泡沫破裂后的价值回归</li>
+</ul>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 套利力量</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>机制</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">价格过低 → 价值投资者买入 → 价格回升</li>
+<li class="leading-relaxed">价格过高 → 卖空者做空 → 价格回落</li>
+</ul>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 统计特性</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">许多金融时间序列表现出均值回归特性：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">两个协整资产的价格差</li>
+<li class="leading-relaxed">波动率（GARCH模型）</li>
+<li class="leading-relaxed">利率</li>
+</ul>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">均值回归度量方法</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. Z-Score（标准分数）</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>计算</strong>：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">Z = (当前价格 - 均值) / 标准差
+</code></pre>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>解读</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">Z &gt; 2：价格显著高于均值，可能回归</li>
+<li class="leading-relaxed">Z &lt; -2：价格显著低于均值，可能反弹</li>
+<li class="leading-relaxed">Z ≈ 0：价格在正常范围</li>
+</ul>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import pandas as pd
+import numpy as np
+
+def calculate_zscore(prices, window=20):
+    &quot;&quot;&quot;
+    计算价格的Z-Score
+    &quot;&quot;&quot;
+    mean = prices.rolling(window=window).mean()
+    std = prices.rolling(window=window).std()
+    zscore = (prices - mean) / std
+
+    return zscore
+
+# 示例
+prices = pd.Series([100, 102, 105, 108, 110, 108, 105, 100, 95, 92, 90, 92, 95, 98, 100])
+zscore = calculate_zscore(prices, window=5)
+
+print(pd.DataFrame({&#x27;Price&#x27;: prices, &#x27;Z-Score&#x27;: zscore}))
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 布林带（Bollinger Bands）</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>构成</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">中轨：移动平均线（MA20）</li>
+<li class="leading-relaxed">上轨：MA20 + 2×标准差</li>
+<li class="leading-relaxed">下轨：MA20 - 2×标准差</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>交易信号</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">价格触及上轨 → 卖出信号</li>
+<li class="leading-relaxed">价格触及下轨 → 买入信号</li>
+</ul>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def bollinger_bands(prices, window=20, num_std=2):
+    &quot;&quot;&quot;
+    计算布林带
+    &quot;&quot;&quot;
+    ma = prices.rolling(window=window).mean()
+    std = prices.rolling(window=window).std()
+
+    upper = ma + num_std * std
+    lower = ma - num_std * std
+
+    return ma, upper, lower
+
+# 可视化
+import matplotlib.pyplot as plt
+
+ma, upper, lower = bollinger_bands(prices)
+
+plt.figure(figsize=(12, 6))
+plt.plot(prices, label=&#x27;Price&#x27;, color=&#x27;black&#x27;)
+plt.plot(ma, label=&#x27;MA20&#x27;, color=&#x27;blue&#x27;, alpha=0.7)
+plt.plot(upper, label=&#x27;Upper Band&#x27;, color=&#x27;red&#x27;, linestyle=&#x27;--&#x27;, alpha=0.7)
+plt.plot(lower, label=&#x27;Lower Band&#x27;, color=&#x27;green&#x27;, linestyle=&#x27;--&#x27;, alpha=0.7)
+plt.fill_between(prices.index, lower, upper, alpha=0.1)
+plt.legend()
+plt.title(&#x27;Bollinger Bands&#x27;)
+plt.grid(True, alpha=0.3)
+plt.show()
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. RSI（相对强弱指标）</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>计算</strong>：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">RSI = 100 - 100 / (1 + RS)
+RS = 平均上涨 / 平均下跌
+</code></pre>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>解读</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">RSI &gt; 70：超买，可能回调</li>
+<li class="leading-relaxed">RSI &lt; 30：超卖，可能反弹</li>
+</ul>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def calculate_rsi(prices, window=14):
+    &quot;&quot;&quot;
+    计算RSI
+    &quot;&quot;&quot;
+    delta = prices.diff()
+
+    gain = (delta.where(delta &gt; 0, 0)).rolling(window=window).mean()
+    loss = (-delta.where(delta &lt; 0, 0)).rolling(window=window).mean()
+
+    rs = gain / loss
+    rsi = 100 - (100 / (1 + rs))
+
+    return rsi
+
+rsi = calculate_rsi(prices)
+print(f&quot;当前RSI: {rsi.iloc[-1]:.2f}&quot;)
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">经典均值回归策略</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 简单Z-Score策略</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>规则</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">Z &lt; -2：买入</li>
+<li class="leading-relaxed">Z &gt; 2：卖出</li>
+<li class="leading-relaxed">-1 &lt; Z &lt; 1：平仓</li>
+</ul>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def zscore_strategy(prices, window=20, entry_threshold=2, exit_threshold=0.5):
+    &quot;&quot;&quot;
+    Z-Score均值回归策略
+    &quot;&quot;&quot;
+    zscore = calculate_zscore(prices, window)
+
+    signals = pd.Series(0, index=prices.index)
+    position = 0
+
+    for i in range(len(zscore)):
+        if pd.isna(zscore.iloc[i]):
+            continue
+
+        if position == 0:
+            if zscore.iloc[i] &lt; -entry_threshold:
+                signals.iloc[i] = 1  # 买入
+                position = 1
+            elif zscore.iloc[i] &gt; entry_threshold:
+                signals.iloc[i] = -1  # 卖出
+                position = -1
+        elif position == 1:
+            if zscore.iloc[i] &gt; -exit_threshold:
+                signals.iloc[i] = 0  # 平仓
+                position = 0
+        elif position == -1:
+            if zscore.iloc[i] &lt; exit_threshold:
+                signals.iloc[i] = 0  # 平仓
+                position = 0
+
+    return signals, zscore
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. RSI策略</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>规则</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">RSI &lt; 30：买入信号</li>
+<li class="leading-relaxed">RSI &gt; 70：卖出信号</li>
+</ul>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def rsi_strategy(prices, lower=30, upper=70):
+    &quot;&quot;&quot;
+    RSI均值回归策略
+    &quot;&quot;&quot;
+    rsi = calculate_rsi(prices)
+
+    signals = pd.Series(0, index=prices.index)
+    signals[rsi &lt; lower] = 1
+    signals[rsi &gt; upper] = -1
+
+    return signals, rsi
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 布林带策略</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>规则</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">价格触及下轨 → 买入</li>
+<li class="leading-relaxed">价格触及上轨 → 卖出</li>
+</ul>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def bollinger_strategy(prices, window=20, num_std=2):
+    &quot;&quot;&quot;
+    布林带均值回归策略
+    &quot;&quot;&quot;
+    ma, upper, lower = bollinger_bands(prices, window, num_std)
+
+    signals = pd.Series(0, index=prices.index)
+    signals[prices &lt; lower] = 1
+    signals[prices &gt; upper] = -1
+
+    return signals, upper, lower
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">配对交易（Pair Trading）</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">什么是配对交易？</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>核心思想</strong>：找到两个价格走势相似的资产，当它们的价格关系偏离历史水平时进行交易。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>例子</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">可口可乐 vs 百事可乐</li>
+<li class="leading-relaxed">中国移动 vs 中国联通</li>
+<li class="leading-relaxed">同一行业的两只股票</li>
+</ul>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">协整（Cointegration）</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>概念</strong>：两个非平稳序列的线性组合是平稳的。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>检验</strong>：</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">from statsmodels.tsa.stattools import coint
+
+def test_cointegration(price1, price2):
+    &quot;&quot;&quot;
+    检验协整关系
+    &quot;&quot;&quot;
+    score, pvalue, _ = coint(price1, price2)
+
+    print(f&quot;协整检验统计量: {score:.4f}&quot;)
+    print(f&quot;P值: {pvalue:.4f}&quot;)
+    print(f&quot;是否协整: {&#x27;是&#x27; if pvalue &lt; 0.05 else &#x27;否&#x27;}&quot;)
+
+    return pvalue &lt; 0.05
+
+# 示例
+np.random.seed(42)
+# 生成两个协整序列
+beta = 0.7
+spread = np.random.normal(0, 1, 500).cumsum() * 0.1
+price1 = 100 + np.random.randn(500).cumsum() * 0.5 + spread
+price2 = 50 + beta * (price1 - 100) + np.random.randn(500) * 0.3
+
+test_cointegration(price1, price2)
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">价差（Spread）交易</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def calculate_spread(price1, price2, method=&#x27;ols&#x27;):
+    &quot;&quot;&quot;
+    计算配对价差
+    &quot;&quot;&quot;
+    if method == &#x27;ols&#x27;:
+        # OLS回归计算对冲比率
+        from sklearn.linear_model import LinearRegression
+
+        X = price2.values.reshape(-1, 1)
+        y = price1.values
+
+        model = LinearRegression().fit(X, y)
+        hedge_ratio = model.coef_[0]
+
+        spread = price1 - hedge_ratio * price2
+    else:
+        # 简单价差
+        spread = price1 - price2
+
+    return spread
+
+def pair_trading_signals(spread, window=20, entry_z=2, exit_z=0.5):
+    &quot;&quot;&quot;
+    生成配对交易信号
+    &quot;&quot;&quot;
+    zscore = calculate_zscore(spread, window)
+
+    signals = pd.Series(0, index=spread.index)
+
+    # 价差过高 → 做空价差（卖1买2）
+    signals[zscore &gt; entry_z] = -1
+
+    # 价差过低 → 做多价差（买1卖2）
+    signals[zscore &lt; -entry_z] = 1
+
+    # 回归平仓
+    signals[abs(zscore) &lt; exit_z] = 0
+
+    return signals, zscore
+
+# 可视化
+spread = calculate_spread(pd.Series(price1), pd.Series(price2))
+signals, zscore = pair_trading_signals(spread)
+
+fig, axes = plt.subplots(3, 1, figsize=(12, 10))
+
+axes[0].plot(price1, label=&#x27;Stock 1&#x27;)
+axes[0].plot(price2, label=&#x27;Stock 2&#x27;)
+axes[0].legend()
+axes[0].set_title(&#x27;Price Series&#x27;)
+axes[0].grid(True, alpha=0.3)
+
+axes[1].plot(spread, color=&#x27;purple&#x27;)
+axes[1].axhline(spread.mean(), color=&#x27;red&#x27;, linestyle=&#x27;--&#x27;)
+axes[1].set_title(&#x27;Spread&#x27;)
+axes[1].grid(True, alpha=0.3)
+
+axes[2].plot(zscore, color=&#x27;orange&#x27;)
+axes[2].axhline(2, color=&#x27;red&#x27;, linestyle=&#x27;--&#x27;, alpha=0.5)
+axes[2].axhline(-2, color=&#x27;green&#x27;, linestyle=&#x27;--&#x27;, alpha=0.5)
+axes[2].axhline(0, color=&#x27;black&#x27;, linestyle=&#x27;-&#x27;, alpha=0.3)
+axes[2].set_title(&#x27;Z-Score&#x27;)
+axes[2].grid(True, alpha=0.3)
+
+plt.tight_layout()
+plt.show()
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">均值回归的风险</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 趋势风险</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>问题</strong>：在强趋势市场中，均值回归策略会持续亏损。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>例子</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">2008年金融危机：价格持续下跌，&quot;便宜&quot;的股票变得更便宜</li>
+<li class="leading-relaxed">2015年A股牛市：价格持续上涨，&quot;贵&quot;的股票变得更贵</li>
+</ul>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 基本面变化</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>问题</strong>：均值变化了（公司基本面恶化/改善）。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>例子</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">柯达：从胶片巨头到破产，&quot;便宜&quot;是陷阱</li>
+<li class="leading-relaxed">特斯拉：从亏损到盈利，&quot;贵&quot;有贵的道理</li>
+</ul>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 时间成本</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>问题</strong>：回归可能需要很长时间。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>应对</strong>：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">设定最大持仓时间</li>
+<li class="leading-relaxed">加入止损机制</li>
+</ul>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">策略改进</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 趋势过滤</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">只在震荡市使用均值回归：</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def add_trend_filter(prices, momentum_window=126):
+    &quot;&quot;&quot;
+    添加趋势过滤器
+    强趋势时不交易
+    &quot;&quot;&quot;
+    momentum = prices.pct_change(momentum_window)
+
+    # 动量在中等范围时（震荡市）才交易
+    trend_filter = abs(momentum) &lt; 0.1  # 过去一年涨跌不超过10%
+
+    return trend_filter
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 动态阈值</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">根据波动率调整阈值：</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def dynamic_threshold(prices, base_threshold=2):
+    &quot;&quot;&quot;
+    根据波动率调整阈值
+    &quot;&quot;&quot;
+    current_vol = prices.pct_change().rolling(20).std()
+    historical_vol = prices.pct_change().std()
+
+    vol_ratio = current_vol / historical_vol
+    adjusted_threshold = base_threshold * vol_ratio
+
+    return adjusted_threshold
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 止损机制</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def mean_reversion_with_stop(prices, zscore, entry_z=2, stop_loss=0.05):
+    &quot;&quot;&quot;
+    带止损的均值回归策略
+    &quot;&quot;&quot;
+    signals = pd.Series(0, index=prices.index)
+    entry_price = None
+
+    for i in range(1, len(prices)):
+        if signals.iloc[i-1] == 0:  # 空仓
+            if zscore.iloc[i] &lt; -entry_z:
+                signals.iloc[i] = 1
+                entry_price = prices.iloc[i]
+            elif zscore.iloc[i] &gt; entry_z:
+                signals.iloc[i] = -1
+                entry_price = prices.iloc[i]
+        else:  # 持仓
+            pnl = (prices.iloc[i] - entry_price) / entry_price * signals.iloc[i-1]
+
+            if pnl &lt; -stop_loss:  # 止损
+                signals.iloc[i] = 0
+            elif abs(zscore.iloc[i]) &lt; 0.5:  # 回归平仓
+                signals.iloc[i] = 0
+            else:
+                signals.iloc[i] = signals.iloc[i-1]
+
+    return signals
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">实战：A股均值回归策略</h2>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">class MeanReversionStrategy:
+    &quot;&quot;&quot;
+    A股均值回归策略（基于RSI）
+    &quot;&quot;&quot;
+
+    def __init__(self, rsi_window=14, lower=30, upper=70, stop_loss=0.05):
+        self.rsi_window = rsi_window
+        self.lower = lower
+        self.upper = upper
+        self.stop_loss = stop_loss
+
+    def generate_signals(self, prices):
+        &quot;&quot;&quot;
+        生成交易信号
+        &quot;&quot;&quot;
+        rsi = calculate_rsi(prices, self.rsi_window)
+
+        signals = pd.Series(0, index=prices.index)
+        position = 0
+        entry_price = None
+
+        for i in range(len(prices)):
+            if pd.isna(rsi.iloc[i]):
+                continue
+
+            if position == 0:
+                if rsi.iloc[i] &lt; self.lower:
+                    signals.iloc[i] = 1
+                    position = 1
+                    entry_price = prices.iloc[i]
+                elif rsi.iloc[i] &gt; self.upper:
+                    signals.iloc[i] = -1
+                    position = -1
+                    entry_price = prices.iloc[i]
+            elif position == 1:
+                # 止损或RSI回归
+                loss = (entry_price - prices.iloc[i]) / entry_price
+                if loss &gt; self.stop_loss or rsi.iloc[i] &gt; 50:
+                    signals.iloc[i] = 0
+                    position = 0
+                else:
+                    signals.iloc[i] = 1
+            elif position == -1:
+                # 止损或RSI回归
+                loss = (prices.iloc[i] - entry_price) / entry_price
+                if loss &gt; self.stop_loss or rsi.iloc[i] &lt; 50:
+                    signals.iloc[i] = 0
+                    position = 0
+                else:
+                    signals.iloc[i] = -1
+
+        return signals, rsi
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">下一步</h2>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><a href="/kb/quant/quant-xwfbng" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">配对交易</a> - 深入学习配对策略</li>
+<li class="leading-relaxed"><a href="/kb/quant/quant-ygv2jq" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">配对交易策略实战</a> - 完整实现</li>
+<li class="leading-relaxed"><a href="/kb/quant/quant-bucbbs" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">时间序列分析基础</a> - 统计基础</li>
+</ul></article></div><div class="mt-12 flex items-center justify-between" style="opacity:0;transform:translateY(20px)"><a class="inline-flex items-center gap-2 px-6 py-3 rounded-full glass hover:bg-white/10 transition-colors" href="/kb/quant/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回列表</a></div></div></div></div></main><footer class="relative border-t border-white/5"><div class="absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"></div><div class="container relative py-16"><div class="grid grid-cols-1 md:grid-cols-4 gap-12"><div class="md:col-span-2 space-y-4"><a class="inline-block" href="/"><span class="text-2xl font-bold gradient-text">Jerry Xu</span></a><p class="text-muted-foreground max-w-sm">热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。</p><div class="flex items-center gap-4"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg><span>GitHub</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></div></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">导航</h4><ul class="space-y-3"><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/about/">关于</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/projects/">项目</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/kb/">知识库</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/blog/">博客</a></li></ul></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">联系方式</h4><ul class="space-y-3 text-sm"><li><a href="https://www.sjtu.edu.cn" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">上海交通大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li><a href="https://www.cuhk.edu.hk" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">即将前往香港中文大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li class="text-xs pt-2 text-muted-foreground">通过 GitHub 联系</li></ul></div></div><div class="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4"><p class="text-sm text-muted-foreground">© <!-- -->2026<!-- --> Jerry Xu. Built with<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg> and Next.js</p><p class="text-xs text-muted-foreground/60">Designed &amp; Developed by Jerry</p></div></div></footer><script src="/_next/static/chunks/webpack-b8a5b6732ed6ab9e.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/8fd3907a9da855dd.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"2:I[95751,[],\"\"]\n5:I[39275,[],\"\"]\n8:I[61343,[],\"\"]\n9:I[62782,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-cd1f76c760ed59d2.js\"],\"Header\"]\na:I[82446,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"9160\",\"static/chunks/app/not-found-b043129a42c3b49c.js\"],\"default\"]\nb:I[231,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-cd1f76c760ed59d2.js\"],\"\"]\nd:I[76130,[],\"\"]\n6:[\"category\",\"quant\",\"d\"]\n7:[\"slug\",\"doc-yuwtrc\",\"d\"]\ne:[]\n"])</script><script>self.__next_f.push([1,"0:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/8fd3907a9da855dd.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L2\",null,{\"buildId\":\"ffk0ESDk0CTyiiGJbvRpT\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/kb/quant/doc-yuwtrc/\",\"initialTree\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"quant\",\"d\"],{\"children\":[[\"slug\",\"doc-yuwtrc\",\"d\"],{\"children\":[\"__PAGE__?{\\\"category\\\":\\\"quant\\\",\\\"slug\\\":\\\"doc-yuwtrc\\\"}\",{}]}]}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"quant\",\"d\"],{\"children\":[[\"slug\",\"doc-yuwtrc\",\"d\"],{\"children\":[\"__PAGE__\",{},[[\"$L3\",\"$L4\"],null],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\",\"$7\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[[\"$\",\"html\",null,{\"lang\":\"zh-CN\",\"className\":\"dark scroll-smooth\",\"children\":[\"$\",\"body\",null,{\"className\":\"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground\",\"children\":[[\"$\",\"$L9\",null,{}],[\"$\",\"main\",null,{\"className\":\"flex-1\",\"children\":[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[\"$\",\"$La\",null,{}],\"notFoundStyles\":[],\"styles\":null}]}],[\"$\",\"footer\",null,{\"className\":\"relative border-t border-white/5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none\"}],[\"$\",\"div\",null,{\"className\":\"container relative py-16\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 md:grid-cols-4 gap-12\",\"children\":[[\"$\",\"div\",null,{\"className\":\"md:col-span-2 space-y-4\",\"children\":[[\"$\",\"$Lb\",null,{\"href\":\"/\",\"className\":\"inline-block\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-2xl font-bold gradient-text\",\"children\":\"Jerry Xu\"}]}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground max-w-sm\",\"children\":\"热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。\"}],[\"$\",\"div\",null,{\"className\":\"flex items-center gap-4\",\"children\":[\"$\",\"a\",null,{\"href\":\"https://github.com/Jrx2003\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group\",\"children\":[[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-github w-4 h-4\",\"children\":[[\"$\",\"path\",\"tonef\",{\"d\":\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"}],[\"$\",\"path\",\"9comsn\",{\"d\":\"M9 18c-4.51 2-5-2-7-2\"}],\"$undefined\"]}],[\"$\",\"span\",null,{\"children\":\"GitHub\"}],[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"导航\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3\",\"children\":[[\"$\",\"li\",\"/about/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/about/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"关于\"}]}],[\"$\",\"li\",\"/projects/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/projects/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"项目\"}]}],[\"$\",\"li\",\"/kb/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/kb/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"知识库\"}]}],[\"$\",\"li\",\"/blog/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/blog/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"博客\"}]}]]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"联系方式\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3 text-sm\",\"children\":[[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.sjtu.edu.cn\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"上海交通大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.cuhk.edu.hk\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"即将前往香港中文大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"className\":\"text-xs pt-2 text-muted-foreground\",\"children\":\"通过 GitHub 联系\"}]]}]]}]]}],[\"$\",\"div\",null,{\"className\":\"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-sm text-muted-foreground\",\"children\":[\"© \",2026,\" Jerry Xu. Built with\",\" \",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500\",\"children\":[[\"$\",\"path\",\"c3ymky\",{\"d\":\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"}],\"$undefined\"]}],\" and Next.js\"]}],[\"$\",\"p\",null,{\"className\":\"text-xs text-muted-foreground/60\",\"children\":\"Designed \u0026 Developed by Jerry\"}]]}]]}]]}]]}]}],null],null],\"couldBeIntercepted\":false,\"initialHead\":[false,\"$Lc\"],\"globalErrorComponent\":\"$d\",\"missingSlots\":\"$We\"}]]\n"])</script><script>self.__next_f.push([1,"f:I[66006,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"8373\",\"static/chunks/8373-886bc01b77cafd14.js\",\"7438\",\"static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js\"],\"default\"]\n10:T327b,"])</script><script>self.__next_f.push([1,"# 均值回归策略\n\n\u003e 物极必反的智慧——捕捉价格的\"回归\"力量\n\n---\n\n## 什么是均值回归？\n\n**均值回归**：价格倾向于围绕某个长期均值波动，偏离过大时会向均值回归。\n\n### 直观理解\n\n想象橡皮筋：\n- **拉伸**（价格偏离均值）→ 产生回归的力量\n- **放松**（回到均值）→ 力量消失\n- **过冲**（可能向另一侧偏离）→ 新的回归机会\n\n股票市场同理，极端价格往往是暂时的。\n\n### 与动量的对比\n\n| 特征 | 动量策略 | 均值回归策略 |\n|------|----------|-------------|\n| **核心信念** | 趋势会延续 | 极端会回归 |\n| **交易方向** | 追涨杀跌 | 高抛低吸 |\n| **持仓周期** | 通常较长（月） | 通常较短（天-周） |\n| **适用市场** | 趋势明显 | 震荡市场 |\n| **风险偏好** | 顺势而为 | 逆势而为 |\n\n---\n\n## 均值回归的来源\n\n### 1. 投资者过度反应\n\n**过程**：\n1. 消息冲击导致价格过度反应\n2. 情绪冷静后价格修正\n3. 回归到基本面价值\n\n**例子**：\n- 恐慌性抛售后的反弹\n- 泡沫破裂后的价值回归\n\n### 2. 套利力量\n\n**机制**：\n- 价格过低 → 价值投资者买入 → 价格回升\n- 价格过高 → 卖空者做空 → 价格回落\n\n### 3. 统计特性\n\n许多金融时间序列表现出均值回归特性：\n- 两个协整资产的价格差\n- 波动率（GARCH模型）\n- 利率\n\n---\n\n## 均值回归度量方法\n\n### 1. Z-Score（标准分数）\n\n**计算**：\n```\nZ = (当前价格 - 均值) / 标准差\n```\n\n**解读**：\n- Z \u003e 2：价格显著高于均值，可能回归\n- Z \u003c -2：价格显著低于均值，可能反弹\n- Z ≈ 0：价格在正常范围\n\n```python\nimport pandas as pd\nimport numpy as np\n\ndef calculate_zscore(prices, window=20):\n    \"\"\"\n    计算价格的Z-Score\n    \"\"\"\n    mean = prices.rolling(window=window).mean()\n    std = prices.rolling(window=window).std()\n    zscore = (prices - mean) / std\n\n    return zscore\n\n# 示例\nprices = pd.Series([100, 102, 105, 108, 110, 108, 105, 100, 95, 92, 90, 92, 95, 98, 100])\nzscore = calculate_zscore(prices, window=5)\n\nprint(pd.DataFrame({'Price': prices, 'Z-Score': zscore}))\n```\n\n### 2. 布林带（Bollinger Bands）\n\n**构成**：\n- 中轨：移动平均线（MA20）\n- 上轨：MA20 + 2×标准差\n- 下轨：MA20 - 2×标准差\n\n**交易信号**：\n- 价格触及上轨 → 卖出信号\n- 价格触及下轨 → 买入信号\n\n```python\ndef bollinger_bands(prices, window=20, num_std=2):\n    \"\"\"\n    计算布林带\n    \"\"\"\n    ma = prices.rolling(window=window).mean()\n    std = prices.rolling(window=window).std()\n\n    upper = ma + num_std * std\n    lower = ma - num_std * std\n\n    return ma, upper, lower\n\n# 可视化\nimport matplotlib.pyplot as plt\n\nma, upper, lower = bollinger_bands(prices)\n\nplt.figure(figsize=(12, 6))\nplt.plot(prices, label='Price', color='black')\nplt.plot(ma, label='MA20', color='blue', alpha=0.7)\nplt.plot(upper, label='Upper Band', color='red', linestyle='--', alpha=0.7)\nplt.plot(lower, label='Lower Band', color='green', linestyle='--', alpha=0.7)\nplt.fill_between(prices.index, lower, upper, alpha=0.1)\nplt.legend()\nplt.title('Bollinger Bands')\nplt.grid(True, alpha=0.3)\nplt.show()\n```\n\n### 3. RSI（相对强弱指标）\n\n**计算**：\n```\nRSI = 100 - 100 / (1 + RS)\nRS = 平均上涨 / 平均下跌\n```\n\n**解读**：\n- RSI \u003e 70：超买，可能回调\n- RSI \u003c 30：超卖，可能反弹\n\n```python\ndef calculate_rsi(prices, window=14):\n    \"\"\"\n    计算RSI\n    \"\"\"\n    delta = prices.diff()\n\n    gain = (delta.where(delta \u003e 0, 0)).rolling(window=window).mean()\n    loss = (-delta.where(delta \u003c 0, 0)).rolling(window=window).mean()\n\n    rs = gain / loss\n    rsi = 100 - (100 / (1 + rs))\n\n    return rsi\n\nrsi = calculate_rsi(prices)\nprint(f\"当前RSI: {rsi.iloc[-1]:.2f}\")\n```\n\n---\n\n## 经典均值回归策略\n\n### 1. 简单Z-Score策略\n\n**规则**：\n- Z \u003c -2：买入\n- Z \u003e 2：卖出\n- -1 \u003c Z \u003c 1：平仓\n\n```python\ndef zscore_strategy(prices, window=20, entry_threshold=2, exit_threshold=0.5):\n    \"\"\"\n    Z-Score均值回归策略\n    \"\"\"\n    zscore = calculate_zscore(prices, window)\n\n    signals = pd.Series(0, index=prices.index)\n    position = 0\n\n    for i in range(len(zscore)):\n        if pd.isna(zscore.iloc[i]):\n            continue\n\n        if position == 0:\n            if zscore.iloc[i] \u003c -entry_threshold:\n                signals.iloc[i] = 1  # 买入\n                position = 1\n            elif zscore.iloc[i] \u003e entry_threshold:\n                signals.iloc[i] = -1  # 卖出\n                position = -1\n        elif position == 1:\n            if zscore.iloc[i] \u003e -exit_threshold:\n                signals.iloc[i] = 0  # 平仓\n                position = 0\n        elif position == -1:\n            if zscore.iloc[i] \u003c exit_threshold:\n                signals.iloc[i] = 0  # 平仓\n                position = 0\n\n    return signals, zscore\n```\n\n### 2. RSI策略\n\n**规则**：\n- RSI \u003c 30：买入信号\n- RSI \u003e 70：卖出信号\n\n```python\ndef rsi_strategy(prices, lower=30, upper=70):\n    \"\"\"\n    RSI均值回归策略\n    \"\"\"\n    rsi = calculate_rsi(prices)\n\n    signals = pd.Series(0, index=prices.index)\n    signals[rsi \u003c lower] = 1\n    signals[rsi \u003e upper] = -1\n\n    return signals, rsi\n```\n\n### 3. 布林带策略\n\n**规则**：\n- 价格触及下轨 → 买入\n- 价格触及上轨 → 卖出\n\n```python\ndef bollinger_strategy(prices, window=20, num_std=2):\n    \"\"\"\n    布林带均值回归策略\n    \"\"\"\n    ma, upper, lower = bollinger_bands(prices, window, num_std)\n\n    signals = pd.Series(0, index=prices.index)\n    signals[prices \u003c lower] = 1\n    signals[prices \u003e upper] = -1\n\n    return signals, upper, lower\n```\n\n---\n\n## 配对交易（Pair Trading）\n\n### 什么是配对交易？\n\n**核心思想**：找到两个价格走势相似的资产，当它们的价格关系偏离历史水平时进行交易。\n\n**例子**：\n- 可口可乐 vs 百事可乐\n- 中国移动 vs 中国联通\n- 同一行业的两只股票\n\n### 协整（Cointegration）\n\n**概念**：两个非平稳序列的线性组合是平稳的。\n\n**检验**：\n```python\nfrom statsmodels.tsa.stattools import coint\n\ndef test_cointegration(price1, price2):\n    \"\"\"\n    检验协整关系\n    \"\"\"\n    score, pvalue, _ = coint(price1, price2)\n\n    print(f\"协整检验统计量: {score:.4f}\")\n    print(f\"P值: {pvalue:.4f}\")\n    print(f\"是否协整: {'是' if pvalue \u003c 0.05 else '否'}\")\n\n    return pvalue \u003c 0.05\n\n# 示例\nnp.random.seed(42)\n# 生成两个协整序列\nbeta = 0.7\nspread = np.random.normal(0, 1, 500).cumsum() * 0.1\nprice1 = 100 + np.random.randn(500).cumsum() * 0.5 + spread\nprice2 = 50 + beta * (price1 - 100) + np.random.randn(500) * 0.3\n\ntest_cointegration(price1, price2)\n```\n\n### 价差（Spread）交易\n\n```python\ndef calculate_spread(price1, price2, method='ols'):\n    \"\"\"\n    计算配对价差\n    \"\"\"\n    if method == 'ols':\n        # OLS回归计算对冲比率\n        from sklearn.linear_model import LinearRegression\n\n        X = price2.values.reshape(-1, 1)\n        y = price1.values\n\n        model = LinearRegression().fit(X, y)\n        hedge_ratio = model.coef_[0]\n\n        spread = price1 - hedge_ratio * price2\n    else:\n        # 简单价差\n        spread = price1 - price2\n\n    return spread\n\ndef pair_trading_signals(spread, window=20, entry_z=2, exit_z=0.5):\n    \"\"\"\n    生成配对交易信号\n    \"\"\"\n    zscore = calculate_zscore(spread, window)\n\n    signals = pd.Series(0, index=spread.index)\n\n    # 价差过高 → 做空价差（卖1买2）\n    signals[zscore \u003e entry_z] = -1\n\n    # 价差过低 → 做多价差（买1卖2）\n    signals[zscore \u003c -entry_z] = 1\n\n    # 回归平仓\n    signals[abs(zscore) \u003c exit_z] = 0\n\n    return signals, zscore\n\n# 可视化\nspread = calculate_spread(pd.Series(price1), pd.Series(price2))\nsignals, zscore = pair_trading_signals(spread)\n\nfig, axes = plt.subplots(3, 1, figsize=(12, 10))\n\naxes[0].plot(price1, label='Stock 1')\naxes[0].plot(price2, label='Stock 2')\naxes[0].legend()\naxes[0].set_title('Price Series')\naxes[0].grid(True, alpha=0.3)\n\naxes[1].plot(spread, color='purple')\naxes[1].axhline(spread.mean(), color='red', linestyle='--')\naxes[1].set_title('Spread')\naxes[1].grid(True, alpha=0.3)\n\naxes[2].plot(zscore, color='orange')\naxes[2].axhline(2, color='red', linestyle='--', alpha=0.5)\naxes[2].axhline(-2, color='green', linestyle='--', alpha=0.5)\naxes[2].axhline(0, color='black', linestyle='-', alpha=0.3)\naxes[2].set_title('Z-Score')\naxes[2].grid(True, alpha=0.3)\n\nplt.tight_layout()\nplt.show()\n```\n\n---\n\n## 均值回归的风险\n\n### 1. 趋势风险\n\n**问题**：在强趋势市场中，均值回归策略会持续亏损。\n\n**例子**：\n- 2008年金融危机：价格持续下跌，\"便宜\"的股票变得更便宜\n- 2015年A股牛市：价格持续上涨，\"贵\"的股票变得更贵\n\n### 2. 基本面变化\n\n**问题**：均值变化了（公司基本面恶化/改善）。\n\n**例子**：\n- 柯达：从胶片巨头到破产，\"便宜\"是陷阱\n- 特斯拉：从亏损到盈利，\"贵\"有贵的道理\n\n### 3. 时间成本\n\n**问题**：回归可能需要很长时间。\n\n**应对**：\n- 设定最大持仓时间\n- 加入止损机制\n\n---\n\n## 策略改进\n\n### 1. 趋势过滤\n\n只在震荡市使用均值回归：\n\n```python\ndef add_trend_filter(prices, momentum_window=126):\n    \"\"\"\n    添加趋势过滤器\n    强趋势时不交易\n    \"\"\"\n    momentum = prices.pct_change(momentum_window)\n\n    # 动量在中等范围时（震荡市）才交易\n    trend_filter = abs(momentum) \u003c 0.1  # 过去一年涨跌不超过10%\n\n    return trend_filter\n```\n\n### 2. 动态阈值\n\n根据波动率调整阈值：\n\n```python\ndef dynamic_threshold(prices, base_threshold=2):\n    \"\"\"\n    根据波动率调整阈值\n    \"\"\"\n    current_vol = prices.pct_change().rolling(20).std()\n    historical_vol = prices.pct_change().std()\n\n    vol_ratio = current_vol / historical_vol\n    adjusted_threshold = base_threshold * vol_ratio\n\n    return adjusted_threshold\n```\n\n### 3. 止损机制\n\n```python\ndef mean_reversion_with_stop(prices, zscore, entry_z=2, stop_loss=0.05):\n    \"\"\"\n    带止损的均值回归策略\n    \"\"\"\n    signals = pd.Series(0, index=prices.index)\n    entry_price = None\n\n    for i in range(1, len(prices)):\n        if signals.iloc[i-1] == 0:  # 空仓\n            if zscore.iloc[i] \u003c -entry_z:\n                signals.iloc[i] = 1\n                entry_price = prices.iloc[i]\n            elif zscore.iloc[i] \u003e entry_z:\n                signals.iloc[i] = -1\n                entry_price = prices.iloc[i]\n        else:  # 持仓\n            pnl = (prices.iloc[i] - entry_price) / entry_price * signals.iloc[i-1]\n\n            if pnl \u003c -stop_loss:  # 止损\n                signals.iloc[i] = 0\n            elif abs(zscore.iloc[i]) \u003c 0.5:  # 回归平仓\n                signals.iloc[i] = 0\n            else:\n                signals.iloc[i] = signals.iloc[i-1]\n\n    return signals\n```\n\n---\n\n## 实战：A股均值回归策略\n\n```python\nclass MeanReversionStrategy:\n    \"\"\"\n    A股均值回归策略（基于RSI）\n    \"\"\"\n\n    def __init__(self, rsi_window=14, lower=30, upper=70, stop_loss=0.05):\n        self.rsi_window = rsi_window\n        self.lower = lower\n        self.upper = upper\n        self.stop_loss = stop_loss\n\n    def generate_signals(self, prices):\n        \"\"\"\n        生成交易信号\n        \"\"\"\n        rsi = calculate_rsi(prices, self.rsi_window)\n\n        signals = pd.Series(0, index=prices.index)\n        position = 0\n        entry_price = None\n\n        for i in range(len(prices)):\n            if pd.isna(rsi.iloc[i]):\n                continue\n\n            if position == 0:\n                if rsi.iloc[i] \u003c self.lower:\n                    signals.iloc[i] = 1\n                    position = 1\n                    entry_price = prices.iloc[i]\n                elif rsi.iloc[i] \u003e self.upper:\n                    signals.iloc[i] = -1\n                    position = -1\n                    entry_price = prices.iloc[i]\n            elif position == 1:\n                # 止损或RSI回归\n                loss = (entry_price - prices.iloc[i]) / entry_price\n                if loss \u003e self.stop_loss or rsi.iloc[i] \u003e 50:\n                    signals.iloc[i] = 0\n                    position = 0\n                else:\n                    signals.iloc[i] = 1\n            elif position == -1:\n                # 止损或RSI回归\n                loss = (prices.iloc[i] - entry_price) / entry_price\n                if loss \u003e self.stop_loss or rsi.iloc[i] \u003c 50:\n                    signals.iloc[i] = 0\n                    position = 0\n                else:\n                    signals.iloc[i] = -1\n\n        return signals, rsi\n```\n\n---\n\n## 下一步\n\n- [配对交易](/kb/quant/quant-xwfbng) - 深入学习配对策略\n- [配对交易策略实战](/kb/quant/quant-ygv2jq) - 完整实现\n- [时间序列分析基础](/kb/quant/quant-bucbbs) - 统计基础\n"])</script><script>self.__next_f.push([1,"11:T327b,"])</script><script>self.__next_f.push([1,"# 均值回归策略\n\n\u003e 物极必反的智慧——捕捉价格的\"回归\"力量\n\n---\n\n## 什么是均值回归？\n\n**均值回归**：价格倾向于围绕某个长期均值波动，偏离过大时会向均值回归。\n\n### 直观理解\n\n想象橡皮筋：\n- **拉伸**（价格偏离均值）→ 产生回归的力量\n- **放松**（回到均值）→ 力量消失\n- **过冲**（可能向另一侧偏离）→ 新的回归机会\n\n股票市场同理，极端价格往往是暂时的。\n\n### 与动量的对比\n\n| 特征 | 动量策略 | 均值回归策略 |\n|------|----------|-------------|\n| **核心信念** | 趋势会延续 | 极端会回归 |\n| **交易方向** | 追涨杀跌 | 高抛低吸 |\n| **持仓周期** | 通常较长（月） | 通常较短（天-周） |\n| **适用市场** | 趋势明显 | 震荡市场 |\n| **风险偏好** | 顺势而为 | 逆势而为 |\n\n---\n\n## 均值回归的来源\n\n### 1. 投资者过度反应\n\n**过程**：\n1. 消息冲击导致价格过度反应\n2. 情绪冷静后价格修正\n3. 回归到基本面价值\n\n**例子**：\n- 恐慌性抛售后的反弹\n- 泡沫破裂后的价值回归\n\n### 2. 套利力量\n\n**机制**：\n- 价格过低 → 价值投资者买入 → 价格回升\n- 价格过高 → 卖空者做空 → 价格回落\n\n### 3. 统计特性\n\n许多金融时间序列表现出均值回归特性：\n- 两个协整资产的价格差\n- 波动率（GARCH模型）\n- 利率\n\n---\n\n## 均值回归度量方法\n\n### 1. Z-Score（标准分数）\n\n**计算**：\n```\nZ = (当前价格 - 均值) / 标准差\n```\n\n**解读**：\n- Z \u003e 2：价格显著高于均值，可能回归\n- Z \u003c -2：价格显著低于均值，可能反弹\n- Z ≈ 0：价格在正常范围\n\n```python\nimport pandas as pd\nimport numpy as np\n\ndef calculate_zscore(prices, window=20):\n    \"\"\"\n    计算价格的Z-Score\n    \"\"\"\n    mean = prices.rolling(window=window).mean()\n    std = prices.rolling(window=window).std()\n    zscore = (prices - mean) / std\n\n    return zscore\n\n# 示例\nprices = pd.Series([100, 102, 105, 108, 110, 108, 105, 100, 95, 92, 90, 92, 95, 98, 100])\nzscore = calculate_zscore(prices, window=5)\n\nprint(pd.DataFrame({'Price': prices, 'Z-Score': zscore}))\n```\n\n### 2. 布林带（Bollinger Bands）\n\n**构成**：\n- 中轨：移动平均线（MA20）\n- 上轨：MA20 + 2×标准差\n- 下轨：MA20 - 2×标准差\n\n**交易信号**：\n- 价格触及上轨 → 卖出信号\n- 价格触及下轨 → 买入信号\n\n```python\ndef bollinger_bands(prices, window=20, num_std=2):\n    \"\"\"\n    计算布林带\n    \"\"\"\n    ma = prices.rolling(window=window).mean()\n    std = prices.rolling(window=window).std()\n\n    upper = ma + num_std * std\n    lower = ma - num_std * std\n\n    return ma, upper, lower\n\n# 可视化\nimport matplotlib.pyplot as plt\n\nma, upper, lower = bollinger_bands(prices)\n\nplt.figure(figsize=(12, 6))\nplt.plot(prices, label='Price', color='black')\nplt.plot(ma, label='MA20', color='blue', alpha=0.7)\nplt.plot(upper, label='Upper Band', color='red', linestyle='--', alpha=0.7)\nplt.plot(lower, label='Lower Band', color='green', linestyle='--', alpha=0.7)\nplt.fill_between(prices.index, lower, upper, alpha=0.1)\nplt.legend()\nplt.title('Bollinger Bands')\nplt.grid(True, alpha=0.3)\nplt.show()\n```\n\n### 3. RSI（相对强弱指标）\n\n**计算**：\n```\nRSI = 100 - 100 / (1 + RS)\nRS = 平均上涨 / 平均下跌\n```\n\n**解读**：\n- RSI \u003e 70：超买，可能回调\n- RSI \u003c 30：超卖，可能反弹\n\n```python\ndef calculate_rsi(prices, window=14):\n    \"\"\"\n    计算RSI\n    \"\"\"\n    delta = prices.diff()\n\n    gain = (delta.where(delta \u003e 0, 0)).rolling(window=window).mean()\n    loss = (-delta.where(delta \u003c 0, 0)).rolling(window=window).mean()\n\n    rs = gain / loss\n    rsi = 100 - (100 / (1 + rs))\n\n    return rsi\n\nrsi = calculate_rsi(prices)\nprint(f\"当前RSI: {rsi.iloc[-1]:.2f}\")\n```\n\n---\n\n## 经典均值回归策略\n\n### 1. 简单Z-Score策略\n\n**规则**：\n- Z \u003c -2：买入\n- Z \u003e 2：卖出\n- -1 \u003c Z \u003c 1：平仓\n\n```python\ndef zscore_strategy(prices, window=20, entry_threshold=2, exit_threshold=0.5):\n    \"\"\"\n    Z-Score均值回归策略\n    \"\"\"\n    zscore = calculate_zscore(prices, window)\n\n    signals = pd.Series(0, index=prices.index)\n    position = 0\n\n    for i in range(len(zscore)):\n        if pd.isna(zscore.iloc[i]):\n            continue\n\n        if position == 0:\n            if zscore.iloc[i] \u003c -entry_threshold:\n                signals.iloc[i] = 1  # 买入\n                position = 1\n            elif zscore.iloc[i] \u003e entry_threshold:\n                signals.iloc[i] = -1  # 卖出\n                position = -1\n        elif position == 1:\n            if zscore.iloc[i] \u003e -exit_threshold:\n                signals.iloc[i] = 0  # 平仓\n                position = 0\n        elif position == -1:\n            if zscore.iloc[i] \u003c exit_threshold:\n                signals.iloc[i] = 0  # 平仓\n                position = 0\n\n    return signals, zscore\n```\n\n### 2. RSI策略\n\n**规则**：\n- RSI \u003c 30：买入信号\n- RSI \u003e 70：卖出信号\n\n```python\ndef rsi_strategy(prices, lower=30, upper=70):\n    \"\"\"\n    RSI均值回归策略\n    \"\"\"\n    rsi = calculate_rsi(prices)\n\n    signals = pd.Series(0, index=prices.index)\n    signals[rsi \u003c lower] = 1\n    signals[rsi \u003e upper] = -1\n\n    return signals, rsi\n```\n\n### 3. 布林带策略\n\n**规则**：\n- 价格触及下轨 → 买入\n- 价格触及上轨 → 卖出\n\n```python\ndef bollinger_strategy(prices, window=20, num_std=2):\n    \"\"\"\n    布林带均值回归策略\n    \"\"\"\n    ma, upper, lower = bollinger_bands(prices, window, num_std)\n\n    signals = pd.Series(0, index=prices.index)\n    signals[prices \u003c lower] = 1\n    signals[prices \u003e upper] = -1\n\n    return signals, upper, lower\n```\n\n---\n\n## 配对交易（Pair Trading）\n\n### 什么是配对交易？\n\n**核心思想**：找到两个价格走势相似的资产，当它们的价格关系偏离历史水平时进行交易。\n\n**例子**：\n- 可口可乐 vs 百事可乐\n- 中国移动 vs 中国联通\n- 同一行业的两只股票\n\n### 协整（Cointegration）\n\n**概念**：两个非平稳序列的线性组合是平稳的。\n\n**检验**：\n```python\nfrom statsmodels.tsa.stattools import coint\n\ndef test_cointegration(price1, price2):\n    \"\"\"\n    检验协整关系\n    \"\"\"\n    score, pvalue, _ = coint(price1, price2)\n\n    print(f\"协整检验统计量: {score:.4f}\")\n    print(f\"P值: {pvalue:.4f}\")\n    print(f\"是否协整: {'是' if pvalue \u003c 0.05 else '否'}\")\n\n    return pvalue \u003c 0.05\n\n# 示例\nnp.random.seed(42)\n# 生成两个协整序列\nbeta = 0.7\nspread = np.random.normal(0, 1, 500).cumsum() * 0.1\nprice1 = 100 + np.random.randn(500).cumsum() * 0.5 + spread\nprice2 = 50 + beta * (price1 - 100) + np.random.randn(500) * 0.3\n\ntest_cointegration(price1, price2)\n```\n\n### 价差（Spread）交易\n\n```python\ndef calculate_spread(price1, price2, method='ols'):\n    \"\"\"\n    计算配对价差\n    \"\"\"\n    if method == 'ols':\n        # OLS回归计算对冲比率\n        from sklearn.linear_model import LinearRegression\n\n        X = price2.values.reshape(-1, 1)\n        y = price1.values\n\n        model = LinearRegression().fit(X, y)\n        hedge_ratio = model.coef_[0]\n\n        spread = price1 - hedge_ratio * price2\n    else:\n        # 简单价差\n        spread = price1 - price2\n\n    return spread\n\ndef pair_trading_signals(spread, window=20, entry_z=2, exit_z=0.5):\n    \"\"\"\n    生成配对交易信号\n    \"\"\"\n    zscore = calculate_zscore(spread, window)\n\n    signals = pd.Series(0, index=spread.index)\n\n    # 价差过高 → 做空价差（卖1买2）\n    signals[zscore \u003e entry_z] = -1\n\n    # 价差过低 → 做多价差（买1卖2）\n    signals[zscore \u003c -entry_z] = 1\n\n    # 回归平仓\n    signals[abs(zscore) \u003c exit_z] = 0\n\n    return signals, zscore\n\n# 可视化\nspread = calculate_spread(pd.Series(price1), pd.Series(price2))\nsignals, zscore = pair_trading_signals(spread)\n\nfig, axes = plt.subplots(3, 1, figsize=(12, 10))\n\naxes[0].plot(price1, label='Stock 1')\naxes[0].plot(price2, label='Stock 2')\naxes[0].legend()\naxes[0].set_title('Price Series')\naxes[0].grid(True, alpha=0.3)\n\naxes[1].plot(spread, color='purple')\naxes[1].axhline(spread.mean(), color='red', linestyle='--')\naxes[1].set_title('Spread')\naxes[1].grid(True, alpha=0.3)\n\naxes[2].plot(zscore, color='orange')\naxes[2].axhline(2, color='red', linestyle='--', alpha=0.5)\naxes[2].axhline(-2, color='green', linestyle='--', alpha=0.5)\naxes[2].axhline(0, color='black', linestyle='-', alpha=0.3)\naxes[2].set_title('Z-Score')\naxes[2].grid(True, alpha=0.3)\n\nplt.tight_layout()\nplt.show()\n```\n\n---\n\n## 均值回归的风险\n\n### 1. 趋势风险\n\n**问题**：在强趋势市场中，均值回归策略会持续亏损。\n\n**例子**：\n- 2008年金融危机：价格持续下跌，\"便宜\"的股票变得更便宜\n- 2015年A股牛市：价格持续上涨，\"贵\"的股票变得更贵\n\n### 2. 基本面变化\n\n**问题**：均值变化了（公司基本面恶化/改善）。\n\n**例子**：\n- 柯达：从胶片巨头到破产，\"便宜\"是陷阱\n- 特斯拉：从亏损到盈利，\"贵\"有贵的道理\n\n### 3. 时间成本\n\n**问题**：回归可能需要很长时间。\n\n**应对**：\n- 设定最大持仓时间\n- 加入止损机制\n\n---\n\n## 策略改进\n\n### 1. 趋势过滤\n\n只在震荡市使用均值回归：\n\n```python\ndef add_trend_filter(prices, momentum_window=126):\n    \"\"\"\n    添加趋势过滤器\n    强趋势时不交易\n    \"\"\"\n    momentum = prices.pct_change(momentum_window)\n\n    # 动量在中等范围时（震荡市）才交易\n    trend_filter = abs(momentum) \u003c 0.1  # 过去一年涨跌不超过10%\n\n    return trend_filter\n```\n\n### 2. 动态阈值\n\n根据波动率调整阈值：\n\n```python\ndef dynamic_threshold(prices, base_threshold=2):\n    \"\"\"\n    根据波动率调整阈值\n    \"\"\"\n    current_vol = prices.pct_change().rolling(20).std()\n    historical_vol = prices.pct_change().std()\n\n    vol_ratio = current_vol / historical_vol\n    adjusted_threshold = base_threshold * vol_ratio\n\n    return adjusted_threshold\n```\n\n### 3. 止损机制\n\n```python\ndef mean_reversion_with_stop(prices, zscore, entry_z=2, stop_loss=0.05):\n    \"\"\"\n    带止损的均值回归策略\n    \"\"\"\n    signals = pd.Series(0, index=prices.index)\n    entry_price = None\n\n    for i in range(1, len(prices)):\n        if signals.iloc[i-1] == 0:  # 空仓\n            if zscore.iloc[i] \u003c -entry_z:\n                signals.iloc[i] = 1\n                entry_price = prices.iloc[i]\n            elif zscore.iloc[i] \u003e entry_z:\n                signals.iloc[i] = -1\n                entry_price = prices.iloc[i]\n        else:  # 持仓\n            pnl = (prices.iloc[i] - entry_price) / entry_price * signals.iloc[i-1]\n\n            if pnl \u003c -stop_loss:  # 止损\n                signals.iloc[i] = 0\n            elif abs(zscore.iloc[i]) \u003c 0.5:  # 回归平仓\n                signals.iloc[i] = 0\n            else:\n                signals.iloc[i] = signals.iloc[i-1]\n\n    return signals\n```\n\n---\n\n## 实战：A股均值回归策略\n\n```python\nclass MeanReversionStrategy:\n    \"\"\"\n    A股均值回归策略（基于RSI）\n    \"\"\"\n\n    def __init__(self, rsi_window=14, lower=30, upper=70, stop_loss=0.05):\n        self.rsi_window = rsi_window\n        self.lower = lower\n        self.upper = upper\n        self.stop_loss = stop_loss\n\n    def generate_signals(self, prices):\n        \"\"\"\n        生成交易信号\n        \"\"\"\n        rsi = calculate_rsi(prices, self.rsi_window)\n\n        signals = pd.Series(0, index=prices.index)\n        position = 0\n        entry_price = None\n\n        for i in range(len(prices)):\n            if pd.isna(rsi.iloc[i]):\n                continue\n\n            if position == 0:\n                if rsi.iloc[i] \u003c self.lower:\n                    signals.iloc[i] = 1\n                    position = 1\n                    entry_price = prices.iloc[i]\n                elif rsi.iloc[i] \u003e self.upper:\n                    signals.iloc[i] = -1\n                    position = -1\n                    entry_price = prices.iloc[i]\n            elif position == 1:\n                # 止损或RSI回归\n                loss = (entry_price - prices.iloc[i]) / entry_price\n                if loss \u003e self.stop_loss or rsi.iloc[i] \u003e 50:\n                    signals.iloc[i] = 0\n                    position = 0\n                else:\n                    signals.iloc[i] = 1\n            elif position == -1:\n                # 止损或RSI回归\n                loss = (prices.iloc[i] - entry_price) / entry_price\n                if loss \u003e self.stop_loss or rsi.iloc[i] \u003c 50:\n                    signals.iloc[i] = 0\n                    position = 0\n                else:\n                    signals.iloc[i] = -1\n\n        return signals, rsi\n```\n\n---\n\n## 下一步\n\n- [配对交易](/kb/quant/quant-xwfbng) - 深入学习配对策略\n- [配对交易策略实战](/kb/quant/quant-ygv2jq) - 完整实现\n- [时间序列分析基础](/kb/quant/quant-bucbbs) - 统计基础\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"$Lf\",null,{\"document\":{\"slug\":\"doc-yuwtrc\",\"title\":\"均值回归策略\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"Quant\",\"categoryId\":\"quant\",\"content\":\"$10\",\"filePath\":\"量化策略/均值回归策略.md\",\"default\":{\"slug\":\"doc-yuwtrc\",\"title\":\"均值回归策略\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"Quant\",\"categoryId\":\"quant\",\"content\":\"$11\",\"filePath\":\"量化策略/均值回归策略.md\"}}}]\nc:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"均值回归策略 - Quant | Jerry Xu\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"均值回归策略\"}],[\"$\",\"meta\",\"4\",{\"name\":\"author\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"5\",{\"name\":\"keywords\",\"content\":\"Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:description\",\"content\":\"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:site_name\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:locale\",\"content\":\"zh_CN\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:description\",\"content\":\"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程\"}]]\n3:null\n"])</script></body></html>

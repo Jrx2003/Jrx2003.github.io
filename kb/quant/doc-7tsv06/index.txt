@@ -1,0 +1,790 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-b043129a42c3b49c.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-cd1f76c760ed59d2.js"],""]
+4:["category","quant","d"]
+5:["slug","doc-7tsv06","d"]
+0:["ffk0ESDk0CTyiiGJbvRpT",[[["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-7tsv06","d"],{"children":["__PAGE__?{\"category\":\"quant\",\"slug\":\"doc-7tsv06\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","quant","d"],{"children":[["slug","doc-7tsv06","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。关注 AI Agent、Web 工具、三维图形与系统工程，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8fd3907a9da855dd.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-1c0350979f9bea88.js"],"default"]
+c:T1f31,# 时间序列分析基础
+
+> 金融数据的核心特征——理解时间依赖性
+
+---
+
+## 什么是时间序列？
+
+**时间序列**是按时间顺序排列的数据点序列。
+
+**金融中的例子**：
+- 每日股价序列
+- 分钟级收益率
+- 月度经济指标
+
+### 与横截面数据的区别
+
+| 维度 | 横截面数据 | 时间序列数据 |
+|------|-----------|-------------|
+| **观察维度** | 同一时间，不同个体 | 同一个体，不同时间 |
+| **独立性** | 通常独立 | 存在时间依赖性 |
+| **分析方法** | 回归分析 | 时间序列模型 |
+| **例子** | 某时刻所有股票的PE | 某股票的历史价格 |
+
+---
+
+## 时间序列的基本特征
+
+### 1. 趋势（Trend）
+
+**定义**：数据长期移动的方向。
+
+**类型**：
+- 上升趋势：股价长期上涨
+- 下降趋势：股价长期下跌
+- 平稳趋势：围绕均值波动
+
+**Python检测**：
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy import stats
+
+# 生成带趋势的数据
+t = np.arange(100)
+trend = 0.05 * t
+noise = np.random.normal(0, 1, 100)
+ts = trend + noise
+
+# 线性回归检测趋势
+slope, intercept, r_value, p_value, std_err = stats.linregress(t, ts)
+print(f"趋势斜率: {slope:.4f}")
+print(f"P值: {p_value:.4f}")
+print(f"是否存在显著趋势: {'是' if p_value < 0.05 else '否'}")
+```
+
+### 2. 季节性（Seasonality）
+
+**定义**：周期性重复的模式。
+
+**金融中的季节性**：
+- 日内效应：开盘、收盘成交量大
+- 周内效应：周一效应、周五效应
+- 月内效应：月初效应、月末效应
+- 年度效应：1月效应
+
+### 3. 自相关性（Autocorrelation）
+
+**定义**：当前值与历史值的相关性。
+
+**自相关系数**：
+```
+ρ(k) = Cov(X_t, X_{t-k}) / Var(X_t)
+```
+
+**Python计算**：
+```python
+from statsmodels.tsa.stattools import acf
+
+# 计算自相关系数
+autocorr = acf(returns, nlags=20)
+
+# 绘制自相关图
+from statsmodels.graphics.tsaplots import plot_acf
+plot_acf(returns, lags=20)
+plt.show()
+```
+
+**解读**：
+- ρ(1) > 0：正自相关（动量）
+- ρ(1) < 0：负自相关（均值回归）
+- |ρ(k)| 随k增大而衰减：平稳序列特征
+
+---
+
+## 平稳性（Stationarity）
+
+### 为什么重要？
+
+大多数时间序列模型要求数据是**平稳的**。
+
+**非平稳的问题**：
+- 统计性质随时间变化
+- 预测不可靠
+- 伪回归（Spurious Regression）
+
+### 严格平稳 vs 弱平稳
+
+| 类型 | 条件 | 实际应用 |
+|------|------|----------|
+| **严格平稳** | 所有统计性质不变 | 过于严格，很少满足 |
+| **弱平稳** | 均值、方差不变，自协方差仅依赖滞后 | 常用假设 |
+
+### 检验方法
+
+#### 1. 目视检验
+```python
+# 绘制时间序列
+plt.figure(figsize=(12, 4))
+plt.plot(returns)
+plt.title('Returns Over Time')
+plt.axhline(y=returns.mean(), color='r', linestyle='--', label='Mean')
+plt.legend()
+plt.show()
+```
+
+#### 2. ADF检验（Augmented Dickey-Fuller）
+```python
+from statsmodels.tsa.stattools import adfuller
+
+result = adfuller(prices)
+print(f'ADF Statistic: {result[0]:.4f}')
+print(f'p-value: {result[1]:.4f}')
+print('Critical Values:')
+for key, value in result[4].items():
+    print(f'\t{key}: {value:.4f}')
+
+if result[1] < 0.05:
+    print("序列平稳（拒绝单位根）")
+else:
+    print("序列非平稳（存在单位根）")
+```
+
+**注意**：
+- 价格通常非平稳
+- 收益率通常平稳
+
+### 差分（Differencing）
+
+**一阶差分**：
+```
+ΔX_t = X_t - X_{t-1}
+```
+
+**对数差分**（收益率）：
+```
+r_t = ln(P_t) - ln(P_{t-1}) ≈ (P_t - P_{t-1}) / P_{t-1}
+```
+
+**Python实现**：
+```python
+# 一阶差分
+returns = prices.diff().dropna()
+
+# 对数收益率
+log_returns = np.log(prices).diff().dropna()
+```
+
+---
+
+## 经典时间序列模型
+
+### 1. 白噪声（White Noise）
+
+**定义**：
+- 均值为0
+- 方差恒定
+- 无自相关
+
+**金融意义**：不可预测的部分
+
+```python
+# 生成白噪声
+white_noise = np.random.normal(0, 1, 1000)
+
+# 检验
+print(f"均值: {white_noise.mean():.4f}")
+print(f"自相关系数(1): {np.corrcoef(white_noise[:-1], white_noise[1:])[0,1]:.4f}")
+```
+
+### 2. 随机游走（Random Walk）
+
+**模型**：
+```
+X_t = X_{t-1} + ε_t
+```
+
+其中 ε_t 是白噪声。
+
+**特征**：
+- 非平稳
+- 方差随时间增长
+- 未来值的最佳预测是当前值
+
+**金融意义**：
+- 有效市场假说下的价格行为
+- 不可预测
+
+**检验**：
+```python
+# 生成随机游走
+random_walk = np.cumsum(np.random.normal(0, 1, 1000))
+
+# ADF检验
+result = adfuller(random_walk)
+print(f"随机游走的ADF检验p值: {result[1]:.4f}")  # 应>0.05，非平稳
+```
+
+### 3. AR模型（自回归模型）
+
+**AR(1)模型**：
+```
+X_t = c + φX_{t-1} + ε_t
+```
+
+**平稳条件**：|φ| < 1
+
+**Python实现**：
+```python
+from statsmodels.tsa.ar_model import AutoReg
+
+# 拟合AR(1)模型
+model = AutoReg(returns, lags=1)
+result = model.fit()
+print(result.summary())
+
+# 预测
+forecast = result.forecast(steps=5)
+```
+
+### 4. MA模型（移动平均模型）
+
+**MA(1)模型**：
+```
+X_t = μ + ε_t + θε_{t-1}
+```
+
+**特点**：
+- 当前值依赖于历史误差
+- 总是平稳的
+
+### 5. ARMA模型
+
+**结合AR和MA**：
+```
+X_t = c + φX_{t-1} + ε_t + θε_{t-1}
+```
+
+**选择阶数**：
+```python
+from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.tsa.stattools import arma_order_select_ic
+
+# 自动选择最优阶数
+order = arma_order_select_ic(returns, max_ar=4, max_ma=4)
+print(f"最优ARMA阶数: {order.aic_min_order}")
+```
+
+### 6. ARIMA模型
+
+**ARIMA(p,d,q)**：
+- p：AR阶数
+- d：差分阶数
+- q：MA阶数
+
+**建模流程**：
+```python
+from statsmodels.tsa.arima.model import ARIMA
+
+# ARIMA(1,1,1)模型
+model = ARIMA(prices, order=(1,1,1))
+result = model.fit()
+print(result.summary())
+
+# 预测
+forecast = result.forecast(steps=10)
+```
+
+---
+
+## 波动率模型
+
+### ARCH模型
+
+**模型**：
+```
+σ²_t = ω + αε²_{t-1}
+```
+
+**特点**：
+- 波动率聚集（Volatility Clustering）
+- 大波动后跟着大波动
+
+### GARCH模型
+
+**GARCH(1,1)**：
+```
+σ²_t = ω + αε²_{t-1} + βσ²_{t-1}
+```
+
+**Python实现**：
+```python
+from arch import arch_model
+
+# GARCH(1,1)模型
+model = arch_model(returns, vol='Garch', p=1, q=1)
+result = model.fit()
+print(result.summary())
+
+# 预测波动率
+forecast = result.forecast(horizon=5)
+```
+
+---
+
+## 实战：时间序列策略
+
+### 均值回归策略
+
+```python
+def mean_reversion_strategy(prices, window=20, threshold=2):
+    """
+    基于Z-score的均值回归策略
+    """
+    # 计算移动平均和标准差
+    ma = prices.rolling(window=window).mean()
+    std = prices.rolling(window=window).std()
+
+    # 计算Z-score
+    zscore = (prices - ma) / std
+
+    # 生成信号
+    signals = pd.Series(0, index=prices.index)
+    signals[zscore < -threshold] = 1  # 超卖，买入
+    signals[zscore > threshold] = -1   # 超买，卖出
+
+    return signals
+
+# 应用策略
+signals = mean_reversion_strategy(prices)
+```
+
+### 动量策略（基于自相关）
+
+```python
+def momentum_strategy(returns, lookback=12):
+    """
+    基于过去收益的动量策略
+    """
+    # 计算累计收益
+    momentum = returns.rolling(window=lookback).sum()
+
+    # 选择前10%的股票
+    threshold = momentum.quantile(0.9)
+    signals = (momentum > threshold).astype(int)
+
+    return signals
+```
+
+---
+
+## 关键概念总结
+
+| 概念 | 定义 | 应用 |
+|------|------|------|
+| 平稳性 | 统计性质不随时间变化 | 建模前提 |
+| 自相关 | 当前值与历史值的相关性 | 动量/均值回归 |
+| 白噪声 | 无自相关的随机序列 | 模型残差检验 |
+| 随机游走 | 不可预测的序列 | 有效市场假说 |
+| ARCH/GARCH | 波动率模型 | 风险管理 |
+
+---
+
+## 下一步
+
+- [均值回归策略](/kb/quant/quant-l6sjq7) - 应用时间序列知识
+- [动量策略](/kb/quant/quant-tgc9xb) - 利用自相关性
+- [风险模型](/kb/quant/quant-s9qgsc) - GARCH在风险管理中的应用
+d:T1f31,# 时间序列分析基础
+
+> 金融数据的核心特征——理解时间依赖性
+
+---
+
+## 什么是时间序列？
+
+**时间序列**是按时间顺序排列的数据点序列。
+
+**金融中的例子**：
+- 每日股价序列
+- 分钟级收益率
+- 月度经济指标
+
+### 与横截面数据的区别
+
+| 维度 | 横截面数据 | 时间序列数据 |
+|------|-----------|-------------|
+| **观察维度** | 同一时间，不同个体 | 同一个体，不同时间 |
+| **独立性** | 通常独立 | 存在时间依赖性 |
+| **分析方法** | 回归分析 | 时间序列模型 |
+| **例子** | 某时刻所有股票的PE | 某股票的历史价格 |
+
+---
+
+## 时间序列的基本特征
+
+### 1. 趋势（Trend）
+
+**定义**：数据长期移动的方向。
+
+**类型**：
+- 上升趋势：股价长期上涨
+- 下降趋势：股价长期下跌
+- 平稳趋势：围绕均值波动
+
+**Python检测**：
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy import stats
+
+# 生成带趋势的数据
+t = np.arange(100)
+trend = 0.05 * t
+noise = np.random.normal(0, 1, 100)
+ts = trend + noise
+
+# 线性回归检测趋势
+slope, intercept, r_value, p_value, std_err = stats.linregress(t, ts)
+print(f"趋势斜率: {slope:.4f}")
+print(f"P值: {p_value:.4f}")
+print(f"是否存在显著趋势: {'是' if p_value < 0.05 else '否'}")
+```
+
+### 2. 季节性（Seasonality）
+
+**定义**：周期性重复的模式。
+
+**金融中的季节性**：
+- 日内效应：开盘、收盘成交量大
+- 周内效应：周一效应、周五效应
+- 月内效应：月初效应、月末效应
+- 年度效应：1月效应
+
+### 3. 自相关性（Autocorrelation）
+
+**定义**：当前值与历史值的相关性。
+
+**自相关系数**：
+```
+ρ(k) = Cov(X_t, X_{t-k}) / Var(X_t)
+```
+
+**Python计算**：
+```python
+from statsmodels.tsa.stattools import acf
+
+# 计算自相关系数
+autocorr = acf(returns, nlags=20)
+
+# 绘制自相关图
+from statsmodels.graphics.tsaplots import plot_acf
+plot_acf(returns, lags=20)
+plt.show()
+```
+
+**解读**：
+- ρ(1) > 0：正自相关（动量）
+- ρ(1) < 0：负自相关（均值回归）
+- |ρ(k)| 随k增大而衰减：平稳序列特征
+
+---
+
+## 平稳性（Stationarity）
+
+### 为什么重要？
+
+大多数时间序列模型要求数据是**平稳的**。
+
+**非平稳的问题**：
+- 统计性质随时间变化
+- 预测不可靠
+- 伪回归（Spurious Regression）
+
+### 严格平稳 vs 弱平稳
+
+| 类型 | 条件 | 实际应用 |
+|------|------|----------|
+| **严格平稳** | 所有统计性质不变 | 过于严格，很少满足 |
+| **弱平稳** | 均值、方差不变，自协方差仅依赖滞后 | 常用假设 |
+
+### 检验方法
+
+#### 1. 目视检验
+```python
+# 绘制时间序列
+plt.figure(figsize=(12, 4))
+plt.plot(returns)
+plt.title('Returns Over Time')
+plt.axhline(y=returns.mean(), color='r', linestyle='--', label='Mean')
+plt.legend()
+plt.show()
+```
+
+#### 2. ADF检验（Augmented Dickey-Fuller）
+```python
+from statsmodels.tsa.stattools import adfuller
+
+result = adfuller(prices)
+print(f'ADF Statistic: {result[0]:.4f}')
+print(f'p-value: {result[1]:.4f}')
+print('Critical Values:')
+for key, value in result[4].items():
+    print(f'\t{key}: {value:.4f}')
+
+if result[1] < 0.05:
+    print("序列平稳（拒绝单位根）")
+else:
+    print("序列非平稳（存在单位根）")
+```
+
+**注意**：
+- 价格通常非平稳
+- 收益率通常平稳
+
+### 差分（Differencing）
+
+**一阶差分**：
+```
+ΔX_t = X_t - X_{t-1}
+```
+
+**对数差分**（收益率）：
+```
+r_t = ln(P_t) - ln(P_{t-1}) ≈ (P_t - P_{t-1}) / P_{t-1}
+```
+
+**Python实现**：
+```python
+# 一阶差分
+returns = prices.diff().dropna()
+
+# 对数收益率
+log_returns = np.log(prices).diff().dropna()
+```
+
+---
+
+## 经典时间序列模型
+
+### 1. 白噪声（White Noise）
+
+**定义**：
+- 均值为0
+- 方差恒定
+- 无自相关
+
+**金融意义**：不可预测的部分
+
+```python
+# 生成白噪声
+white_noise = np.random.normal(0, 1, 1000)
+
+# 检验
+print(f"均值: {white_noise.mean():.4f}")
+print(f"自相关系数(1): {np.corrcoef(white_noise[:-1], white_noise[1:])[0,1]:.4f}")
+```
+
+### 2. 随机游走（Random Walk）
+
+**模型**：
+```
+X_t = X_{t-1} + ε_t
+```
+
+其中 ε_t 是白噪声。
+
+**特征**：
+- 非平稳
+- 方差随时间增长
+- 未来值的最佳预测是当前值
+
+**金融意义**：
+- 有效市场假说下的价格行为
+- 不可预测
+
+**检验**：
+```python
+# 生成随机游走
+random_walk = np.cumsum(np.random.normal(0, 1, 1000))
+
+# ADF检验
+result = adfuller(random_walk)
+print(f"随机游走的ADF检验p值: {result[1]:.4f}")  # 应>0.05，非平稳
+```
+
+### 3. AR模型（自回归模型）
+
+**AR(1)模型**：
+```
+X_t = c + φX_{t-1} + ε_t
+```
+
+**平稳条件**：|φ| < 1
+
+**Python实现**：
+```python
+from statsmodels.tsa.ar_model import AutoReg
+
+# 拟合AR(1)模型
+model = AutoReg(returns, lags=1)
+result = model.fit()
+print(result.summary())
+
+# 预测
+forecast = result.forecast(steps=5)
+```
+
+### 4. MA模型（移动平均模型）
+
+**MA(1)模型**：
+```
+X_t = μ + ε_t + θε_{t-1}
+```
+
+**特点**：
+- 当前值依赖于历史误差
+- 总是平稳的
+
+### 5. ARMA模型
+
+**结合AR和MA**：
+```
+X_t = c + φX_{t-1} + ε_t + θε_{t-1}
+```
+
+**选择阶数**：
+```python
+from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.tsa.stattools import arma_order_select_ic
+
+# 自动选择最优阶数
+order = arma_order_select_ic(returns, max_ar=4, max_ma=4)
+print(f"最优ARMA阶数: {order.aic_min_order}")
+```
+
+### 6. ARIMA模型
+
+**ARIMA(p,d,q)**：
+- p：AR阶数
+- d：差分阶数
+- q：MA阶数
+
+**建模流程**：
+```python
+from statsmodels.tsa.arima.model import ARIMA
+
+# ARIMA(1,1,1)模型
+model = ARIMA(prices, order=(1,1,1))
+result = model.fit()
+print(result.summary())
+
+# 预测
+forecast = result.forecast(steps=10)
+```
+
+---
+
+## 波动率模型
+
+### ARCH模型
+
+**模型**：
+```
+σ²_t = ω + αε²_{t-1}
+```
+
+**特点**：
+- 波动率聚集（Volatility Clustering）
+- 大波动后跟着大波动
+
+### GARCH模型
+
+**GARCH(1,1)**：
+```
+σ²_t = ω + αε²_{t-1} + βσ²_{t-1}
+```
+
+**Python实现**：
+```python
+from arch import arch_model
+
+# GARCH(1,1)模型
+model = arch_model(returns, vol='Garch', p=1, q=1)
+result = model.fit()
+print(result.summary())
+
+# 预测波动率
+forecast = result.forecast(horizon=5)
+```
+
+---
+
+## 实战：时间序列策略
+
+### 均值回归策略
+
+```python
+def mean_reversion_strategy(prices, window=20, threshold=2):
+    """
+    基于Z-score的均值回归策略
+    """
+    # 计算移动平均和标准差
+    ma = prices.rolling(window=window).mean()
+    std = prices.rolling(window=window).std()
+
+    # 计算Z-score
+    zscore = (prices - ma) / std
+
+    # 生成信号
+    signals = pd.Series(0, index=prices.index)
+    signals[zscore < -threshold] = 1  # 超卖，买入
+    signals[zscore > threshold] = -1   # 超买，卖出
+
+    return signals
+
+# 应用策略
+signals = mean_reversion_strategy(prices)
+```
+
+### 动量策略（基于自相关）
+
+```python
+def momentum_strategy(returns, lookback=12):
+    """
+    基于过去收益的动量策略
+    """
+    # 计算累计收益
+    momentum = returns.rolling(window=lookback).sum()
+
+    # 选择前10%的股票
+    threshold = momentum.quantile(0.9)
+    signals = (momentum > threshold).astype(int)
+
+    return signals
+```
+
+---
+
+## 关键概念总结
+
+| 概念 | 定义 | 应用 |
+|------|------|------|
+| 平稳性 | 统计性质不随时间变化 | 建模前提 |
+| 自相关 | 当前值与历史值的相关性 | 动量/均值回归 |
+| 白噪声 | 无自相关的随机序列 | 模型残差检验 |
+| 随机游走 | 不可预测的序列 | 有效市场假说 |
+| ARCH/GARCH | 波动率模型 | 风险管理 |
+
+---
+
+## 下一步
+
+- [均值回归策略](/kb/quant/quant-l6sjq7) - 应用时间序列知识
+- [动量策略](/kb/quant/quant-tgc9xb) - 利用自相关性
+- [风险模型](/kb/quant/quant-s9qgsc) - GARCH在风险管理中的应用
+2:["$","$Lb",null,{"document":{"slug":"doc-7tsv06","title":"时间序列分析基础","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$c","filePath":"量化基础/时间序列分析基础.md","default":{"slug":"doc-7tsv06","title":"时间序列分析基础","description":"","date":null,"tags":[],"category":"Quant","categoryId":"quant","content":"$d","filePath":"量化基础/时间序列分析基础.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"时间序列分析基础 - Quant | Jerry Xu"}],["$","meta","3",{"name":"description","content":"时间序列分析基础"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,Sparkoh,AI Agent,Web,三维图形,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，关注 AI Agent、Web 工具、三维图形与系统工程"}]]
+1:null
